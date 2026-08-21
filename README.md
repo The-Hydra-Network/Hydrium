@@ -1,7 +1,7 @@
-# RecRoom-Revived
+# Hydrium
 This is another revival of RecRoom
 
-# RecRoom-Revived Status
+# Hydrium Status
 
 DONE:\
 [x] DNS redirect\
