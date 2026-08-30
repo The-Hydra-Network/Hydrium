@@ -8,8 +8,8 @@
 //
 // HTTP-layer host rewrite.
 //
-// DNS-name rewrite alone can't make a request "belong" to ns.recflare.net: the client keeps the
-// original URL, so TLS SNI and the Host header still say ns.rec.net. recflare serves ns.recflare.net
+// DNS-name rewrite alone can't make a request "belong" to ns.hydrium.hydranet.dpdns.org: the client keeps the
+// original URL, so TLS SNI and the Host header still say ns.rec.net. hydrium serves ns.hydrium.hydranet.dpdns.org
 // (its own vhost/cert), so the request must carry that host end-to-end. We do what the managed
 // SendRequestPatch did: hook the concrete, static BestHTTP.HTTPManager.SendRequest(HTTPRequest),
 // read request.Uri's absolute URL, swap the host, and set a fresh Uri back before the send proceeds.
@@ -70,7 +70,7 @@ static void* FindClass(void *domain, const char *ns, const char *name)
 
 //
 // Rewrite the host inside an absolute URL using the configured exact-match pairs.
-// e.g. "https://ns.rec.net/api/1" -> "https://ns.recflare.net/api/1". Returns 1 if changed.
+// e.g. "https://ns.rec.net/api/1" -> "https://ns.hydrium.hydranet.dpdns.org/api/1". Returns 1 if changed.
 //
 static int RewriteUrlHost(const char *url, char *out, size_t outlen)
 {

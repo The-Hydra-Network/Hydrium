@@ -86,7 +86,7 @@ int WSAAPI hook_getaddrinfo(
 
 
     //
-    // Host rewrite: swap the hostname (e.g. ns.rec.net -> ns.recflare.net) and let real DNS
+    // Host rewrite: swap the hostname (e.g. ns.rec.net -> ns.hydrium.hydranet.dpdns.org) and let real DNS
     // resolve the target's current IP. We don't synthesize a static address, so the redirect
     // survives the target's IP changing.
     //

@@ -18,7 +18,7 @@ so the amd64 env import and the cmake/build must run in the **same** call, else 
 ```powershell
 $vcvars = "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat"
 cmd /c "`"$vcvars`" amd64 >nul 2>&1 && set" | ForEach-Object { if ($_ -match '^([^=]+)=(.*)$') { Set-Item -Path "Env:$($matches[1])" -Value $matches[2] } }
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release   # add -DGAME_DIR="C:\Games\recflare-client-unstable" to deploy
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release   # add -DGAME_DIR="C:\Games\hydrium-client-unstable" to deploy
 cmake --build build
 ```
 
@@ -50,13 +50,13 @@ coming up. Order matters only for the memcheck patch (started first, see 5). The
    file's export list for winhttp's.
 
 2. **DNS host rewrite** (`src/hooks/dns_hook.c`, detours `ws2_32!getaddrinfo`). On an **exact-match**
-   lookup it swaps the hostname (`ns.rec.net` → `ns.recflare.net`) and delegates to the real
+   lookup it swaps the hostname (`ns.rec.net` → `ns.hydrium.hydranet.dpdns.org`) and delegates to the real
    `getaddrinfo`, so the client reaches the target's *current* IP. This alone is **not sufficient** —
    it only changes DNS resolution; SNI and the HTTP `Host:` header still say `ns.rec.net`. Kept as a
    safety net.
 
 3. **HTTP host rewrite** (`src/unity/http_rewrite.c`) — the real fix. The alternate backend
-   (`ns.recflare.net`) serves its own vhost/cert, so requests must carry that host in URL + SNI + Host.
+   (`ns.hydrium.hydranet.dpdns.org`) serves its own vhost/cert, so requests must carry that host in URL + SNI + Host.
    This replicates the managed `SendRequestPatch`: it waits for the il2cpp runtime, resolves the
    concrete static `BestHTTP.HTTPManager.SendRequest(HTTPRequest)`, reads `req.get_Uri().get_AbsoluteUri()`,
    swaps the host, and `req.set_Uri(new System.Uri(...))` before forwarding. **This is a call-through
@@ -140,7 +140,7 @@ JSON** — keep it flat, one object per rewrite.
    `AbsoluteUri`, `NotifyServerCertificate`, `HTTPManager`, `LegacyTlsAuthentication` are unobfuscated and
    have survived build changes — this is *why* these are the hook points. As in the managed project, hook
    the **concrete** impl, never an il2cpp interface. Verify signatures with Mono.Cecil against the interop
-   in `../recflare-client/BepInEx/interop` when they drift (see the sibling `../recnet-patcher/CLAUDE.md`
+   in `../hydrium-client/BepInEx/interop` when they drift (see the sibling `../recnet-patcher/CLAUDE.md`
    for the Cecil load snippet; that project's interop has the same types).
 
 5. **version.dll loads into multiple processes — log per-PID.** Our DLL loads into the game, the
@@ -179,7 +179,7 @@ JSON** — keep it flat, one object per rewrite.
 
 - **Runtime**: the per-PID log is the source of truth. Our tags: `[STATUS] [HOOK] [DETOUR] [DNS ...]`
   `[REWRITE] [REDIRECT] [SSL] [HTTP] [MEMCHECK] [EAC]`. Success = `[HTTP] host rewrite installed on
-  SendRequest` then `[HTTP] https://ns.rec.net/... -> https://ns.recflare.net/...` per request. A
+  SendRequest` then `[HTTP] https://ns.rec.net/... -> https://ns.hydrium.hydranet.dpdns.org/...` per request. A
   `[DETOUR] ... refusing hook` line means gotcha 2 — the decoder hit a prologue it won't relocate
   (`0x0F` opcode, `rel8` branch, or an unmodelled opcode), and **that patch is not active**.
 - **Static il2cpp**: dump prologue bytes from `GameAssembly.dll` by converting the logged runtime `code=`

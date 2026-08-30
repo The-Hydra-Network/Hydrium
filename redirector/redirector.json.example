@@ -3,6 +3,6 @@
 
   "_rewrite_comment": "DNS lookups for an exact 'from' host are resolved as 'to' instead, so real DNS returns the target's current IP (survives dynamic IPs). Matching is EXACT -- list each host you want redirected.",
   "rewrite": [
-    { "from": "ns.rec.net", "to": "ns.recflare.net" }
+    { "from": "ns.rec.net", "to": "ns.hydrium.hydranet.dpdns.org" }
   ]
 }

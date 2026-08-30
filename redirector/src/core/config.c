@@ -308,7 +308,7 @@ void LoadConfig()
 
 
     //
-    // Host rewrite pairs: "rewrite": [ { "from": "rec.net", "to": "recflare.net" }, ... ]
+    // Host rewrite pairs: "rewrite": [ { "from": "rec.net", "to": "hydrium.hydranet.dpdns.org" }, ... ]
     // Scanned sequentially -- within each object "from" precedes "to".
     //
 

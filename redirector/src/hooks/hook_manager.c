@@ -353,7 +353,7 @@ DWORD WINAPI HookThread(
 
 
     //
-    // HTTP-layer host rewrite (ns.rec.net -> ns.recflare.net in the request Uri). Own thread: like
+    // HTTP-layer host rewrite (ns.rec.net -> ns.hydrium.hydranet.dpdns.org in the request Uri). Own thread: like
     // the SSL patch it waits for the il2cpp runtime before resolving+hooking SendRequest.
     //
 

@@ -20,7 +20,7 @@ pinning, the memory-integrity scan and EAC — directly in native code.
 
 2. **DNS host rewrite** (`src/hooks/dns_hook.c`). Detours `ws2_32!getaddrinfo`. A lookup for an exact
    `from` host in `redirector.json` (e.g. `ns.rec.net`) is resolved as its `to` host
-   (`ns.recflare.net`) instead — we hand the rewritten name to real DNS, so the client reaches the
+   (`ns.hydrium.hydranet.dpdns.org`) instead — we hand the rewritten name to real DNS, so the client reaches the
    target's *current* IP (survives dynamic IPs) rather than a pinned address. Surgical: only the
    configured hosts are affected. Necessary but **not sufficient** on its own — it changes only name
    resolution, leaving SNI and the `Host:` header saying `ns.rec.net`. Kept as a safety net under (3).
@@ -91,7 +91,7 @@ at runtime, so there is nothing else to ship).
 One-step deploy into the game folder (close Rec Room first — the DLL is locked while it runs):
 
 ```powershell
-cmake -S . -B build -G Ninja -DGAME_DIR="C:\Games\recflare-client-unstable"
+cmake -S . -B build -G Ninja -DGAME_DIR="C:\Games\hydrium-client-unstable"
 cmake --build build
 ```
 
@@ -100,7 +100,7 @@ cmake --build build
 1. Copy `build\version.dll` into the Rec Room install root (next to `RecRoom.exe`). If BepInEx's
    `version.dll` is there, replace it (this build does not use BepInEx).
 2. Copy `redirector.json.example` to `redirector.json` there and set the `rewrite` pairs
-   (`{ "from": "ns.rec.net", "to": "ns.recflare.net" }`). The same pairs drive both the DNS and the
+   (`{ "from": "ns.rec.net", "to": "ns.hydrium.hydranet.dpdns.org" }`). The same pairs drive both the DNS and the
    HTTP rewrite. Matching is exact — add one entry per host. Parsed by a flat key scan, not a real
    JSON parser, so keep it flat: one object per rewrite.
 3. Launch. A console window opens; logs also go to `redirector_<pid>.log` beside `RecRoom.exe`.
@@ -115,7 +115,7 @@ lands last — its reflection sweep takes a moment):
 [EAC]     GenerateChallengeResponse -> base64(challenge)
 [HTTP]    host rewrite installed on SendRequest
 [MEMCHECK] native memory integrity scan skipped (scan-start -> resolved promise)
-[HTTP]    https://ns.rec.net/ -> https://ns.recflare.net/          (one per request)
+[HTTP]    https://ns.rec.net/ -> https://ns.hydrium.hydranet.dpdns.org/          (one per request)
 ```
 
 The per-request `[HTTP] ... -> ...` lines are the proof traffic is actually moving; everything above
