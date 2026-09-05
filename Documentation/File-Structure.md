@@ -2,10 +2,12 @@ RecRoom-2023-Build\
 │   baselib.dll\
 │   GameAssembly.dll\
 │   installscript.vdf\
-│   NOTICE.txt (It seems to be just for all the licenses for software which RecRoom is bundle\d with)\
+│   NOTICE.txt (It seems to be just for all the licenses for software which RecRoom is bundled with)\
 │   RecRoom.exe\
+|   version.dll (This is our custom dll to inject and patchout eac and tls pinning, it also redirects traffic)\
+|   redirector.json (This is where we store the redirect of ns.rec.net and change it to ns-hydrium.hydranet.dpdns.org)\
 │   RecRoomLog.bat (This takes you to the directory where recrooms logs are)\
-│   Recroom_Release.exe\
+│   Recroom_Release.exe (EAC Launcher For Recroom)\
 │   steam_appid.txt (It is just the steam id which i think the steam api uses for validity)\
 │   UnityCrashHandler64.exe\
 │   UnityPlayer.dll\
@@ -509,7 +511,7 @@ RecRoom-2023-Build\
     │           AudioPluginDissonance.dll\
     │           backtrace-windows.dll\
     │           DXGIDisplays.dll\
-    │           EasyAntiCheat.dll (This gets replaced with the RecRoom Revived custom EasyAntiCheat.dll so the game runs)\
+    │           EasyAntiCheat.dll (EAC Main dll)\
     │           FirebaseCppAnalytics.dll\
     │           FirebaseCppApp-8_5_0.dll\
     │           FirebaseCppDynamicLinks.dll\
@@ -528,7 +530,7 @@ RecRoom-2023-Build\
     │           opusenc.dll\
     │           opus_egpv.dll\
     │           RRTexture.dll\
-    │           steam_api64.dll (This gets replaced with the RecRoom Revived custom steam_api64.dll so the game runs)\
+    │           steam_api64.dll (Steam API Integration dll)\
     │           ucrtbased.dll\
     │           webrtc-audio.dll\
     │           XRSDKOpenVR.dll\
