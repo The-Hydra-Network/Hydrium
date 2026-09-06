@@ -1,21 +1,20 @@
 {
-  "name": "Recroom-Server",
-  "version": "0.1.0",
-  "description": "Rec Room private server API — based on subdomain research",
-  "main": "src/https.js",
+  "name": "hydrium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/https.js",
-    "dev": "node --watch src/https.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "express": "^4.21.0",
-    "http-proxy": "^1.18.1",
-    "https": "^1.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
-    "uuid": "^10.0.0"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pocketbase": "^0.28.0"
   }
 }

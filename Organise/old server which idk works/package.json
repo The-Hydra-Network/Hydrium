@@ -1,0 +1,21 @@
+{
+  "name": "Recroom-Server",
+  "version": "0.1.0",
+  "description": "Rec Room private server API — based on subdomain research",
+  "main": "src/https.js",
+  "scripts": {
+    "start": "node src/https.js",
+    "dev": "node --watch src/https.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "http-proxy": "^1.18.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}
