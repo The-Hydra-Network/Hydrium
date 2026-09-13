@@ -1,0 +1,84 @@
+﻿{
+    "FeaturedPlayer": {
+        "Id": 2,
+        "TitleOverride": "Featured Player",
+        "UrlOverride": null
+    },
+    "FeaturedRoomGroup": {
+        "FeaturedRoomGroupId": 1,
+        "Name": "Featured Rooms",
+        "StartAt": "2020-01-01T00:00:00Z",
+        "EndAt": "9999-12-31T00:00:00Z",
+        "Rooms": []
+    },
+    "CurrentAnnouncement": {
+        "Message": "Welcome to Rec Rewild Live 2025,\nthere are no rules due to devs only having access to this!",
+        "MoreInfoUrl": null
+    },
+    "InstagramImages": [
+        {
+            "ImageName": "Sonimcrine.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "JSF0TL2OSLMGWZKAY75A8DD1VWOD2V.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "JL9CSJPPT22GXM0CJ7IJVINF6A82XR.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "JG238K9P8RJ0BAO69JW9DO70XK6WVF.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "J9ZDYUGRNTEHJGRWQGZJE3I1FV0NNO.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "MK9H7TJ6GH8S43BLDXUYPKBRZRZARG.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "V6ZXALSRBT6R1LGXZM2UJ3BPBLZIKV.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "U16USHL8N3M6DHNCHKYZCGQ29UEHJQ.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "9MRZ72AX53E21SYT1JTDUILZMU7PFM.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "6Q89MMCK6S7GGOCMY870UW02CDLJKY.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "6NMX4BQMBMJO23PTNZ6MGP74NH6YNH.png",
+            "ImageUrl": null
+        },
+        {
+            "ImageName": "6F90UXQXEPSDWL0IAUNX086XZMHVP3.png",
+            "ImageUrl": null
+        }
+    ],
+    "Videos": [
+        {
+            "BlobName": "cat_suck_tail.mp4",
+            "Title": "cat suck tail",
+            "Description": "",
+            "ThumbnailBlobName": "null.png",
+            "SourceUrl": "https://www.youtube.com/watch?v=auDoof_PQEo"
+        },
+        {
+            "BlobName": "v15044gf0000d26i9qvog65o1s1pptv0.mp4",
+            "Title": "v15044gf0000d26i9qvog65o1s1pptv0.mp4",
+            "Description": "",
+            "ThumbnailBlobName": "null.png",
+            "SourceUrl": "https://www.youtube.com/watch?v=auDoof_PQEo"
+        }
+    ]
+}

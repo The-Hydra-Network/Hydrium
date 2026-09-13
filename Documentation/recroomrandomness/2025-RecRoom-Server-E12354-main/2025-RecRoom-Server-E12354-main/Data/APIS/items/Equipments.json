@@ -1,0 +1,3053 @@
+[
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "19ef59c7-f74b-4c63-935a-1d4b1abd8518",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Coop",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "2b70a76e-6f48-402e-90ff-40b06aa23eb8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_CoachSelect",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "9d2a3618-12b3-4ca0-be59-ed15d7926d77",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Laser",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "7877964e-3a2b-4818-8513-0e26a707bd7c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Clear",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "bd3f6aa5-c6e0-4e06-901d-1176accf1003",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "5d3c3b16-713e-43d8-88e0-7633063091da",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "dfb19edc-a0ec-41bf-ac9e-72719c763f24",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Pepperoni",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "5516878d-b750-4c5f-8300-7027b92f2dee",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_AprilFoolsPie",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DiscGolfDisc]",
+        "ModificationGuid": "1c107107-ae6c-421f-89a4-0b707e29fd2a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DiscGolfDisc_Skin_Sewer_Lid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "bc4254be-60e0-4cc5-a233-6a0bd4137118",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "5842e24a-c62f-472b-b264-19af1a247b51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball Pistol Skin (RTB)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "33c84c50-7c2e-4a80-ad06-79c4f20f829e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "7ef5d1d9-24db-428c-85e0-107c1bfcc026",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Orange",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "4aff20ee-0b20-434b-a030-d3e1764fe4e7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Purple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "36751c4a-86a9-40e1-bef2-84f962ab678d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Vitton",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "ec5ef0f3-c072-45ec-bb8f-3781fb16e067",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "b8d5612b-2c6f-46d6-9412-decddac7d4c1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Pirate",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "154f0f0e-3ec8-4825-9aef-63e7609aa442",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "f3f045cf-54f0-4365-83ac-61d265c2c71d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Valentines",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "3b23bda7-74bb-4c38-9a09-61aba5441ad1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_Watermelon",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun]",
+        "ModificationGuid": "4a2f7915-4c84-4ffb-bc2d-c6b972e50111",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun_Skin_DestinyHawkmoon",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "61e49c13-b414-425f-8e8b-bdcf3d12a5bf",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "f27af5d7-c741-4457-8c98-8e8791f1a41c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "053c24a0-82a2-43f5-b0e7-e56db05a10ba",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "ff31c064-7fe0-45ee-b2eb-e4cb5f1f20e9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Watermeon",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "2a01020b-b739-4f1b-b150-6b7ff467fb51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "1730201d-81fb-4082-b498-15f22d26b258",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Cactus",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "39f65e94-51f7-4134-b95a-3a06294c999d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShotgun_Skin_Destiny4thHorseman",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "63b98e4f-9a23-4abc-93a8-7decf75b811d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball Shotgun Skin (Video Partner)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShotgun]",
+        "ModificationGuid": "5842e24a-c62f-472b-b264-19af1a247b51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball Shotgun Skin (RTB)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "5dcf8a2e-6fa6-4007-ac1e-73dd53c4c247",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Purple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "e6899422-ab2f-4bd9-8e98-aef950ec27b6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Blue",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "d6d22997-fe39-4ffa-b1b3-4955368c829a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Vitton",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "56582acf-c7a0-4aff-b3aa-2fdea4d254a3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Rainbow",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "56c9a6db-0f54-482c-aba9-e265f899771d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_CoachSelect",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "9ab0e558-e30e-4983-87da-0e0b254a7a7c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Cozy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "301cd16c-b393-47a2-8454-a0de5e4fdc0d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "acf6461b-f4ab-4c88-9708-451545cc664d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_NBA",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "9c7a2b56-a7ed-4a1c-afa1-82dfffa8c743",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_NBA75",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "c10bb943-2932-4c63-8efc-42989cf584cc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_CuteCat",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Basketball]",
+        "ModificationGuid": "3e640a9a-1ee1-4291-b6d1-902747ae9f3a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Basketball_Skin_CuteCat_Gray",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "174adb53-bc6e-4fcf-b03d-a00fc3deeb49",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "fd367329-b8b2-4d44-825a-da16092751e3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Purple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "a6c869d9-8f30-4ce6-a7ea-cb7ea9f9d492",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Pirate",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "97f09e8d-7104-4b81-9662-e2dab1b9c6f3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_80sSunset",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "2e913c41-c190-4bdd-9178-742aacac5be4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Gingerbread",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "6ca1f181-3143-40fe-9174-efbabcf3a1de",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Plaid_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "a540520a-0b5d-490b-b187-452262169719",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "5586574e-5e3f-489d-a0bd-f0685b3ea4bc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "5e41bd9d-23ad-4dc4-a75e-285dd110602f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballShield_Skin_Halo",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballShield]",
+        "ModificationGuid": "a59392cc-8027-43b8-83f5-4a5106bbd4aa",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_Shield_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "a9a3292c-8ccf-4564-aeb1-124c52057ef2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_BlackGold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "2389fce4-3ab2-4e05-918c-845eb8538bed",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Goblin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "93f5418e-a03d-4074-804c-daa0e374dd9f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Purple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "735b06c6-1b78-4f60-9291-a414a96cd228",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "affbab2d-3200-4512-a140-685fdc5570c6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Yellow",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "a363ba1b-2f70-4c5f-943a-f45cfa59122b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Rock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "eb90210a-6d2d-4429-b1e0-3285333685fc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Valentine",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "439be0eb-4d1e-4c80-97f8-b4636d0ce94b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Pride",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "8b554093-3a1e-4920-a056-ba94985537f9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "58a00045-cf0d-427f-93ab-39d4479f3e97",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "0fcab6fa-edfc-4a31-baf4-dbf8b4baeb54",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Snowflake",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "3eacdb2f-cbcc-4816-80eb-1b37d9eb362f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Neon_RR+",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "d48ee6fe-c55b-4be4-b0de-d30f19f3e8d8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Sunflower",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "ff08af8b-2f30-4f35-86f5-de1b40ed799e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_ColorCrazy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "b52450a6-b07f-4e5d-91f7-e982df08eba4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Shield_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "f125bf5e-ccf8-4b04-adcc-e22187a62422",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_CozyPolarBear",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "7aba28bb-7ce2-4a33-b5de-f4262ac31561",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_IronChef",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "f360b09b-7558-404f-ab05-510eeb8d8b06",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Pixelated",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "ffdb12ca-826d-4cf7-b2f6-dd09dd049e47",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_Cardboard",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestShield]",
+        "ModificationGuid": "b680d0e2-0cc4-458a-b4cf-d1c5e544acf2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestShield_Skin_FrozenSkelly",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "33a7a3dc-5266-4075-b56f-5eaa2c400e9f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "db91b61b-ab32-4895-8f5a-0212c1283cbb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Vitton",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "89b1fbbc-e7be-440b-8b22-8fd379c1a568",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_PINK",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "8a2a3219-fed0-4403-9061-451d162307c2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_CandyCane",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "903674e6-a15e-4bea-a76e-4e73d7c2e8ce",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Frakenblaster",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "555cc1d1-8b80-4e4d-822a-1afdb800eb6f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "4a891c68-3915-43db-b374-e5c157ca340e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "32dc1b75-3fe3-4dff-a232-c4702843ed5d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "a6a8da7d-35e0-48a9-8afe-383e1b982bdf",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Pistol]",
+        "ModificationGuid": "4f2e48e8-7639-411e-b63e-8716dfb7dfe4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Pistol_Skin_AceOfSpades",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "546b3a57-13d4-4c35-ab3a-bbb7d466f0b8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "bafacc36-02c6-408c-a3f5-8c2aa07a68db",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_Arbor",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "5b08adbb-ad51-47d7-82fb-c4a566641435",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "d2a14974-e2d9-470a-9805-8d44743d3d8c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_Zombie",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "fc33388f-cf7a-4a01-8e7a-ac77b8d5d550",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_AutomaticGun]",
+        "ModificationGuid": "6c72af4c-fbb7-44c5-a2e8-5d5b55fc9a46",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_AutomaticGun_Skin_PhysicsConstruction",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "55a9c1e8-07e2-4457-86f2-75fd5e67b1f3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "83d7cca0-2c5d-41b2-a5b2-f79fd89f3037",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_PINK",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "bb36b722-16dc-4172-b61f-237dc1240040",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Jackolantern",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "cd497ae2-6382-42f2-9f92-93d5141588c3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Valentine",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "856284a4-5e98-4548-b62d-ddd54cb901fa",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Plaid_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "80853b82-7e3a-452d-8f8b-598f08acaa6c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Shamrock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "081971c4-f919-480f-94c4-80e9decc1df6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "4eca0ce7-1c88-44b2-98be-fd476a2539ed",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_AlienBlaster",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "a3a0c2ca-0bd8-4c93-8adb-debf755da05d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Shotgun_SciFi_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "40832fe4-1784-4e39-a43f-2103db40edae",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_FallFest_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_Shotgun]",
+        "ModificationGuid": "626c1d6d-d418-4e0c-97df-45c38cbd3685",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_Shotgun_Skin_Celestial",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "63a867d7-ccea-4905-b6e0-e6dcfba06f9e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "46977ca7-ee75-4e2a-b8aa-0763879f8a96",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_PINK",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "0113d85f-74ba-4e4a-a769-da5306c791ae",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_LifeGuard",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "ca61f9fd-a771-4cca-992f-b17cdc1eeb25",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Plaid_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "cce8f6ba-de29-4877-a0ce-c720781951a5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "1e0ad967-48ee-4ff7-a91b-8e4dad69eda1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_SharkShooter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_SciFi_RailGun]",
+        "ModificationGuid": "a8ced3f7-3028-498b-a759-89c2eafa1d07",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_SciFi_RailGun_Skin_DestinySurosRegime",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "c4d70545-cdf1-4fb1-924b-613de0327faf",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Vitton",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "6bba14be-f207-4933-b09f-f0fd3e28c10c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_CandyCane",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "1d09c8e4-78c2-49f9-acb7-8f0b3ff6a5ed",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "3168c132-19e5-4af0-b6a9-7f52aceb513c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Waves",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "15f3a34f-38f8-46d5-90ec-402ab6cea0b3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Bone",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "0da8768c-2d20-4c8a-8023-cda53b9de8f6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Dryad",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "a8342411-60e9-40ae-9cf0-c6d45c69c5f0",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "65034c40-ff88-4838-b997-ce8b067b981b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Rock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "654a7154-6258-4c46-a573-19f1cc2294bb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "4354cf62-fb96-4c7c-8ac6-769e93e8a17d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_DryadFall",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "69089009-8cdf-4313-b488-8cbbecc47107",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Winter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow]",
+        "ModificationGuid": "9e74c8c9-1cd6-472b-a2ab-aedb08b95b7b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Skin_Spring",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "f5901f11-b315-4261-9474-2da207e4a229",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Vitton",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "52c6a138-10c5-4aab-9c3b-04b50c9a2dc5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Ghost",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "5842e24a-c62f-472b-b264-19af1a247b51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bow Skin (RTB)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "e738d936-0f75-423b-88bb-f626ffba573a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Rock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "ad6a9c5e-918e-4662-9fb3-eb1ddd9d192f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Rainbow",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "0b7b1a24-e113-40ad-b986-79f610849414",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Dryad",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "eabace4f-9efb-4386-9b92-c05d55b95af6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "1adca861-5cf0-464c-9ffc-c8c26f139c8b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "846ea15c-f3cd-4c8a-b14d-8b53cee3dbfc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Dryad_Fall",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "0613fcb8-d677-45c2-97bb-201a00ca9e40",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Winter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "96ed5f82-ed8f-4fed-87df-4f0e9b2d7797",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Spring",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "1c09c79b-cb6e-4296-8609-e0a2bdb9952d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_Autumn",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "81012996-c162-4367-a82d-2c1b3a1cd0f4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_EnchantedGarden",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "8513b795-203d-4add-8902-52d6bea591e4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_StarRush",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Longbow]",
+        "ModificationGuid": "c167b9fe-8995-4dae-9e89-08b87ff16159",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Longbow_Skin_StarRush",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "79090a4b-e191-4788-9210-88a7bdf6d828",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Luxury",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "204f84a2-6ee2-45e1-9168-87f43e893e32",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "136de9c2-919c-4ba6-8944-4789c38a6b2a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Dragon",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "dffc221f-ed03-4e7f-831b-a9ec1e87e878",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Steampunk",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "c247e18e-547f-488c-8669-6c8d9e8c5bb4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Pumpkin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "71570d3f-c047-4d72-ad36-1d1f200bbc2c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Waves",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "c17772e0-9219-4b65-a131-151303aedda4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Professor",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "6660738b-f0f4-4491-8cb1-7469a8281264",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Wonderland",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "37656804-4a71-4c18-bac3-ebf0736f15e0",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Beach",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "712c0207-d85f-4e9c-a21b-86eb977f3d1e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Mystery",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "411ed326-e81b-4cd3-95c0-09622024cfd3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_MovieMagic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "1a4a8c87-dcc1-4c4d-b788-7ecf5458dbdb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Host1",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "0e6f4071-9bfc-4bbc-b979-90cf9f9ec4c5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Host2",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "347d8155-4166-4e81-933a-8f5aca380111",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Green",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "71450b5b-6e19-4942-a708-8fea1fbe4bfd",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Orange",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "2c651b89-3ea2-445f-bda1-85162de9c029",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Purple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "19d8f8b6-5de4-4ac0-a7af-d99ff385a071",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Red",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "ffebb443-d740-4302-9daf-ad545e2a1ca3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Yellow",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "6e515573-c660-441d-bb2a-24a0c23e69ad",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "55dde030-e38a-4c68-be8b-2eaab802cdb8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_White",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "5543dd1f-f3b1-4e47-a889-ef1f2e3744d4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_HiddenWorlds",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "4597f544-70f6-477d-82f4-f165bdc6e6c7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Carnival",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "0fc5cd8f-9276-4343-9472-ba78408219b0",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "e8825d2f-f1e7-4c07-b9dd-b2d7650e2b16",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_ContestStranded",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "248334c4-f695-4cc3-92c2-d884eb0ea086",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_ContestFolklore_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "c167b9fe-8995-4dae-9e89-08b87ff16159",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Premium",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "bf33de86-45a6-4c8b-aba2-1c819b7f68e8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_ContestSummerCamp",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "8491964e-95ba-4d73-8eca-befaf629ad9d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_DiamondUniverse",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "7281f967-4869-451d-84d2-8c7d0e7fe41c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Solstice",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "0ab1c839-230e-4c6d-8b6f-a0c54938eb3e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_RhythmAndRooms",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "d7f37e87-cbb4-4f0b-89a6-f4aea971710a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_MakerpenPattern_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "58f6b467-380e-4e6f-aa57-bca318c0aba9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Ocean",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "6c5be26c-b1ca-4ad6-a92a-e6bc8ab2f886",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_ContestPets",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "c35d9664-150e-4e03-851c-240a89fac6c1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_RecConRed",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "9cb427de-5fac-445e-8605-aa9377a33d14",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Jumbotron",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "e560c377-f08d-41ff-b016-9ae11ffbdc15",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_Rectopia",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[MakerPen]",
+        "ModificationGuid": "d0049bdd-f387-49ac-ba14-9689cf5c445b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "MakerPen_Skin_StarRush",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "6a6b0ecf-286d-4361-92ff-7027c440dc3c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "d906709c-e08e-4273-8ba1-e072e0d25957",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintBallRifleScoped_Skin_CandyCane",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "bd5eb0de-24b2-4bd4-ac16-715a5c0877a8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Gingerbread",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "96cc2a39-5515-4a48-9bfb-4033573387f7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "4936d3d1-86fa-4447-a6b4-ee6e7d359f51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Comic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "cf76d06e-9bbc-44b2-98ae-7f4dce17e1c6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "30a2f86f-1ac6-4fc9-9a9f-b84e942ccf20",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "44237a2f-904c-4a74-9c9d-4ff29a7c06de",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_UglySweater",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "d184fd0c-2b72-479c-b7e4-305426cdce2f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballRifleScoped_Skin_Adored",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballRifleScoped]",
+        "ModificationGuid": "63b98e4f-9a23-4abc-93a8-7decf75b811d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball Sniper Skin (Video Partner)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow_Hunter]",
+        "ModificationGuid": "d217ee4c-22f3-4f33-bf7c-9d4ee9c30e29",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Hunter_Skin_Rock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow_Hunter]",
+        "ModificationGuid": "e7215370-a881-471c-8764-411149147c91",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Hunter_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow_Hunter]",
+        "ModificationGuid": "b6af1045-3a1b-4979-8002-bf61cc6153d2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Hunter_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow_Hunter]",
+        "ModificationGuid": "9bc77ff9-48a7-4a7a-a81d-363654c30b78",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Hunter_Skin_Shark",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Crossbow_Hunter]",
+        "ModificationGuid": "02bd2305-be18-48d8-b063-113b9641e194",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Crossbow_Hunter_Skin_Valentines",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "2a317774-d283-482d-8349-20cf77fd3b59",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Pixel",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "0ee04d78-5a17-4a38-ae67-b576a41fc200",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Extra",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "431567d2-4df2-43eb-b632-3d79aa7c013c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "f03dee6a-79b8-4906-9abb-a821748d97a9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Red",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "3e46fb2d-bb3f-42ed-83ef-f5716860725c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Rock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "eecdf81c-7ba2-40ba-9d6c-f461708cce16",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Comic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "3908b149-26b1-4286-909e-200d1ea35e92",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Pumpkin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "cb5c2b2a-1560-4f07-8e76-58e21002363f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "1df3d42b-c393-4fc1-9ec3-32d892bff572",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Gingerbread",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "d6232ac2-75b4-4096-b1ed-ffa88821dc3b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_CornCob",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "8c4c529b-2996-4849-978f-9f3dee8ae6d9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "6de9de77-2403-45f5-a910-dd32a0e13d46",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "31e8150d-692f-4184-b67e-46ac8daeec13",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Lava",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "865db3b8-c0ba-4c0b-9bc4-2d979019e755",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_GoldenSword",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "a5c526fb-534c-42b1-9615-2212fbc7ce3b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Neon_RR+",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "3376c05f-6578-42b4-b212-75f475c262ed",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Umbrella",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "c67b1949-731f-41f2-94d8-e3b9be20b293",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Clarinet",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "6301ae44-b297-4667-8c2e-15510af1a2e8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_RubberChicken",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "5b7b2ff6-0619-4bc6-8d44-80d0260fbdfb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_DarkFae",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[QuestSword]",
+        "ModificationGuid": "62f0bac2-2152-4864-b5f4-7badb6160ae1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "QuestSword_Skin_Celestial",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Grenade]",
+        "ModificationGuid": "993f8b81-cb2e-44e4-88a1-b841af1f0e69",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Skin_Pirate",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Grenade]",
+        "ModificationGuid": "73455abe-fc58-48db-b99f-b636b135bc57",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Chick_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Grenade]",
+        "ModificationGuid": "34c3d7d2-082d-48da-8456-b26db6b1346f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Skin_GumDrop",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Grenade]",
+        "ModificationGuid": "68784cf0-86ed-4aa4-b0be-8c3a6c4bbf6a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Skin_SpringEgg",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Grenade]",
+        "ModificationGuid": "7f27f144-8c3d-4997-9991-684cf8cfcb4e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Skin_Bell",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "e8e42ef6-9ab6-44f4-84d5-117154a4d13e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Ghost",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "17b16ec8-2819-484b-880e-def0123e47ab",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Witch_Star",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "cc3b91de-830f-4a8e-8fd4-287bffffb7d7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Ice",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "1d2dfa9b-0a31-4217-9096-3b0e73e24436",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "06dd2a0b-1bf2-4a5d-bf4e-c5c59625a4d4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "44ebfcbd-f679-4ee0-bb04-af01832eb4c4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "e1cc7242-3e0c-492f-a5fe-6811785c1e23",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Trident",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "7147a033-d9d0-4e9d-9410-36b7c0b51486",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Butterfly",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Quest_Goblin_Wand]",
+        "ModificationGuid": "f066a7ec-0806-4c92-be37-56e2c399633e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Quest_Goblin_Wand_Skin_Flowers",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "502f40c3-1c00-4c3f-bfc7-c897df8af37e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "f34e6270-bcfa-42f2-80d5-69c1bbd34983",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Comic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "483090f1-573b-4a96-a59c-12cea5f55356",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Gingerbread",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "868849dd-a6fa-4f91-9a5b-114315de100e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Honey",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "6358faa4-f4d8-4b0e-b682-d6caa143820a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_EasterEgg",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "ef6500f6-11bf-47bd-920b-cf37ec6baba2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "180cc3b5-26a7-4b86-8cf3-6212099fb701",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGrenadeLauncher]",
+        "ModificationGuid": "66e2ef2f-9c08-461d-a3c9-d4af51654987",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGrenadeLauncher_Skin_Jumbotron",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "6261a846-e4f8-4e6e-8aa0-68f38cd788d4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Comic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "6ff63f8f-4bcc-4b69-8d89-8b886d19e239",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "f55dda45-c17e-4237-a638-9f326d306e7d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Goblin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "383e4826-dd65-4c21-9f13-0690221e8418",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "bc728a94-1643-4ca9-afe3-5813a77619d4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Pumpkin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "0f0bcf32-ea74-4806-ae92-15251f15417f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Dodgeball_Skin_Billiards",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "e1d59476-ab49-4026-accf-a5970fa61e29",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Cactus",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "086b9283-f23a-4f23-a6c6-56cb3116331c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Beach",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[DodgeballBall]",
+        "ModificationGuid": "7e2b00a2-c27c-4c5f-90fd-da94a1add88f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "DodgeballBall_Skin_Coconut",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[SoccerShield]",
+        "ModificationGuid": "fae1abe3-6bfd-4407-b34e-e2c1b3b03032",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "SoccerShield_Skin_Gingerbread",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "523e3615-4633-41a3-9b2d-17d3207a684b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Camo",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "6c3b26cd-b38e-492b-a124-759cbcec1396",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Camping_Pattern",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "12b54ad2-3847-41db-9ed4-88e8dad63024",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Tiger",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "5c848a04-f528-423b-8be1-4b5cd43a75c2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Denim",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "e93f5ab7-e9bf-4652-8a7c-2ae120f25f87",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Recasso",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "054d63c3-c234-4654-a1d9-694fd091decd",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Valentine",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "e5b24bef-6142-4c84-b56b-29ca338300b1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_FallLeaves",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecRoyale_Backpack]",
+        "ModificationGuid": "1e7836ba-075d-4e3b-8eca-ca9972a1e19a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecRoyale_Backpack_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "d218ae45-8534-4f96-b2ed-1cf281bc3578",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "e2844f84-ab44-4141-9a0a-bd5da7caa4f6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Disposable",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "1838fa61-de10-4e09-b24a-f5a1bc942600",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Green",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "1bf3267d-231b-4f28-9cc2-d1455fa74943",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Carpet",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "36ad3101-a236-49db-a217-005439520cbb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_TwoTone",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "48c97ace-ff25-444a-be90-83ea3044680e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Camping",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "c1b49b83-4be3-409a-8b79-45c55159fbe1",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Comic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "0b0b0041-8530-40fb-a50d-6aa699c88701",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Heart",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "e7da444a-b373-4b33-bcd9-83ee64097d6b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "f93f4eb0-5a95-40d8-b831-97c61ac131cd",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "db78dce5-ed7a-4c33-a05a-a301c091c139",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_RetroGamer",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "63b98e4f-9a23-4abc-93a8-7decf75b811d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_VideoPartner",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "e4f55c48-da96-4fb1-a04a-197f1879eca7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "b52e1fd4-c17c-4459-8627-855af079b5c4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Holographic",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "f5f52249-0c02-43e9-a31b-799d230098a0",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_Cryptid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "a6ba497f-00de-4c3c-968f-640bf2182a49",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_IceCream",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[ShareCamera]",
+        "ModificationGuid": "5842e24a-c62f-472b-b264-19af1a247b51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "ShareCamera_Skin_RTB",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D4]",
+        "ModificationGuid": "0656252a-7f9e-4a27-822e-e8b300919c02",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D4_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D4]",
+        "ModificationGuid": "e3af70c7-4868-4692-8d23-2edf1d989662",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D4_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D4]",
+        "ModificationGuid": "49f168ff-1236-4ca4-a467-f3bdd680c0ce",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D4_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D4]",
+        "ModificationGuid": "5d9a155b-b58e-4b99-8d7b-f7fa4a01029c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D4_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D6]",
+        "ModificationGuid": "f02e124f-2325-41ca-8332-be5120970d55",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D6_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D6]",
+        "ModificationGuid": "72207d16-7b3d-4e73-ad03-db3df022b002",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D6_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D6]",
+        "ModificationGuid": "d368751e-7ec1-4fce-987a-29044456b563",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D6_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D6]",
+        "ModificationGuid": "88ca4fe5-bf28-4ff7-9e5a-e710ebc55d65",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D6_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D8]",
+        "ModificationGuid": "72d70501-cd48-4b67-b33c-c4dc3f50b72a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D8_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D8]",
+        "ModificationGuid": "089bf077-c36d-4099-ad58-65981e2a2086",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D8_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D8]",
+        "ModificationGuid": "4d6d8e7f-789a-4729-b1b6-602c5fc5fd1f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D8_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D8]",
+        "ModificationGuid": "0311b7ef-b843-4a19-9dea-7afd40b79f40",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D8_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D10]",
+        "ModificationGuid": "dc78ce64-3271-4197-ba9f-b3f9ac33045b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D10_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D10]",
+        "ModificationGuid": "0630341a-6763-4b2b-a4bf-48441072bcb7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D10_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D10]",
+        "ModificationGuid": "7f8e744a-99e1-46da-acb6-9179296c53f9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D10_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D10]",
+        "ModificationGuid": "40b55e23-a60c-4ada-8f8b-9c172070adf0",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D10_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D12]",
+        "ModificationGuid": "66768512-d182-45d9-98f3-df29f23eea19",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D12_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D12]",
+        "ModificationGuid": "7e4be185-cd93-4f77-a784-b385a540a7a4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D12_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D12]",
+        "ModificationGuid": "a69abeb9-f30d-4811-82a7-793cd498d01b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D12_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D12]",
+        "ModificationGuid": "8d1806da-46b5-48aa-8e79-f636c633b189",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D12_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D20]",
+        "ModificationGuid": "b73beb0d-571b-43d0-beec-d8a8a11d3ea3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D20_Skin_Pink",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D20]",
+        "ModificationGuid": "2a8e7381-04b4-4f60-8599-2dee5d68f584",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D20_Skin_BoneWhite",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D20]",
+        "ModificationGuid": "9eb4b10e-32db-443d-aff2-b6b49be1e16b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D20_Skin_Turquoise",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Sandbox_D20]",
+        "ModificationGuid": "4aeb7b1f-392e-4e01-a5b2-10a12e7af5f5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Sandbox_D20_Skin_Pewter",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "849de354-6afe-4583-96bf-69b4a8b4550b",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "c458a6ae-a1ea-468a-89b8-4c9a85cd3cde",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "3eb3fa9b-cff0-4217-8f84-b779f70cebe4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Fall",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "996662ad-631d-4a81-8a8b-74ace4833279",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Pirate",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "3aaef60d-142f-4a0a-bea3-f5d99ab62dd5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "49d88b73-3c8a-4f4d-8a69-128fa5474e82",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_PSPLUS",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "357fe573-fee7-467f-93a7-5e61afb024b8",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "b542f8da-d198-4877-bf9d-8a34e228ffff",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Ghost",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "322ac69a-f9fb-42db-97c3-da5e55d6606c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_Candyland",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballAssaultRifle]",
+        "ModificationGuid": "5e967310-f539-48f3-b19e-04c024c06162",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballAssaultRifle_Skin_DestinyElsiesRifle",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "39c5fa6d-c7d9-46cc-88c0-7a9e9b675792",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGunConfetti_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "63a83c3c-186a-4b28-b318-fc61be4e0bbe",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_Android",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "d106d034-e7b2-4129-8dc5-e52ce2cb2cdb",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_Apple",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "9dc95bb6-d8e6-4279-8cc4-31b310ce9229",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_PS5",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "318a2ddd-5ad0-43f0-88e2-99d943143de5",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_Steam",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "ab168fde-612c-4ce5-99f6-496f908a7e3e",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_Xbox",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[PaintballGun] Confetti",
+        "ModificationGuid": "57738788-da00-44d8-8c57-aa4ecd5e8f9c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "PaintballGun Confetti_Skin_GiftCardItem",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "b05ef1cb-f984-498e-9beb-5248bbbb5fb3",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Wood",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "91cdb119-d556-4081-a88a-b3213869124c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Plaid",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "256118aa-d5e1-42c7-8b9c-626b006227f6",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Caution",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "7f1d5138-5187-460b-b79c-7ba05d53979c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Fireworks",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "f1723555-1ecc-420b-b671-ad674d732ed2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_DoubleDrencher",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "75c287d1-2df0-48da-8dd0-b41c3ca4a6fd",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_CandyCane",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "6b1a9425-70f0-4b90-84c7-e38369ce037f",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Jackolantern",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Paintball_PaintThrower]",
+        "ModificationGuid": "81d59830-e6c8-4433-8d67-61cc4822f09d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Paintball_PaintThrower_Skin_Blender",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[BowlingBall]",
+        "ModificationGuid": "5119f506-94a9-4b87-836e-30cead0ad7d4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "BowlingBall_Skin_Gold",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "57d66d55-10aa-4a3a-98b2-17f5c5cf67dc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_BlackLight_Swirl",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "0db7eda2-ff7f-4a4f-853e-30170b95ab39",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Fashion",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "ca1b2d63-6488-4564-ac88-ee2ad1b42a05",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Bat_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "bfe35bb4-0058-4662-8302-51cb4ec1de96",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Premium",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "5bc3a1ff-bc0f-4efa-bb65-b18b7c9edc43",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Barrel",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "899aa730-427c-48c1-830c-8e5cd16e9284",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Festive",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "13cffd53-1cd4-43d7-ac54-f4d7c97b08ff",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_TennisRock",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "f6d072c0-95f2-4098-b727-5c93c5ea7650",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Mummy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "87617496-72e4-41da-b835-6ed03d950d30",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_BarberPole",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Bucket]",
+        "ModificationGuid": "c42a9872-76c6-42fb-9a94-3e4c32893be4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Bucket_Skin_Stitched",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Arena_Grenade]",
+        "ModificationGuid": "68d77503-f511-4b79-9c85-65553ddad8fc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Arena_Grenade_EasterEgg_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Arena_Grenade]",
+        "ModificationGuid": "66cbfd69-44bc-4b81-81e4-a013dead8d2c",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Arena_Grenade_ExplosivePirate_Skin",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Arena_Grenade]",
+        "ModificationGuid": "02b91d93-415c-4fe4-9cb8-8c1f38f96a4a",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Grenade_Skin_SpingEgg02",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Arena_Grenade]",
+        "ModificationGuid": "d49e3528-e405-4b45-8d75-ffee39fa4072",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Arena_Grenade_Skin_Bell",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "f827a9e9-f2a8-4834-aa06-b444630560e2",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_Sport",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "d11d0c49-7207-438e-a374-801074cca216",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_Moon",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "65187f1f-25bc-42e0-b896-92e15b118fd4",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_Glitch",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "7639c709-83bd-4f32-a89e-78f48d2d0804",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_Cozy",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "7edfe8f6-1ca0-4793-87b5-43cfa0d3fb6d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_SummertimeVibes",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "1d6a847f-c677-416c-a296-17053a4325e9",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Vehicle_RallyBuggy_Skin_Flaming",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "e4f55c48-da96-4fb1-a04a-197f1879eca7",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Buggy Skin (Galaxy)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "63b98e4f-9a23-4abc-93a8-7decf75b811d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Buggy Skin (Video Partner)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[Vehicle_RallyBuggy]",
+        "ModificationGuid": "5842e24a-c62f-472b-b264-19af1a247b51",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "Buggy Skin (RTB)",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecCenter_Cafe_Mug]",
+        "ModificationGuid": "f1bf9de6-bd6e-4036-938f-29bd79c5aacc",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecCenter_Cafe_Mug_Skin_CautionTape",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecCenter_Cafe_Mug]",
+        "ModificationGuid": "98389e35-123d-4422-83a3-b8701943b281",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecCenter_Cafe_Mug_Skin_Area87",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecCenter_Cafe_Mug]",
+        "ModificationGuid": "f6be752f-5c0a-4296-8571-31c8bf4a9bed",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecCenter_Cafe_Mug_Skin_UglySweater",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecCenter_Cafe_Mug]",
+        "ModificationGuid": "e3a3776e-b5bb-4d1e-9358-1c7c85935b38",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecCenter_Cafe_Mug_Skin_Hammered_Copper",
+        "Tooltip": "",
+        "Rarity": 0
+    },
+    {
+        "PrefabName": "[RecCenter_Cafe_Mug]",
+        "ModificationGuid": "b249db5e-a829-46db-ad97-c68cccd8a40d",
+        "Favorited": false,
+        "PlatformMask": -1,
+        "FriendlyName": "RecCenter_Cafe_Mug_Skin_Galaxy",
+        "Tooltip": "",
+        "Rarity": 0
+    }
+]

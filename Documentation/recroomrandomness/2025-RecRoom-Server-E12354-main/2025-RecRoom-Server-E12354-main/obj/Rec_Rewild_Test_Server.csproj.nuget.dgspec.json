@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/recrewild/projects/c_sharp_projects/Rec_Rewild_2025_Test_Server/Rec_Rewild_TestServer/Rec_Rewild_Test_Server.csproj": {}
+  },
+  "projects": {
+    "/home/recrewild/projects/c_sharp_projects/Rec_Rewild_2025_Test_Server/Rec_Rewild_TestServer/Rec_Rewild_Test_Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/recrewild/projects/c_sharp_projects/Rec_Rewild_2025_Test_Server/Rec_Rewild_TestServer/Rec_Rewild_Test_Server.csproj",
+        "projectName": "Rec_Rewild_Test_Server",
+        "projectPath": "/home/recrewild/projects/c_sharp_projects/Rec_Rewild_2025_Test_Server/Rec_Rewild_TestServer/Rec_Rewild_Test_Server.csproj",
+        "packagesPath": "/home/recrewild/.nuget/packages/",
+        "outputPath": "/home/recrewild/projects/c_sharp_projects/Rec_Rewild_2025_Test_Server/Rec_Rewild_TestServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/recrewild/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.18.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[3.18.0, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[3.18.0, )"
+            },
+            "Discord.Net.Interactions": {
+              "target": "Package",
+              "version": "[3.18.0, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.21, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.126/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "us-west1",
+        "address": "34.169.254.144:50000"
+    },
+    {
+        "id": "europe-west1",
+        "address": "35.205.141.119:50000"
+    },
+    {
+        "id": "asia-northeast1",
+        "address": "35.200.67.228:50000"
+    },
+    {
+        "id": "us-east1",
+        "address": "34.73.244.122:50000"
+    },
+    {
+        "id": "us-central1",
+        "address": "34.69.179.51:50000"
+    },
+    {
+        "id": "northamerica-northeast1",
+        "address": "34.152.4.100:50000"
+    }
+]

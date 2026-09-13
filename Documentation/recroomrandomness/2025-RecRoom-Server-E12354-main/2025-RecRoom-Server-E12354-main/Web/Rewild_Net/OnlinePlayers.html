@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Rec Rewild - Online Players" />
+    <meta property="og:description" content="See who's currently online on Rec Rewild!" />
+    <meta property="og:url" content="https://recrewild.oldrec.net" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://recrewild.oldrec.net/img/DefaultRoomImage.jpg" />
+    <meta name="theme-color" content="#3b2653" />
+    <title>Rec Rewild — Online Players</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: radial-gradient(circle at 50% 20%, #0b2e1a, #000);
+            color: #eaffea;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(20, 50, 35, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(120, 255, 180, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 0 20px rgba(80, 255, 170, 0.25);
+            padding: 40px 30px;
+            width: 90%;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+
+            .container:hover {
+                transform: translateY(-4px);
+            }
+
+        h1 {
+            font-size: 2em;
+            color: #b8ffd8;
+            text-shadow: 0 0 10px #42ff9b;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #cfeedd;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #1f7a4c, #42ff9b);
+            border: none;
+            color: #003320;
+            padding: 12px 26px;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: box-shadow 0.3s, transform 0.2s;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+            button:hover {
+                box-shadow: 0 0 15px rgba(66, 255, 155, 0.8);
+                transform: scale(1.05);
+            }
+
+        .results {
+            display: none;
+            background: rgba(25, 70, 50, 0.8);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+            .results.visible {
+                display: block;
+            }
+
+            .results h3 {
+                margin-bottom: 12px;
+                color: #b8ffd8;
+                text-shadow: 0 0 6px #42ff9b;
+            }
+
+        .player {
+            list-style: none;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            opacity: 1;
+            transition: opacity 0.4s ease, background 0.2s;
+        }
+
+            .player.fade-out {
+                opacity: 0;
+            }
+
+            .player img {
+                border-radius: 8px;
+                width: 48px;
+                height: 48px;
+                margin-right: 10px;
+            }
+
+        .player-display {
+            font-weight: bold;
+            font-size: 1.05em;
+            color: #c9ffe5;
+        }
+
+        .player-username {
+            color: #7dffbf;
+            text-decoration: underline;
+            font-size: 0.95em;
+            cursor: pointer;
+        }
+
+        .player-room {
+            color: #aadfbe;
+            font-size: 0.85em;
+            margin-top: 3px;
+        }
+
+        .space-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            background: radial-gradient(circle at center, #0b2e1a, #000);
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #7dffbf;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: twinkle 3s infinite ease-in-out;
+        }
+
+        @keyframes twinkle {
+            0%, 100% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="space-background" id="space-background"></div>
+    <div class="container">
+        <h1>Online Players</h1>
+        <p>Currently online: <strong id="playerCount">Loading...</strong></p>
+        <button onclick="showPlayers()">View Players</button>
+        <div class="results" id="results">
+            <h3>Online Users</h3>
+            <ul id="playerList" style="padding:0;margin:0;"></ul>
+        </div>
+    </div>
+
+    <script>
+        const bg = document.getElementById("space-background");
+        for (let i = 0; i < 100; i++) {
+            const s = document.createElement("div");
+            s.className = "star";
+            s.style.top = Math.random() * 100 + "%";
+            s.style.left = Math.random() * 100 + "%";
+            s.style.animationDelay = Math.random() * 3 + "s";
+            bg.appendChild(s);
+        }
+
+        async function updatePlayerCount() {
+            try {
+                const res = await fetch("https://recrewild.oldrec.net/api/online_players");
+                const players = await res.json();
+                document.getElementById("playerCount").textContent = players.length;
+            } catch {
+                document.getElementById("playerCount").textContent = "Error";
+            }
+        }
+
+        updatePlayerCount();
+        setInterval(updatePlayerCount, 5000);
+
+        let lastPlayers = [];
+
+        async function fetchPlayers() {
+            const res = await fetch("https://recrewild.oldrec.net/api/online_players");
+            const data = await res.json();
+
+            if (!Array.isArray(data) || data.length === 0) return [];
+
+            const ids = data.map(p => p.PlayerId).join("&id=");
+            const userRes = await fetch(`/Accounts/account/bulk?id=${ids}`);
+            const users = await userRes.json();
+
+            return data.map(p => {
+                const user = users.find(u => u.accountId === p.PlayerId);
+                return {
+                    id: p.PlayerId,
+                    username: user?.username || "unknown",
+                    displayName: user?.displayName || "Unknown Player",
+                    displayEmoji: user?.displayEmoji || "",
+                    image: user?.profileImage || "DefaultImgGreen.png",
+                    room: p.CurrentRoom || "Unknown"
+                };
+            });
+        }
+
+        async function updatePlayerList() {
+            const resultsDiv = document.getElementById("results");
+            const playerList = document.getElementById("playerList");
+            const header = resultsDiv.querySelector("h3");
+            if (!resultsDiv.classList.contains("visible")) return;
+
+            try {
+                const players = await fetchPlayers();
+
+                if (players.length === 0) {
+                    playerList.innerHTML = `<li style="color:#bbb;text-align:center;padding:10px;">Nobody is online 😴</li>`;
+                    header.style.display = "none";
+                    lastPlayers = [];
+                    return;
+                } else {
+                    header.style.display = "block";
+                }
+
+                const currentIds = players.map(p => p.id);
+                const oldIds = lastPlayers.map(p => p.id);
+
+                oldIds.forEach(id => {
+                    if (!currentIds.includes(id)) {
+                        const el = document.getElementById("player-" + id);
+                        if (el) {
+                            el.classList.add("fade-out");
+                            setTimeout(() => el.remove(), 400);
+                        }
+                    }
+                });
+
+                players.forEach(p => {
+                    let el = document.getElementById("player-" + p.id);
+                    if (!el) {
+                        el = document.createElement("li");
+                        el.className = "player";
+                        el.id = "player-" + p.id;
+                        el.style.opacity = "0";
+                        el.innerHTML = `
+                        <img src="/img/${p.image}?width=256&cropSquare=true">
+                        <div class="player-info">
+                            <div class="player-display">${p.displayName} ${p.displayEmoji}</div>
+                            <div class="player-username" onclick="location.href='/rewild_net/account/user/${p.username}'">@${p.username}</div>
+                            <div class="player-room">In: ${p.room}</div>
+                        </div>`;
+                        playerList.appendChild(el);
+                        setTimeout(() => el.style.opacity = "1", 10);
+                    } else {
+                        el.querySelector(".player-display").innerHTML = `${p.displayName} ${p.displayEmoji}`;
+                        el.querySelector(".player-room").textContent = `In: ${p.room}`;
+                    }
+                });
+
+                lastPlayers = players;
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        function showPlayers() {
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.classList.add("visible");
+            updatePlayerList();
+        }
+
+        setInterval(updatePlayerList, 10000);
+    </script>
+
+</body>
+
+</html>

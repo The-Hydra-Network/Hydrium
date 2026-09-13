@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rec Rewild Live Admin Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('/img/RRWD_nologo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .login-container {
+            background: rgb(55, 99, 12);
+            padding: 40px;
+            border-radius: 1px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgb(12, 99, 76);
+            backdrop-filter: blur(1px);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgb(35, 97, 16);
+            border-radius: 5px;
+            background: rgb(35, 97, 16);
+            color: white;
+            font-size: 16px;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: rgb(49, 146, 19);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #0523107e;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-btn:hover {
+            background-color: rgb(35, 97, 16);
+        }
+
+        .error-message {
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .g-recaptcha {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Rewild Net</h2>
+        <form action="/api/login" method="post" autocomplete="on">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <div class="error-message" id="error-message"></div>
+    </div>
+</body>
+</html>

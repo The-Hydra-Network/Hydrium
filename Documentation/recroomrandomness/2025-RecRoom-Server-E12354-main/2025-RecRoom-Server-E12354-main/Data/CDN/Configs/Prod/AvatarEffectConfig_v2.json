@@ -1,0 +1,6077 @@
+{
+  "AvailableEffects": [
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 1,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0e4597b0-6fe2-421d-b475-a78253525ee3"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "16c8598c-0e51-4e43-bdbc-d4701b5395f6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "45127aef-1f8b-45bf-92aa-37a201fe2df6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "78da0105-b8fb-4f6f-a0d3-16aba91babf9"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7e5648f7-556e-4a25-a27d-ee3652c38dc6"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "982e2df6-8bd0-4695-9d17-f7f36c317911"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "aff78579-6292-41d1-ba73-c2702711bd5b"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b59f3200-8e2e-4cd0-8a2b-def9223da93f"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4c54986-f7d2-42e5-a77c-430dbd150989"
+    },
+    {
+      "EffectChannel": 2,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ea6143af-51b7-4296-96c5-291ab527efb9"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 3,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "1808d742-a6ef-48a8-9d5c-b0a6ea502125"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "498a84e5-1ebb-4a3e-8235-c040ea1ce4b9"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "4c04144f-af53-4a81-918d-93cceb632f1f"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "6f500005-2600-4db0-bb72-1b19f9db0ead"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "73e16b5f-e5b3-4282-9d14-a9bd269346b3"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "74171ca4-86f6-4cd6-ae1b-f03179e45d9d"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "96da17e5-45bf-4aa3-9cd2-a2349475469b"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "9c421359-9773-476c-b064-d5852e57e96b"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d81abd97-5110-4d55-9956-c5ad34e7e430"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "dc8b568f-5249-4625-a933-46ae4590ac54"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "e4881373-b9a9-4d85-9605-1e4190600617"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "eceef840-eeba-44f3-abb2-886a72817729"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "03108a35-c05d-1664-6b33-d3147fced22c"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "372ad22b-9339-1474-9a90-71b3a8b15cf6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "7367c5ec-ef0e-ee94-d9d4-e602694fb780"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ad894355-3f45-1e04-bbca-58329eb16fea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b292f2aa-34b8-0494-cbc9-a1ed4571028f"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d62a31ef-50ca-b8a4-d828-97f5360545e4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "f419a416-4b2f-acf4-3873-e96ce87f1be4"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ad22b8b7-7c8f-4a1d-bb10-2d3d1f919c3a"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "43cc1ed4-5659-48c1-b4cf-f73d8aa5ef27"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8d5f8736-2224-4d25-83fd-f8bf6fbdf5f4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "519ff875-1968-e354-582c-bb101fd04a26"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+    },
+    {
+      "EffectChannel": 6,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "31c7e635-9a86-47d0-9de6-1e466edc7138"
+    },
+    {
+      "EffectChannel": 4,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "c8653c70-d96d-4dd3-af0c-4acd1fc9075a"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 1,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 2,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 3,
+      "DriverConfigKey": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 4,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+    },
+    {
+      "EffectChannel": 5,
+      "DriverType": 5,
+      "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+      "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+    }
+  ],
+  "PotionBottleOverrides": [
+    {
+      "Key": {
+        "EffectChannel": 6,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0"
+      },
+      "BottleTextureName": "Consumables_Potion_Grow_Label.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.78431374,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 6,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "8831f1e8-a467-4685-b840-3b86109be6f0"
+      },
+      "BottleTextureName": "Consumables_Potion_Shrink_Label.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.5549083,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "0fa46a09-c00a-4ed1-9378-be77422984e6"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Crimson_Bats_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 0,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "13676fce-5739-4060-b131-098953be2432"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Crimson_Spider_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 0,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "1fe4b945-7fac-4b69-aceb-e022244db599"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Green_Ghosts_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.78431374,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "262f1d94-4e05-4593-86ac-7ec146de2064"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Purple_Skull_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0.6072011,
+        "G": 0,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Orange_Eyeballs_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 0.5012306,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Blue_Bats_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.5568628,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "845a1771-df70-4e91-b7a7-79b58b9dd667"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_White_Eyeballs_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 1,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "9ef1e641-49c6-470e-91ee-9f891814294b"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Green_Skull_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.78431374,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Green_Spider_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0,
+        "G": 0.78431374,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "bd431bc1-f82c-4063-ad1f-581cfeb0f869"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Purple_Pumpkin_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 0.9325274,
+        "B": 0,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "c3e662c8-6f55-4f19-a1a3-a525efd22459"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Purple_Pumpkin_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0.60784316,
+        "G": 0,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "d3a458f4-ef93-4c8d-80dd-160667f96bcd"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_White_Ghosts_AvatarFX.png",
+      "LiquidColor": {
+        "R": 1,
+        "G": 1,
+        "B": 1,
+        "A": 1
+      }
+    },
+    {
+      "Key": {
+        "EffectChannel": 5,
+        "DriverType": 5,
+        "DriverConfigKey": "00000000-0000-0000-0000-000000000000",
+        "ApplierConfigKey": "354f8867-5493-42ca-b98c-2d82d347d4b3"
+      },
+      "BottleTextureName": "Consumables_Potion_Rectober_Teddy_AvatarFX.png",
+      "LiquidColor": {
+        "R": 0.7509433,
+        "G": 0.44313726,
+        "B": 0.1856105,
+        "A": 1
+      }
+    }
+  ],
+  "DriverTypeConfigs": [
+    {
+      "DriverType": 1,
+      "TextureName": "Consumable_Label_Glowy_YappingLabel_v1.png"
+    },
+    {
+      "DriverType": 2,
+      "TextureName": "Consumable_Label_Glowy_ZoomyLabel_v1.png"
+    },
+    {
+      "DriverType": 3,
+      "TextureName": "Consumable_Label_Glowy_PulseLabel_v1.png"
+    },
+    {
+      "DriverType": 4,
+      "TextureName": null
+    },
+    {
+      "DriverType": 5,
+      "TextureName": "Consumable_Label_Glowy_PulseLabel_v1.png"
+    }
+  ],
+  "AuraConfigs": [
+    {
+      "Id": "74171ca4-86f6-4cd6-ae1b-f03179e45d9d",
+      "AuraId": 1,
+      "TextureName": "Consumable_Label_Aura_CrownLabel_v1.png",
+      "Color": {
+        "R": 0.7137,
+        "G": 0.6627,
+        "B": 0.0902,
+        "A": 1
+      }
+    },
+    {
+      "Id": "9c421359-9773-476c-b064-d5852e57e96b",
+      "AuraId": 2,
+      "TextureName": "Consumable_Label_Aura_LeafLabel_v1.png",
+      "Color": {
+        "R": 0.2078,
+        "G": 0.9725,
+        "B": 0.2078,
+        "A": 1
+      }
+    },
+    {
+      "Id": "73e16b5f-e5b3-4282-9d14-a9bd269346b3",
+      "AuraId": 4,
+      "TextureName": "Consumable_Label_Aura_Lightning_v1.png",
+      "Color": {
+        "R": 0.749,
+        "G": 0.0824,
+        "B": 0.0824,
+        "A": 1
+      }
+    },
+    {
+      "Id": "d81abd97-5110-4d55-9956-c5ad34e7e430",
+      "AuraId": 5,
+      "TextureName": "Consumable_Label_Aura_Fireworks_Standard_v1.png",
+      "Color": {
+        "R": 0.749,
+        "G": 0.4392,
+        "B": 0.0824,
+        "A": 1
+      }
+    },
+    {
+      "Id": "4c04144f-af53-4a81-918d-93cceb632f1f",
+      "AuraId": 6,
+      "TextureName": "Consumable_Label_Aura_Fireworks_HighFive_v1.png",
+      "Color": {
+        "R": 0.749,
+        "G": 0.4392,
+        "B": 0.0824,
+        "A": 1
+      }
+    },
+    {
+      "Id": "6f500005-2600-4db0-bb72-1b19f9db0ead",
+      "AuraId": 7,
+      "TextureName": "Consumable_Label_Aura_Fireworks_Epic_v1.png",
+      "Color": {
+        "R": 0.749,
+        "G": 0.4392,
+        "B": 0.0824,
+        "A": 1
+      }
+    },
+    {
+      "Id": "e4881373-b9a9-4d85-9605-1e4190600617",
+      "AuraId": 8,
+      "TextureName": "Consumable_Label_Aura_Lightning_v1.png",
+      "Color": {
+        "R": 0.1137,
+        "G": 0.3373,
+        "B": 0.749,
+        "A": 1
+      }
+    },
+    {
+      "Id": "96da17e5-45bf-4aa3-9cd2-a2349475469b",
+      "AuraId": 9,
+      "TextureName": "Consumable_Label_Aura_Lightning_v1.png",
+      "Color": {
+        "R": 0.2039,
+        "G": 0.9294,
+        "B": 0.1529,
+        "A": 1
+      }
+    },
+    {
+      "Id": "498a84e5-1ebb-4a3e-8235-c040ea1ce4b9",
+      "AuraId": 10,
+      "TextureName": "Consumable_Label_Aura_Lightning_v1.png",
+      "Color": {
+        "R": 0.4235,
+        "G": 0.149,
+        "B": 0.749,
+        "A": 1
+      }
+    },
+    {
+      "Id": "1808d742-a6ef-48a8-9d5c-b0a6ea502125",
+      "AuraId": 11,
+      "TextureName": "Consumable_Label_Aura_CrownLabel_v1.png",
+      "Color": {
+        "R": 0.2039,
+        "G": 0.9294,
+        "B": 0.1529,
+        "A": 1
+      }
+    },
+    {
+      "Id": "eceef840-eeba-44f3-abb2-886a72817729",
+      "AuraId": 12,
+      "TextureName": "Consumable_Label_Aura_CrownLabel_v1.png",
+      "Color": {
+        "R": 0.749,
+        "G": 0.1333,
+        "B": 0.1333,
+        "A": 1
+      }
+    },
+    {
+      "Id": "dc8b568f-5249-4625-a933-46ae4590ac54",
+      "AuraId": 13,
+      "TextureName": "Consumable_Label_Aura_CrownLabel_v1.png",
+      "Color": {
+        "R": 0.4235,
+        "G": 0.149,
+        "B": 0.749,
+        "A": 1
+      }
+    },
+    {
+      "Id": "ad22b8b7-7c8f-4a1d-bb10-2d3d1f919c3a",
+      "AuraId": 101,
+      "TextureName": null,
+      "Color": {
+        "R": 0.0682843,
+        "G": 0.13207549,
+        "B": 0.05955857,
+        "A": 1
+      }
+    },
+    {
+      "Id": "43cc1ed4-5659-48c1-b4cf-f73d8aa5ef27",
+      "AuraId": 102,
+      "TextureName": null,
+      "Color": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "Id": "8d5f8736-2224-4d25-83fd-f8bf6fbdf5f4",
+      "AuraId": 103,
+      "TextureName": null,
+      "Color": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "Id": "31c7e635-9a86-47d0-9de6-1e466edc7138",
+      "AuraId": 15,
+      "TextureName": "Consumable_Label_Aura_RectoberBat_v1.png",
+      "Color": {
+        "R": 0.06666667,
+        "G": 0.13333334,
+        "B": 0.05882353,
+        "A": 1
+      }
+    },
+    {
+      "Id": "c8653c70-d96d-4dd3-af0c-4acd1fc9075a",
+      "AuraId": 14,
+      "TextureName": null,
+      "Color": {
+        "R": 0.06666667,
+        "G": 0.13333334,
+        "B": 0.05882353,
+        "A": 1
+      }
+    }
+  ],
+  "GradientConfigs": [
+    {
+      "Name": "White",
+      "Id": "982e2df6-8bd0-4695-9d17-f7f36c317911",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 4,
+            "G": 4,
+            "B": 4,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 4,
+            "G": 4,
+            "B": 4,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Red",
+      "Id": "b59f3200-8e2e-4cd0-8a2b-def9223da93f",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0.0058899825,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6987884,
+            "B": 1.6987884,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6800915,
+            "B": 1.6800915,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Green",
+      "Id": "b51d76c0-60c1-4bf4-9cdf-89f82363d1d0",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 1.3503011,
+            "G": 6.205311,
+            "B": 1.0244615,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 1.3503011,
+            "G": 6.205311,
+            "B": 1.0244615,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Blue",
+      "Id": "16c8598c-0e51-4e43-bdbc-d4701b5395f6",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 1.4616104,
+            "G": 4.28403,
+            "B": 9.626467,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.997055,
+          "Color": {
+            "R": 1.4616104,
+            "G": 4.28403,
+            "B": 9.626467,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Purple",
+      "Id": "040af956-99ac-4ae9-ba4b-fbedd0bc2dd1",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 5.70793,
+            "G": 1.9819198,
+            "B": 10.107792,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 5.70793,
+            "G": 1.9819198,
+            "B": 10.107792,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Orange",
+      "Id": "8df08815-f9ee-46a9-8afd-85ff8a3c45ff",
+      "GradientTime": 2,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 8.27921,
+            "G": 2.5206656,
+            "B": 0.82011044,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 8.27921,
+            "G": 2.5206656,
+            "B": 0.82011044,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Sunset",
+      "Id": "0e4597b0-6fe2-421d-b475-a78253525ee3",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 6.8413544,
+            "G": 3.1121452,
+            "B": 1.2072977,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.5000076,
+          "Color": {
+            "R": 10.277053,
+            "G": 0.43628982,
+            "B": 7.5372977,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 6.8413544,
+            "G": 3.1121452,
+            "B": 1.2072977,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "BlueRed",
+      "Id": "ea6143af-51b7-4296-96c5-291ab527efb9",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.5000076,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6987884,
+            "B": 1.6987884,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.997055,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "SilverRed",
+      "Id": "aff78579-6292-41d1-ba73-c2702711bd5b",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0.0058899825,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6987884,
+            "B": 1.6987884,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.47940794,
+          "Color": {
+            "R": 4.237095,
+            "G": 4.237095,
+            "B": 4.237095,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6800915,
+            "B": 1.6800915,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "SilverBlue",
+      "Id": "78da0105-b8fb-4f6f-a0d3-16aba91babf9",
+      "GradientTime": 1,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0.0058899825,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.47940794,
+          "Color": {
+            "R": 4.237095,
+            "G": 4.237095,
+            "B": 4.237095,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix",
+      "Id": "dcd54ee7-ae0c-471c-9f17-ebdaadb7bdf1",
+      "GradientTime": 2,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 8.27921,
+            "G": 2.5206656,
+            "B": 0.82011044,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.397055,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6987884,
+            "B": 1.6987884,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.5029374,
+          "Color": {
+            "R": 7.7960978,
+            "G": 2.4638605,
+            "B": 2.4638605,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.6411841,
+          "Color": {
+            "R": 9.626469,
+            "G": 1.6987884,
+            "B": 1.6987884,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 8.27921,
+            "G": 2.5206656,
+            "B": 0.82011044,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Prismatic",
+      "Id": "45127aef-1f8b-45bf-92aa-37a201fe2df6",
+      "GradientTime": 1.75,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0.0058899825,
+          "Color": {
+            "R": 1.3508255,
+            "G": 6.1430397,
+            "B": 1.0292007,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.18236057,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.27353323,
+          "Color": {
+            "R": 2.1733603,
+            "G": 4.2760615,
+            "B": 8.911475,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.5000076,
+          "Color": {
+            "R": 6.8413544,
+            "G": 3.1121452,
+            "B": 1.2072977,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.6852979,
+          "Color": {
+            "R": 6.0012383,
+            "G": 2.15632,
+            "B": 9.552886,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.8235294,
+          "Color": {
+            "R": 5.70793,
+            "G": 1.9819198,
+            "B": 10.107792,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 1.3508255,
+            "G": 6.1430397,
+            "B": 1.0292007,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Winter",
+      "Id": "e4c54986-f7d2-42e5-a77c-430dbd150989",
+      "GradientTime": 2,
+      "GradientType": 1,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 0,
+            "G": 3.9526327,
+            "B": 15.350565,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.10293736,
+          "Color": {
+            "R": 0,
+            "G": 3.9526327,
+            "B": 15.350565,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.21176471,
+          "Color": {
+            "R": 2.2002273,
+            "G": 4.5160165,
+            "B": 7.4039392,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.30293736,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.7000076,
+          "Color": {
+            "R": 1.4345325,
+            "G": 4.2658467,
+            "B": 9.626469,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.81765467,
+          "Color": {
+            "R": 2.2002273,
+            "G": 4.5160165,
+            "B": 7.4039392,
+            "A": 1
+          }
+        },
+        {
+          "Time": 0.923537,
+          "Color": {
+            "R": 0,
+            "G": 3.9526327,
+            "B": 15.350565,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 0,
+            "G": 3.9526327,
+            "B": 15.350565,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ColdToWarmRamp",
+      "Id": "7e5648f7-556e-4a25-a27d-ee3652c38dc6",
+      "GradientTime": 1,
+      "GradientType": 2,
+      "ColorKeys": [
+        {
+          "Time": 0,
+          "Color": {
+            "R": 0,
+            "G": 3.9024065,
+            "B": 15.823179,
+            "A": 1
+          }
+        },
+        {
+          "Time": 1,
+          "Color": {
+            "R": 7.9197216,
+            "G": 2.8573117,
+            "B": 0,
+            "A": 1
+          }
+        }
+      ]
+    }
+  ],
+  "AnimationCurveConfigs": [
+    {
+      "Name": "Pulse",
+      "Id": "34ac2348-d18a-4f61-9a7e-a38e69260e92",
+      "AnimationCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": 0.2,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": 1,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 1,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 2,
+            "Value": 0.2,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Heartbeat",
+      "Id": "7ef6a31a-0433-4267-80d0-8d8e5556591f",
+      "AnimationCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": 0.2,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 0.25,
+            "Value": 1,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 0.5,
+            "Value": 0.5,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 0.75,
+            "Value": 1,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": 0.2,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Slow Pulse",
+      "Id": "0467b79d-7023-419c-a365-1fa707bab1c8",
+      "AnimationCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": 0,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1.5,
+            "Value": 1,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 1,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 3,
+            "Value": 0,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Tiny",
+      "Id": "6effd04c-ba83-426b-b08b-5e9a9b603826",
+      "AnimationCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": -0.6,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 0.5,
+            "Value": -0.4,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0.33333334,
+            "TangentMode": 34,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": -0.6,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    },
+    {
+      "Name": "BigRamp",
+      "Id": "d3d35ea6-3f59-4e8d-8431-6c6f8a75e621",
+      "AnimationCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": -0.6,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0.33333334,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": 1,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 1,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 2,
+            "Value": -0.6,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0.33333334,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    }
+  ],
+  "TextureEffectConfigs": [
+    {
+      "Name": "GalaxyShaderFX_Blue",
+      "Id": "d62a31ef-50ca-b8a4-d828-97f5360545e4",
+      "MaskTextureName": "avatar_effects_25141012_masks.png",
+      "LUTTextureName": "avatar_effects_25141012_lut.png",
+      "UseNormalFade": true,
+      "GlobalIntensity": 30,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.07,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 5,
+          "Y": 5
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.624,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -15
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.495,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "LightningShaderFX_Blue",
+      "Id": "7367c5ec-ef0e-ee94-d9d4-e602694fb780",
+      "MaskTextureName": "avatar_effects_19241552_masks.png",
+      "LUTTextureName": "avatar_effects_19241552_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 60,
+      "Vfx1": {
+        "Scroll": {
+          "X": 7,
+          "Y": 12
+        },
+        "ColorIntensity": 0.77,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -12,
+          "Y": -15
+        },
+        "ColorIntensity": 2.71,
+        "AlphaIntensity": 0.815,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -8,
+          "Y": 5
+        },
+        "ColorIntensity": 2.88,
+        "AlphaIntensity": 0.507,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -1,
+          "Y": -2
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.189,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "FireShaderFX_Purple",
+      "Id": "a9c7fb33-6d1b-e8f4-39f1-aa1507b3f88f",
+      "MaskTextureName": "avatar_effects_91732161_masks.png",
+      "LUTTextureName": "avatar_effects_91732161_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.01,
+        "AlphaIntensity": 0.866,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -4,
+          "Y": -10
+        },
+        "ColorIntensity": 5.03,
+        "AlphaIntensity": 0.857,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 8,
+          "Y": -6
+        },
+        "ColorIntensity": 3.91,
+        "AlphaIntensity": 0.319,
+        "ST": {
+          "Z": 0,
+          "W": 1,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 2.91,
+        "AlphaIntensity": 0.158,
+        "ST": {
+          "Z": 0.5,
+          "W": 0.45,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "FireShaderFX_Orange",
+      "Id": "03108a35-c05d-1664-6b33-d3147fced22c",
+      "MaskTextureName": "avatar_effects_14316523_masks.png",
+      "LUTTextureName": "avatar_effects_14316523_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.01,
+        "AlphaIntensity": 0.866,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -4,
+          "Y": -10
+        },
+        "ColorIntensity": 5.03,
+        "AlphaIntensity": 0.857,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 8,
+          "Y": -6
+        },
+        "ColorIntensity": 3.91,
+        "AlphaIntensity": 0.319,
+        "ST": {
+          "Z": 0,
+          "W": 1,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 2.91,
+        "AlphaIntensity": 0.158,
+        "ST": {
+          "Z": 0.5,
+          "W": 0.45,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "GalaxyShaderFX_Yellow",
+      "Id": "ad894355-3f45-1e04-bbca-58329eb16fea",
+      "MaskTextureName": "avatar_effects_30856320_masks.png",
+      "LUTTextureName": "avatar_effects_30856320_lut.png",
+      "UseNormalFade": true,
+      "GlobalIntensity": 30,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.07,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 5,
+          "Y": 5
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.624,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -15
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.495,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "FireShaderFX_Green",
+      "Id": "372ad22b-9339-1474-9a90-71b3a8b15cf6",
+      "MaskTextureName": "avatar_effects_80182182_masks.png",
+      "LUTTextureName": "avatar_effects_80182182_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.01,
+        "AlphaIntensity": 0.866,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -4,
+          "Y": -10
+        },
+        "ColorIntensity": 5.03,
+        "AlphaIntensity": 0.857,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 8,
+          "Y": -6
+        },
+        "ColorIntensity": 3.91,
+        "AlphaIntensity": 0.319,
+        "ST": {
+          "Z": 0,
+          "W": 1,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 2.91,
+        "AlphaIntensity": 0.158,
+        "ST": {
+          "Z": 0.5,
+          "W": 0.45,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "GalaxyShaderFX_Green",
+      "Id": "b292f2aa-34b8-0494-cbc9-a1ed4571028f",
+      "MaskTextureName": "avatar_effects_10114678_masks.png",
+      "LUTTextureName": "avatar_effects_10114678_lut.png",
+      "UseNormalFade": true,
+      "GlobalIntensity": 30,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.07,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 5,
+          "Y": 5
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.624,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -15
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.495,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "LightningShaderFX_Purple",
+      "Id": "f419a416-4b2f-acf4-3873-e96ce87f1be4",
+      "MaskTextureName": "avatar_effects_48220638_masks.png",
+      "LUTTextureName": "avatar_effects_48220638_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 60,
+      "Vfx1": {
+        "Scroll": {
+          "X": 7,
+          "Y": 12
+        },
+        "ColorIntensity": 0.77,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -12,
+          "Y": -15
+        },
+        "ColorIntensity": 2.71,
+        "AlphaIntensity": 0.815,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -8,
+          "Y": 5
+        },
+        "ColorIntensity": 2.88,
+        "AlphaIntensity": 0.507,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -1,
+          "Y": -2
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.189,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Vinegaurd_Purple_Sigil",
+      "Id": "519ff875-1968-e354-582c-bb101fd04a26",
+      "MaskTextureName": "avatar_effects_61166332_masks.png",
+      "LUTTextureName": "avatar_effects_61166332_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.53,
+        "AlphaIntensity": 0.144,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -8,
+          "Y": -10
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.562,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 3,
+        "AlphaIntensity": 0.4,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -20,
+          "Y": -30
+        },
+        "ColorIntensity": 4,
+        "AlphaIntensity": 0.8,
+        "ST": {
+          "Z": 0.5,
+          "W": -0.2,
+          "X": 4,
+          "Y": 4
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Unripened_Green_Sigil",
+      "Id": "a2b8ae68-35b0-2a34-d849-0a4499ffbef6",
+      "MaskTextureName": "avatar_effects_20495712_masks.png",
+      "LUTTextureName": "avatar_effects_20495712_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.53,
+        "AlphaIntensity": 0.144,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -8,
+          "Y": -10
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.562,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 3,
+        "AlphaIntensity": 0.4,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -20,
+          "Y": -30
+        },
+        "ColorIntensity": 3,
+        "AlphaIntensity": 0.8,
+        "ST": {
+          "Z": 0.5,
+          "W": -0.2,
+          "X": 3,
+          "Y": 3
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Rootforged_Orange_Sigil",
+      "Id": "70710134-99d6-d2c4-cac4-c3c03c9c7ff4",
+      "MaskTextureName": "avatar_effects_22158831_masks.png",
+      "LUTTextureName": "avatar_effects_22158831_lut.png",
+      "UseNormalFade": false,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 10,
+          "Y": -15
+        },
+        "ColorIntensity": 4.53,
+        "AlphaIntensity": 0.144,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": -8,
+          "Y": -10
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.562,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 3,
+        "AlphaIntensity": 0.4,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -20,
+          "Y": -30
+        },
+        "ColorIntensity": 2.5,
+        "AlphaIntensity": 0.8,
+        "ST": {
+          "Z": 0.5,
+          "W": -0.2,
+          "X": 3,
+          "Y": 3
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Fall Bears",
+      "Id": "354f8867-5493-42ca-b98c-2d82d347d4b3",
+      "MaskTextureName": "Fall_Bears.Mask",
+      "LUTTextureName": "Fall_Bears.LUT",
+      "UseNormalFade": false,
+      "GlobalIntensity": 0.77,
+      "Vfx1": {
+        "Scroll": {
+          "X": 4,
+          "Y": -4
+        },
+        "ColorIntensity": 0.5,
+        "AlphaIntensity": 0.5,
+        "ST": {
+          "Z": -2,
+          "W": 2,
+          "X": 7,
+          "Y": 7
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": 2
+        },
+        "ColorIntensity": 0.5,
+        "AlphaIntensity": 0.5,
+        "ST": {
+          "Z": -0.03,
+          "W": -0.33,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -4,
+          "Y": 4
+        },
+        "ColorIntensity": 0.5,
+        "AlphaIntensity": 0.5,
+        "ST": {
+          "Z": 2,
+          "W": 1.4,
+          "X": 7,
+          "Y": 7
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Bats_Blue",
+      "Id": "70f18ad1-d4ef-4d59-b1a0-71a9703414ea",
+      "MaskTextureName": "Export_Halloween_Bats_Blue.Mask",
+      "LUTTextureName": "Export_Halloween_Bats_Blue.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.75,
+      "Vfx1": {
+        "Scroll": {
+          "X": -1,
+          "Y": -6
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15.24,
+        "AlphaIntensity": 0.97,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Bats_Red",
+      "Id": "0fa46a09-c00a-4ed1-9378-be77422984e6",
+      "MaskTextureName": "Export_Halloween_Bats_Red.Mask",
+      "LUTTextureName": "Export_Halloween_Bats_Red.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.75,
+      "Vfx1": {
+        "Scroll": {
+          "X": -1,
+          "Y": -6
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15.24,
+        "AlphaIntensity": 0.97,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Eyeballs_Orange",
+      "Id": "691eaa64-c4f4-48ae-b1e4-b4e4a70c86f6",
+      "MaskTextureName": "Export_Halloween_Eyeballs_Orange.Mask",
+      "LUTTextureName": "Export_Halloween_Eyeballs_Orange.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 4,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 0.82,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": 5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": 10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.58,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 2,
+          "Y": 6
+        },
+        "ColorIntensity": 1.27,
+        "AlphaIntensity": 0.13,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Eyeballs_White",
+      "Id": "845a1771-df70-4e91-b7a7-79b58b9dd667",
+      "MaskTextureName": "Export_Halloween_Eyeballs_White.Mask",
+      "LUTTextureName": "Export_Halloween_Eyeballs_White.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 0.82,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": 5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": 10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.58,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 2,
+          "Y": 6
+        },
+        "ColorIntensity": 1.27,
+        "AlphaIntensity": 0.13,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 2,
+          "Y": 2
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Ghosts_Green",
+      "Id": "1fe4b945-7fac-4b69-aceb-e022244db599",
+      "MaskTextureName": "Export_Halloween_Ghosts_Green.Mask",
+      "LUTTextureName": "Export_Halloween_Ghosts_Green.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.5,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.81,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Ghosts_White",
+      "Id": "d3a458f4-ef93-4c8d-80dd-160667f96bcd",
+      "MaskTextureName": "Export_Halloween_Ghosts_White.Mask",
+      "LUTTextureName": "Export_Halloween_Ghosts_White.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.5,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.81,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Pumpkins_Purple",
+      "Id": "c3e662c8-6f55-4f19-a1a3-a525efd22459",
+      "MaskTextureName": "Export_Halloween_Pumpkins_Purple.Mask",
+      "LUTTextureName": "Export_Halloween_Pumpkins_Purple.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 10,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.07,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.624,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -15
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.495,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Pumpkins_Yellow",
+      "Id": "bd431bc1-f82c-4063-ad1f-581cfeb0f869",
+      "MaskTextureName": "Export_Halloween_Pumpkins_Yellow.Mask",
+      "LUTTextureName": "Export_Halloween_Pumpkins_Yellow.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 10,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.07,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.624,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -15
+        },
+        "ColorIntensity": 6,
+        "AlphaIntensity": 0.495,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Skulls_Green",
+      "Id": "9ef1e641-49c6-470e-91ee-9f891814294b",
+      "MaskTextureName": "Export_Halloween_Skulls_Green.Mask",
+      "LUTTextureName": "Export_Halloween_Skulls_Green.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.5,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.81,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Skulls_Purple",
+      "Id": "262f1d94-4e05-4593-86ac-7ec146de2064",
+      "MaskTextureName": "Export_Halloween_Skulls_Purple.Mask",
+      "LUTTextureName": "Export_Halloween_Skulls_Purple.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 2,
+      "Vfx1": {
+        "Scroll": {
+          "X": 0,
+          "Y": -2
+        },
+        "ColorIntensity": 2.34,
+        "AlphaIntensity": 1,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.76,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": -10
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.81,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": 0,
+          "Y": 0
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Spiders_Green",
+      "Id": "b4dbe25a-bd09-40b5-8487-90cdee4de0ac",
+      "MaskTextureName": "Export_Halloween_Spiders_Green.Mask",
+      "LUTTextureName": "Export_Halloween_Spiders_Green.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1,
+      "Vfx1": {
+        "Scroll": {
+          "X": 2,
+          "Y": 3
+        },
+        "ColorIntensity": 10.4,
+        "AlphaIntensity": 0.84,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2.2,
+        "AlphaIntensity": 0.6,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": 15
+        },
+        "ColorIntensity": 6.22,
+        "AlphaIntensity": 0.75,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -2,
+          "Y": 8
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0.15,
+        "ST": {
+          "Z": 0.4,
+          "W": 0.86,
+          "X": 8,
+          "Y": 8
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    },
+    {
+      "Name": "Export_Halloween_Spiders_Red",
+      "Id": "13676fce-5739-4060-b131-098953be2432",
+      "MaskTextureName": "Export_Halloween_Spiders_Red.Mask",
+      "LUTTextureName": "Export_Halloween_Spiders_Red.LUT",
+      "UseNormalFade": true,
+      "GlobalIntensity": 1.5,
+      "Vfx1": {
+        "Scroll": {
+          "X": 2,
+          "Y": 3
+        },
+        "ColorIntensity": 11.77,
+        "AlphaIntensity": 0.84,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 6,
+          "Y": 6
+        }
+      },
+      "Vfx2": {
+        "Scroll": {
+          "X": 2,
+          "Y": -5
+        },
+        "ColorIntensity": 2,
+        "AlphaIntensity": 0.6,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx3": {
+        "Scroll": {
+          "X": -5,
+          "Y": 15
+        },
+        "ColorIntensity": 15,
+        "AlphaIntensity": 0.75,
+        "ST": {
+          "Z": 0,
+          "W": 0,
+          "X": 1,
+          "Y": 1
+        }
+      },
+      "Vfx4": {
+        "Scroll": {
+          "X": -2,
+          "Y": 8
+        },
+        "ColorIntensity": 0,
+        "AlphaIntensity": 0.15,
+        "ST": {
+          "Z": 0.4,
+          "W": 0.86,
+          "X": 8,
+          "Y": 8
+        }
+      },
+      "LUT_ST": {
+        "Z": 0,
+        "W": 0,
+        "X": 1,
+        "Y": 1
+      }
+    }
+  ],
+  "PlayerScaleEffectConfigs": [
+    {
+      "Name": "Big",
+      "Id": "ccb1124b-a3a6-41ef-bdcb-39dbc59658a0",
+      "RemapCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": 1.75,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": 1.75,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Tiny",
+      "Id": "8831f1e8-a467-4685-b840-3b86109be6f0",
+      "RemapCurve": {
+        "CurveKeys": [
+          {
+            "Time": 0,
+            "Value": 0.25,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          },
+          {
+            "Time": 1,
+            "Value": 0.25,
+            "InSlope": 0,
+            "OutSlope": 0,
+            "InWeight": 0,
+            "OutWeight": 0,
+            "TangentMode": 0,
+            "WeightedMode": 0
+          }
+        ]
+      }
+    }
+  ],
+  "PlayerVelocityDriverConfig": {
+    "Id": 2,
+    "Name": "Speedster",
+    "AnimationCurve": {
+      "CurveKeys": [
+        {
+          "Time": 0,
+          "Value": 0.25,
+          "InSlope": 0,
+          "OutSlope": 0,
+          "InWeight": 0,
+          "OutWeight": 0,
+          "TangentMode": 0,
+          "WeightedMode": 0
+        },
+        {
+          "Time": 2,
+          "Value": 2,
+          "InSlope": 2,
+          "OutSlope": 2,
+          "InWeight": 0,
+          "OutWeight": 0,
+          "TangentMode": 0,
+          "WeightedMode": 0
+        }
+      ]
+    },
+    "ValueAttackRate": 2,
+    "ValueDecayRate": 6,
+    "EffectOverdrive": 1.5
+  },
+  "PlayerVoiceVolumeDriverConfig": {
+    "Id": 1,
+    "Name": "Yapping",
+    "AnimationCurve": {
+      "CurveKeys": [
+        {
+          "Time": 0,
+          "Value": 0,
+          "InSlope": 0,
+          "OutSlope": 0,
+          "InWeight": 0,
+          "OutWeight": 0,
+          "TangentMode": 0,
+          "WeightedMode": 0
+        },
+        {
+          "Time": 1,
+          "Value": 1,
+          "InSlope": 2,
+          "OutSlope": 2,
+          "InWeight": 0,
+          "OutWeight": 0,
+          "TangentMode": 0,
+          "WeightedMode": 0
+        }
+      ]
+    },
+    "ValueAttackRate": 2,
+    "ValueDecayRate": 2,
+    "EffectOverdrive": 1.5
+  },
+  "PlayerHighFivesDriverConfig": {
+    "Id": 4,
+    "Name": "High Five",
+    "AnimationCurve": {
+      "CurveKeys": [
+        {
+          "Time": 0,
+          "Value": 0,
+          "InSlope": 0,
+          "OutSlope": 0,
+          "InWeight": 0,
+          "OutWeight": 0,
+          "TangentMode": 0,
+          "WeightedMode": 0
+        }
+      ]
+    },
+    "ValueAttackRate": 1,
+    "ValueDecayRate": 1,
+    "EffectOverdrive": 1.5
+  }
+}

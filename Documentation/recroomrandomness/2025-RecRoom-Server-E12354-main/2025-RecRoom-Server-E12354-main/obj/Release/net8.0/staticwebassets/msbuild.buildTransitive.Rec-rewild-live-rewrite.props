@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Rec-rewild-live-rewrite.props" />
+</Project>

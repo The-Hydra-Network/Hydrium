@@ -1,0 +1,1059 @@
+[
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "get_announcements",
+    "RelativePath": "api/announcement/v1/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "DefaultBaseAvatarItems",
+    "RelativePath": "api/avatar/v1/defaultbaseavataritems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "DefaultUnlockeItems",
+    "RelativePath": "api/avatar/v1/defaultunlocked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "myAvatarV2",
+    "RelativePath": "api/avatar/v2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "AvatarV2",
+    "RelativePath": "api/avatar/v2/{accid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accid",
+        "Type": "System.Nullable\u00601[[System.UInt64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Gifts",
+    "RelativePath": "api/avatar/v2/gifts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "SetAvatar",
+    "RelativePath": "api/avatar/v2/set",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetOutfit",
+    "RelativePath": "api/avatar/v3/saved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetAvatarItems",
+    "RelativePath": "api/avatar/v4/items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "SaveOutfit",
+    "RelativePath": "api/avatar/v4/saved/set",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RRPlus",
+    "RelativePath": "api/CampusCard/v1/UpdateAndGetSubscription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetCurrentChallenges",
+    "RelativePath": "api/challenge/v2/getCurrent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "CurrentChecklist",
+    "RelativePath": "api/checklist/v1/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "CurrentCommunityBoard",
+    "RelativePath": "api/communityboard/v2/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Amplitude",
+    "RelativePath": "api/config/v1/amplitude",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Backtrace",
+    "RelativePath": "api/config/v1/backtrace",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ConfigV2",
+    "RelativePath": "api/config/v2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ConsumeConsumable",
+    "RelativePath": "api/consumables/v1/consume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "get_Unlocked_consumables",
+    "RelativePath": "api/consumables/v2/getUnlocked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "CreateCustomAvatar",
+    "RelativePath": "api/customAvatarItems/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "BulkCustomAvatarItems",
+    "RelativePath": "api/customAvatarItems/v1/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customAvatarItemIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "IsCreationAllowedForAccount",
+    "RelativePath": "api/customAvatarItems/v1/isCreationAllowedForAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "IsCreationEnabled",
+    "RelativePath": "api/customAvatarItems/v1/isCreationEnabled",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "IsRenderingEnabled",
+    "RelativePath": "api/customAvatarItems/v1/isRenderingEnabled",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "CustomAvatarItemsFromCreator",
+    "RelativePath": "api/customAvatarItems/v2/fromCreator/{PlayerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PlayerId",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "get_Unlocked_equipment",
+    "RelativePath": "api/equipment/v2/getUnlocked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Gameconfigs",
+    "RelativePath": "api/gameconfigs/v1/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "PendingGameRewards",
+    "RelativePath": "api/gamerewards/v1/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "CheerImage",
+    "RelativePath": "api/images/v1/cheer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ImageMetadataDB\u002BCheerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Slideshow",
+    "RelativePath": "api/images/v1/slideshow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "NamedImages",
+    "RelativePath": "api/images/v2/named",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetRoomImages",
+    "RelativePath": "api/images/v4/room/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sort",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "skip",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "UploadImage",
+    "RelativePath": "api/images/v4/uploadsaved",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetImagesByBulkIds",
+    "RelativePath": "api/images/v5/bulk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ImagesCheered",
+    "RelativePath": "api/images/v5/cheered/bulk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetPlayerImages",
+    "RelativePath": "api/images/v5/player/{playerid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerid",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "sort",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetImageByImageName",
+    "RelativePath": "api/images/v6",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "get_incentivizedreferrals_incentivizedreferrals",
+    "RelativePath": "api/incentivizedreferrals/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "influencerpartnerprogram",
+    "RelativePath": "api/influencerpartnerprogram/influencer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetAllInfluencers",
+    "RelativePath": "api/influencerpartnerprogram/influencers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "MyInfluencer",
+    "RelativePath": "api/influencerpartnerprogram/myinfluencer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RemoveInfluencer",
+    "RelativePath": "api/influencerpartnerprogram/remove",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "SupportInfluencer",
+    "RelativePath": "api/influencerpartnerprogram/support",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RoomInventions",
+    "RelativePath": "api/inventions/v1/room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "MyInventions",
+    "RelativePath": "api/inventions/v2/mine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "MyItemWishlists",
+    "RelativePath": "api/itemWishlists/v1/wishlist/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetMessages",
+    "RelativePath": "api/messages/v2/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "MyObjectivesProgress",
+    "RelativePath": "api/objectives/v1/myprogress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "OnlinePlayers",
+    "RelativePath": "api/online_players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ServerPing",
+    "RelativePath": "api/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "SetSelectedCheer",
+    "RelativePath": "api/PlayerCheer/v1/SetSelectedCheer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "PlayerEvents",
+    "RelativePath": "api/playerevents/v1/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Hile",
+    "RelativePath": "api/PlayerReporting/v1/hile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ModerationBlockDetails",
+    "RelativePath": "api/PlayerReporting/v1/moderationBlockDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "VoteToKickReasons",
+    "RelativePath": "api/PlayerReporting/v1/voteToKickReasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "BulkPlayersReputation",
+    "RelativePath": "api/playerReputation/v2/bulk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Collections.Generic.List\u00601[[System.UInt64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "BulkPlayersProgression",
+    "RelativePath": "api/players/v2/progression/bulk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Collections.Generic.List\u00601[[System.UInt64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "AcceptFriendRequest",
+    "RelativePath": "api/relationships/v2/acceptfriendrequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "AddFriendViaHandshakeInGame",
+    "RelativePath": "api/relationships/v2/addfriend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetRelationships",
+    "RelativePath": "api/relationships/v2/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RemoveFriend",
+    "RelativePath": "api/relationships/v2/removefriend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "SendFriendRequest",
+    "RelativePath": "api/relationships/v2/sendfriendrequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RoomConsumables",
+    "RelativePath": "api/roomconsumables/v1/roomConsumable/room/{RoomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomId",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "MyRoomConsumables",
+    "RelativePath": "api/roomconsumables/v1/roomConsumable/room/{RoomId}/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomId",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "RoomCurrencies",
+    "RelativePath": "api/roomcurrencies/v1/currencies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetAllRoomCurrenciesBalances",
+    "RelativePath": "api/roomcurrencies/v1/getAllBalances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "my_roomkeys",
+    "RelativePath": "api/roomkeys/v1/mine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "Roomkeys",
+    "RelativePath": "api/roomkeys/v1/room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GetRoomTags",
+    "RelativePath": "api/rooms/v1/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "VerifyRole",
+    "RelativePath": "api/rooms/v1/verifyRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ApiSanitizeV1",
+    "RelativePath": "api/sanitize/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Rec_rewild_live_rewrite.api.server.Classes.Sanitize",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "ApiSanitizeV1IsPure",
+    "RelativePath": "api/sanitize/v1/isPure",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "status",
+    "RelativePath": "api/server/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "GiftdropStore",
+    "RelativePath": "api/storefronts/v3/giftdropstore/{store_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "StorefrontBalance",
+    "RelativePath": "api/storefronts/v4/balance/{balance_type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "balance_type",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "subscriptionseasons",
+    "RelativePath": "api/subscriptionseasons/v1/seasons/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.APIController",
+    "Method": "VersionCheck",
+    "RelativePath": "api/versioncheck/v4",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "v",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      },
+      {
+        "Name": "p",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pid",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.LinkController",
+    "Method": "CreateActionLink",
+    "RelativePath": "link/actionlink",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.LinkController",
+    "Method": "GetActionLink",
+    "RelativePath": "link/actionlink/{link}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rec_rewild_live_rewrite.Controllers.LinkController",
+    "Method": "ConsumeActionLink",
+    "RelativePath": "link/actionlink/{link}/consume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "GetGameplayInvites",
+    "RelativePath": "Notifications/accounts/{id}/receives/GameplayInvites",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "GetCategories",
+    "RelativePath": "Notifications/config/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "GetCRMConfig",
+    "RelativePath": "Notifications/crm/me/config/v3",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "HandleHub",
+    "RelativePath": "Notifications/hub/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "Negotiate",
+    "RelativePath": "Notifications/hub/v1/negotiate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RewildLiveSource.Controllers.NotificationsController",
+    "Method": "GetPreferences",
+    "RelativePath": "Notifications/preferences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

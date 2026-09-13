@@ -1,0 +1,18 @@
+{
+    "ListId": 8578579969342570774,
+    "CreatorAccountId": 1,
+    "Name": "RoomCategories.MoodPlaylists.AlgoEndpoint.FeelingLucky",
+    "Description": "I'm Feeling Lucky",
+    "ImageName": "DefaultRoomImage.jpg",
+    "Type": 7,
+    "ItemIds": [
+        "action_algorithmiclist_roomcategory",
+        "hangout_roomcategory_card",
+        "horror_roomcategory_card",
+        "pvp_roomcategory_card",
+        "quests_roomcategory_card",
+        "roleplay_roomcategory_card"
+    ],
+    "Accessibility": 1,
+    "CreatedAt": "2024-05-22T05:37:43.7726633Z"
+}
