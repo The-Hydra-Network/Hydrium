@@ -1,0 +1,9 @@
+[
+  {
+    "platform": -1,
+    "platformId": "string",
+    "accountId": 12345,
+    "lastLoginTime": "2026-08-31T15:54:49.367Z",
+    "requirePassword": false
+  }
+]

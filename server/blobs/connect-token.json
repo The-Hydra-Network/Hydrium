@@ -1,0 +1,8 @@
+{
+  "access_token": "string",
+  "expires_in": 12345,
+  "token_type": "Bearer",
+  "refresh_token": "string",
+  "scope": "string",
+  "key": "string"
+}

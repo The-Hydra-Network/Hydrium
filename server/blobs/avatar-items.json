@@ -1,0 +1,12 @@
+[
+  {
+    "avatarItemId": 12345,
+    "avatarItemDesc": "string",
+    "friendlyName": "string",
+    "tooltip": "string",
+    "tagList": "string",
+    "avatarItemType": 12345,
+    "rarity": 12345,
+    "isBaseAvatarItem": true
+  }
+]
