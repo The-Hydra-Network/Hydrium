@@ -5,7 +5,7 @@ See the [Documentation](https://github.com/The-Hydra-Network/Hydrium/tree/main/D
 \
 for things like:\
 [File Structure](https://github.com/The-Hydra-Network/Hydrium/blob/main/Documentation/File-Structure.md).\
-[Roomie Prompt](https://github.com/The-Hydra-Network/Hydrium/blob/main/Documentation/Roomie%20Prompt%20for%202025-2026).
+[RRR]
 
 ## Also be sure to checkout the RecRoom Archive:
 [RecRoom Archive](https://github.com/The-Hydra-Network/RecRoom-Archive)
