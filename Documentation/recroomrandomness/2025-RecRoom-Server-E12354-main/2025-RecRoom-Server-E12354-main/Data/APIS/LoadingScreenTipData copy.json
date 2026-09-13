@@ -1,0 +1,37 @@
+[
+    {
+        "ImageName": "RRWD.jpg",
+        "Message": "Have fun!",
+        "PlatformMask": -1,
+        "RoomNames": [],
+        "Title": "Welcome to Rewild Live 2025 Test Server"
+    },
+    {
+        "ImageName": "9e99537b55ca494484c1637fb77d23f9",
+        "Message": "Pair up, earn paint, and bring Recasso’s paintings to life. Start your masterpiece today!",
+        "PlatformMask": -1,
+        "RoomNames": [],
+        "Title": "Paint Together. Progress Together. "
+    },
+    {
+        "ImageName": "LS2025.jpg",
+        "Message": "2025 build gone wild",
+        "PlatformMask": -1,
+        "RoomNames": [],
+        "Title": "naaa"
+    },
+    {
+        "ImageName": "image.png",
+        "Message": "AAAA FUCK HELP I BURNING AAAA HELP IT HURTS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "PlatformMask": -1,
+        "RoomNames": [],
+        "Title": "car"
+    },
+    {
+        "ImageName": "insertimghere.jpg",
+        "Message": "To die, use the <sprite name=\"MenuIcon_Sprites_4(HR)_XboxDPadSouth\"> button",
+        "PlatformMask": -1,
+        "RoomNames": [],
+        "Title": "test icons"
+    }
+]

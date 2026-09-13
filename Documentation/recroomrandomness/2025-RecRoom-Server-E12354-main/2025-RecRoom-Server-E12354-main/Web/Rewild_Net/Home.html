@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Rewild Net</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: #04140c;
+            color: #c9ffe5;
+        }
+
+        .layout {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* ===== SIDEBAR ===== */
+        .sidebar {
+            width: 260px;
+            background: rgba(10, 60, 40, 0.95);
+            height: 100vh;
+            padding: 20px;
+            transition: left 0.3s ease;
+            box-shadow: 3px 0 15px rgba(0, 255, 170, 0.35);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                flex-grow: 1;
+            }
+
+            .sidebar li {
+                margin: 15px 0;
+            }
+
+            .sidebar button,
+            .sidebar a {
+                display: block;
+                width: 100%;
+                padding: 12px;
+                color: #bfffe6;
+                background-color: rgba(0, 255, 170, 0.12);
+                text-decoration: none;
+                font-size: 16px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+                text-align: left;
+            }
+
+                .sidebar button:hover,
+                .sidebar a:hover,
+                .sidebar button.active,
+                .sidebar a.active {
+                    background-color: #1aff9c;
+                    color: #00331f;
+                    box-shadow: 0 0 12px #1aff9c;
+                }
+
+        /* ===== YOU BUTTON ===== */
+        #you-button {
+            background-color: #1fa774;
+            color: #00331f;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 600;
+            box-shadow: 0 0 12px #1aff9c;
+        }
+
+            #you-button:hover {
+                background-color: #1aff9c;
+                box-shadow: 0 0 18px #1aff9c;
+            }
+
+            #you-button img {
+                border-radius: 10px;
+                margin-right: 10px;
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+            }
+
+        /* ===== MAIN CONTENT ===== */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: linear-gradient(135deg, #062b1b, #0b4a32);
+            border-radius: 0 0 0 12px;
+            box-shadow: inset 0 0 20px rgba(0, 255, 170, 0.2);
+        }
+
+        /* ===== BANNER ===== */
+        .banner {
+            background: rgba(0, 255, 170, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0, 255, 170, 0.4);
+            font-weight: 600;
+        }
+
+        /* ===== CARDS ===== */
+        #home-feed .card {
+            position: relative;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 8px 20px rgba(0, 255, 170, 0.35);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            background-color: #0f4a34;
+            color: #eafff6;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+            #home-feed .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 15px 30px rgba(0, 255, 170, 0.7);
+                z-index: 10;
+            }
+
+        .player-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #bfffe6;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* ===== PROFILE ===== */
+        .profile-banner-container {
+            background: #0b3b29;
+            box-shadow: 0 4px 20px rgba(0, 255, 170, 0.3);
+        }
+
+        .profile-pic-overlay {
+            border: 4px solid #1aff9c;
+            box-shadow: 0 0 25px #1aff9c;
+            background: #04140c;
+        }
+
+        .profile-username {
+            color: #bfffe6;
+            text-shadow: 0 0 5px #1aff9c, 0 0 10px #1aff9c, 0 0 15px #1aff9c;
+        }
+
+        .profile-displayname {
+            color: #9dffd6;
+        }
+
+        .account-id {
+            color: #6bffbe;
+        }
+
+        /* ===== BIO ===== */
+        .bio-section {
+            background: rgba(0, 255, 170, 0.12);
+            color: #c9ffe5;
+            box-shadow: inset 0 0 14px rgba(0, 255, 170, 0.4);
+        }
+
+        /* ===== POPUP ===== */
+        #popup-overlay {
+            background: rgba(0, 15, 8, 0.9);
+        }
+
+        #popup-box {
+            background: #0b3b29;
+            box-shadow: 0 0 25px #1aff9c;
+            color: #eafff6;
+        }
+
+            #popup-box button {
+                background: #1fa774;
+                box-shadow: 0 0 15px #1aff9c;
+            }
+
+                #popup-box button:hover {
+                    background-color: #1aff9c;
+                }
+    </style>
+
+</head>
+
+<body>
+    <div class="layout">
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <div id="you-button-container" class="d-flex align-items-center mb-4">
+                    <button id="you-button" class="btn btn-info" onclick="goToMyProfile()">
+                        <img id="profile-image" src="/img/DefaultImg.png" alt="Profile" />
+                        YOU
+                    </button>
+                </div>
+                <li><button class="tab active" data-tab="home">Home</button></li>
+                <li><button class="tab" data-tab="friends">Friends</button></li>
+                <li><button class="tab" data-tab="rooms">Rooms</button></li>
+                <li><button class="tab" data-tab="chats">Chats</button></li>
+                <li><button class="tab" data-tab="settings">Settings</button></li>
+                <li><button onclick="window.location.href='/rewild_net/logout'" class="bottom_part">Logout</button></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <div id="home" class="content active" style="transition: opacity 0.3s;">
+                <h3>Check out what's happening right now in Rec Rewild</h3>
+                <div id="home-feed" class="row"></div>
+            </div>
+
+            <div id="friends" class="content" style="display: none; transition: opacity 0.3s;">
+            </div>
+
+            <div id="rooms" class="content" style="display: none; transition: opacity 0.3s;">
+                <h3>Rooms</h3>
+                <input type="text" id="room-search" class="form-control mb-3" placeholder="Search rooms..."
+                       oninput="searchRooms()" />
+                <div id="room-results" class="row" style="gap: 15px;"></div>
+            </div>
+
+
+            <div id="settings" class="content" style="display: none; transition: opacity 0.3s;">
+            </div>
+
+            <div id="chats" class="content" style="display: none; transition: opacity 0.3s;">
+                <h3>Chats</h3>
+
+                <div class="row" style="height: 100%;">
+
+                    <!-- LEFT SIDE — CHAT LIST -->
+                    <div id="chat-list" style="
+            width: 280px;
+            height: 85vh;
+            overflow-y: auto;
+            background: rgba(92,52,138,0.3);
+            border-radius: 12px;
+            box-shadow: 0 0 12px #6b3cc4;
+            padding: 10px;
+        ">
+                        <div class="text-center" style="opacity: .7;">Loading chats...</div>
+                    </div>
+
+                    <!-- RIGHT SIDE — MESSAGES -->
+                    <div style="flex: 1; margin-left: 15px;">
+                        <div id="chat-window" style="
+                height: 70vh;
+                overflow-y: auto;
+                padding: 15px;
+                background: rgba(92,52,138,0.25);
+                border-radius: 12px;
+                box-shadow: inset 0 0 12px #a67fff88;
+                margin-bottom: 10px;
+            ">
+                            <div class="text-center" style="opacity: .6;">Select a chat to view messages</div>
+                        </div>
+
+                        <!-- MESSAGE INPUT -->
+                        <div class="d-flex">
+                            <input id="chat-input" class="form-control" placeholder="Type a message..." style="
+                    background: rgba(255,255,255,0.1);
+                    border: 1px solid #6b3cc4;
+                    color: white;
+                ">
+                            <button class="btn btn-primary ml-2" onclick="sendChatMessage()">Send</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="profile" class="content" style="display: none; transition: opacity 0.3s;">
+                <button id="back-to-home" onclick="showHome()">← Back to Home</button>
+                <div id="profile-content" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-overlay">
+        <div id="popup-box">
+            <div id="popup-message"></div>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <script>
+        let currentUserId = null;
+        let chatSelected = null;
+        let chatMessages = {};
+        let searchTimeout = null;
+
+        // ------------------ FETCH HELPERS ------------------
+        async function fetchAsync(url) {
+            const res = await fetch(url);
+            return await res.json();
+        }
+
+        async function fetchPlayersBulk(playerIds) {
+            if (!playerIds.length) return {};
+            const query = playerIds.map(id => `id=${encodeURIComponent(id)}`).join('&');
+            try {
+                const data = await fetchAsync(`/Accounts/account/bulk?${query}`);
+                return Object.fromEntries(data.map(p => [p.accountId, p]));
+            } catch {
+                return {};
+            }
+        }
+
+        async function fetchBio(playerId) {
+            try {
+                const bioData = await fetchAsync(`/Accounts/account/${playerId}/bio`);
+                return bioData?.Bio || "";
+            } catch {
+                return "";
+            }
+        }
+
+        // ------------------ ACCOUNT ------------------
+        async function AccountMe() {
+            try {
+                const data = await fetchAsync("/Accounts/account/me");
+                if (!data) return;
+
+                currentUserId = data.accountId || data.id || null;
+                const profileImageUrl = `/img/${data.profileImage}`;
+                document.getElementById("profile-image").src = profileImageUrl;
+                document.getElementById("you-button").innerHTML = `
+                <img id="profile-image" src="${profileImageUrl}" alt="Profile" />
+                YOU (${data.username})
+            `;
+            } catch { }
+        }
+
+        // ------------------ HOME FEED ------------------
+        async function loadHomeFeed() {
+            try {
+                const feedData = await fetchAsync("https://recrewild.oldrec.net/api/images/v3/feed/global");
+                const container = document.getElementById("home-feed");
+                container.innerHTML = "";
+
+                feedData.sort((a, b) => new Date(b.CreatedAt) - new Date(a.CreatedAt));
+
+                const playerIds = [...new Set(feedData.filter(i => i.PlayerId).map(i => i.PlayerId))];
+                const players = await fetchPlayersBulk(playerIds);
+
+                feedData.forEach(image => {
+                    const col = document.createElement("div");
+                    col.className = "col-md-3 col-sm-6 mb-4";
+
+                    const card = document.createElement("div");
+                    card.className = "card bg-dark text-light";
+
+                    const img = document.createElement("img");
+                    img.loading = "lazy";
+                    img.src = `https://recrewild.oldrec.net/img/${image.ImageName}?width=400`;
+                    img.className = "card-img-top";
+                    img.alt = "Feed Image";
+                    card.appendChild(img);
+
+                    if (image.PlayerId && players[image.PlayerId]) {
+                        const player = players[image.PlayerId];
+
+                        const overlay = document.createElement("div");
+                        overlay.className = "player-overlay";
+
+                        const pfp = document.createElement("img");
+                        pfp.loading = "lazy";
+                        pfp.src = `/img/${player.profileImage}?width=96&cropSquare=true`;
+                        pfp.alt = `${player.username} profile`;
+                        overlay.appendChild(pfp);
+
+                        const usernameSpan = document.createElement("span");
+                        usernameSpan.textContent = player.username;
+                        overlay.appendChild(usernameSpan);
+
+                        card.appendChild(overlay);
+
+                        card.style.cursor = "pointer";
+                        card.onclick = () => loadProfilePage(image.PlayerId);
+                    }
+
+                    col.appendChild(card);
+                    container.appendChild(col);
+                });
+            } catch { }
+        }
+
+        // ------------------ PROFILE ------------------
+        async function loadProfilePage(playerId) {
+            if (!playerId) return popup("Invalid player ID.");
+
+            const players = await fetchPlayersBulk([playerId]);
+            const player = players[playerId];
+            if (!player) return popup("Player not found.");
+
+            const bio = await fetchBio(playerId);
+
+            document.querySelectorAll('.content').forEach(c => {
+                c.classList.remove('active');
+                c.style.display = 'none';
+                c.style.opacity = 0;
+            });
+
+            const profileDiv = document.getElementById("profile");
+            profileDiv.classList.add('active');
+            profileDiv.style.display = 'block';
+            setTimeout(() => profileDiv.style.opacity = 1, 10);
+
+            const bannerUrl = player.bannerImage
+                ? `/img/${player.bannerImage}?width=1200&height=300&cropSquare=false`
+                : `/img/DefaultRoomImage.png?width=1200&height=300&cropSquare=false`;
+
+            document.getElementById("profile-content").innerHTML = `
+            <div class="profile-banner-container">
+                <img class="profile-banner" src="${bannerUrl}" alt="${player.username}'s banner" />
+                <img class="profile-pic-overlay" src="/img/${player.profileImage}?width=256&cropSquare=true" alt="${player.username}'s profile" loading="lazy" />
+            </div>
+            <h2 class="profile-username">
+                ${player.username} <span class="emoji">${player.displayEmoji || ''}</span>
+            </h2>
+            ${player.displayName && player.displayName.toLowerCase() !== player.username.toLowerCase() ? `<div class="profile-displayname">${player.displayName}</div>` : ''}
+            <div class="account-id">ID: ${player.accountId}</div>
+            <div class="bio-section">${bio || "<i>This player hasn't written a bio yet!</i>"}</div>
+        `;
+        }
+
+        // ------------------ FRIENDS ------------------
+        async function loadFriends() {
+            try {
+                const data = await fetchAsync("/api/relationships/v2/get");
+                const friends = data.filter(rel => rel.RelationshipType === 3);
+                const ids = [...new Set(friends.map(f => f.PlayerID))];
+
+                const container = document.getElementById("friends");
+                if (!ids.length) {
+                    container.innerHTML = `<div class="banner">You have no friends added yet.</div>`;
+                    return;
+                }
+
+                const playerMap = await fetchPlayersBulk(ids);
+                container.innerHTML = '<div class="row" id="friends-list" style="gap: 15px; padding: 10px;"></div>';
+                const list = document.getElementById("friends-list");
+
+                ids.forEach(id => {
+                    const player = playerMap[id];
+                    if (!player) return;
+
+                    const box = document.createElement("div");
+                    box.className = "d-flex align-items-center p-2";
+                    box.style.cssText = `
+                    background: rgba(92,52,138,0.3);
+                    border-radius: 12px;
+                    box-shadow: 0 0 10px #6b3cc4;
+                    width: 100%;
+                    max-width: 300px;
+                `;
+
+                    const img = document.createElement("img");
+                    img.src = `/img/${player.profileImage}?width=96&cropSquare=true`;
+                    img.alt = player.username;
+                    img.loading = "lazy";
+                    img.style.cssText = `
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                    margin-right: 12px;
+                    border: 2px solid #8047d6;
+                    cursor: pointer;
+                `;
+                    img.onclick = () => loadProfilePage(id);
+
+                    const name = document.createElement("span");
+                    name.textContent = player.username;
+                    name.style.cssText = `font-weight: 600; color: #e0d9ff; cursor: pointer;`;
+                    name.onclick = () => loadProfilePage(id);
+
+                    box.appendChild(img);
+                    box.appendChild(name);
+                    list.appendChild(box);
+                });
+            } catch {
+                document.getElementById("friends").innerHTML = `<div class="banner">Failed to load friends.</div>`;
+            }
+        }
+
+        // ------------------ CHAT ------------------
+        async function loadChats() {
+            const container = document.getElementById("chat-list");
+            container.innerHTML = "<div class='text-center' style='opacity:.6;'>Loading chats...</div>";
+
+            let threads = [];
+            try {
+                threads = await fetchAsync("/chat/thread");
+            } catch {
+                container.innerHTML = "<div class='banner'>Failed to load chats</div>";
+                return;
+            }
+            if (!Array.isArray(threads) || !threads.length) {
+                container.innerHTML = "<div class='banner'>No chats found</div>";
+                return;
+            }
+
+            const allPlayerIds = new Set();
+            threads.forEach(t => t.playerIds?.forEach(id => allPlayerIds.add(id)));
+            const profileMap = await fetchPlayersBulk([...allPlayerIds]);
+
+            threads.sort((a, b) => (new Date(b.latestMessage?.timeSent || 0)) - (new Date(a.latestMessage?.timeSent || 0)));
+
+            container.innerHTML = "";
+            threads.forEach(thread => {
+                const latest = thread.latestMessage;
+                let lastText = "No messages yet";
+                if (latest?.contents) {
+                    try { lastText = ParseChatmsg(latest.contents); } catch { lastText = "[invalid message]"; }
+                }
+
+                const otherId = thread.playerIds?.find(id => id !== currentUserId);
+                const profile = profileMap[otherId] || {};
+
+                const row = document.createElement("div");
+                row.className = "d-flex align-items-center mb-2";
+                row.style.cssText = `
+                padding: 10px;
+                border-radius: 10px;
+                background: rgba(92,52,138,0.25);
+                cursor: pointer;
+                transition: background .2s;
+            `;
+                row.onclick = () => openChat(thread.chatThreadId);
+
+                row.innerHTML = `
+                <img src="${profile.avatarUrl || `/img/${otherId}?size=64`}"
+                     style="width:40px;height:40px;border-radius:10px;margin-right:10px;">
+                <div>
+                    <div style="font-weight:600;color:#e0d9ff">${profile.username || `User ${otherId}`}</div>
+                    <div style="font-size:.85rem;opacity:.7;">${escapeHtml(lastText)}</div>
+                </div>
+            `;
+                container.appendChild(row);
+            });
+        }
+
+        // ------------------ CHAT HELPERS ------------------
+        function escapeHtml(str) {
+            return str.replace(/[&<>"']/g, c => ({
+                "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+            }[c]));
+        }
+
+        function ParseChatmsg(data) {
+            const obj = JSON.parse(data);
+            let text = obj?.Data || "";
+            if (obj?.Version === 2 && obj?.Type === 0) text = text.replace(/<=>/g, "");
+            return text;
+        }
+
+        async function openChat(chatId) {
+            chatSelected = chatId;
+            const win = document.getElementById("chat-window");
+            win.innerHTML = "<div class='text-center' style='opacity:.6;'>Loading messages...</div>";
+
+            try {
+                chatMessages[chatId] = await fetchAsync(`/chat/thread/${chatId}/message`);
+                renderChatMessages();
+            } catch {
+                win.innerHTML = `<div class="banner">Failed to load messages.</div>`;
+            }
+        }
+
+        async function renderChatMessages() {
+            const win = document.getElementById("chat-window");
+            const msgs = chatMessages[chatSelected] || [];
+            win.innerHTML = "";
+
+            const playerIds = [...new Set(msgs.map(m => m.senderPlayerId))];
+            const profiles = await fetchPlayersBulk(playerIds);
+
+            msgs.forEach(m => {
+                const mine = m.senderPlayerId === currentUserId;
+                const player = profiles[m.senderPlayerId] || {};
+                const senderName = player.username ? "@" + player.username : "User " + m.senderPlayerId;
+                const text = ParseChatmsg(m.contents);
+
+                const wrapper = document.createElement("div");
+                wrapper.style.cssText = `margin:10px 0; display:flex; flex-direction:column; align-items:${mine ? "flex-end" : "flex-start"}`;
+
+                const nameDiv = document.createElement("div");
+                nameDiv.style.cssText = `font-size:0.75rem; opacity:.7; margin-bottom:3px; ${mine ? "text-align:right;" : ""}`;
+                nameDiv.textContent = senderName;
+
+                const bubble = document.createElement("div");
+                bubble.style.cssText = `
+                background:${mine ? "#6b3cc4aa" : "rgba(255,255,255,0.12)"};
+                color:white;
+                padding:10px 14px;
+                border-radius:12px;
+                max-width:70%;
+                box-shadow:0 0 10px rgba(120,60,180,0.5);
+            `;
+                bubble.textContent = text;
+
+                wrapper.appendChild(nameDiv);
+                wrapper.appendChild(bubble);
+                win.appendChild(wrapper);
+            });
+
+            win.scrollTop = win.scrollHeight;
+        }
+
+        async function sendChatMessage() {
+            if (!chatSelected) return;
+            const input = document.getElementById("chat-input");
+            const text = input.value.trim();
+            if (!text) return;
+            
+            const json = JSON.stringify(
+                {
+                    Type: 0,
+                    Version: 2,
+                    Data: "<=>" + text,
+                })
+            
+
+            input.value = "";
+            await fetch(`/chat/thread/${chatSelected}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: "messageContents=" + json
+            });
+
+            chatMessages[chatSelected].push({
+                text,
+                senderPlayerId: currentUserId
+            });
+            renderChatMessages();
+        }
+
+        // ------------------ TAB & POPUP ------------------
+        function setup_html_show(data_tab) {
+            document.querySelectorAll('.content').forEach(c => {
+                c.classList.remove('active');
+                c.style.display = 'none';
+                c.style.opacity = 0;
+            });
+
+            const tabContent = document.getElementById(data_tab);
+            tabContent.classList.add('active');
+            tabContent.style.display = 'block';
+            setTimeout(() => tabContent.style.opacity = 1, 10);
+
+            if (!tabContent.dataset.loaded) {
+                tabContent.dataset.loaded = "true";
+                if (data_tab === "home") loadHomeFeed();
+                else if (data_tab === "friends") loadFriends();
+                else if (data_tab === "rooms") loadHotRooms();
+                else if (data_tab === "chats") loadChats();
+            }
+        }
+
+        function setup_html() {
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+                    tab.classList.add('active');
+                    setup_html_show(tab.getAttribute('data-tab'));
+                });
+            });
+            setup_html_show("home");
+        }
+
+        function popup(message) {
+            const overlay = document.getElementById("popup-overlay");
+            const messageBox = document.getElementById("popup-message");
+            messageBox.textContent = message;
+            overlay.classList.add("active");
+        }
+
+        function closePopup() {
+            document.getElementById("popup-overlay").classList.remove("active");
+        }
+
+        function showHome() {
+            setup_html_show("home");
+        }
+
+        function goToMyProfile() {
+            if (currentUserId) loadProfilePage(currentUserId);
+            else popup("You are not logged in!");
+        }
+
+        // ------------------ ROOMS ------------------
+        async function loadHotRooms() {
+            try {
+                const data = await fetchAsync("/Room_server/rooms/hot?tag=rro");
+                const rooms = data?.Results || [];
+                const container = document.getElementById("room-results");
+                container.innerHTML = "";
+                if (!rooms.length) {
+                    container.innerHTML = `<div class="banner">No hot rooms found.</div>`;
+                    return;
+                }
+
+                rooms.forEach(room => {
+                    const col = document.createElement("div");
+                    col.className = "col-md-3 col-sm-6";
+
+                    const card = document.createElement("div");
+                    card.className = "card";
+                    card.style.background = "#4a308a";
+                    card.style.color = "#eee";
+
+                    const img = document.createElement("img");
+                    img.src = `/img/${room.ImageName}?width=400`;
+                    img.className = "card-img-top";
+                    img.alt = room.Name;
+                    img.loading = "lazy";
+
+                    const body = document.createElement("div");
+                    body.className = "card-body";
+                    body.innerHTML = `
+                    <h5 class="card-title">${room.Name}</h5>
+                    <p class="card-text">${room.Description}</p>
+                    <p class="card-text"><small>Visits: ${room.Stats?.VisitCount ?? 0}</small></p>
+                `;
+
+                    card.appendChild(img);
+                    card.appendChild(body);
+                    col.appendChild(card);
+                    container.appendChild(col);
+                });
+            } catch {
+                document.getElementById("room-results").innerHTML = `<div class="banner">Failed to load rooms.</div>`;
+            }
+        }
+
+        function searchRooms() {
+            const query = document.getElementById("room-search").value.trim();
+            if (searchTimeout) clearTimeout(searchTimeout);
+
+            searchTimeout = setTimeout(async () => {
+                if (!query) return loadHotRooms();
+                try {
+                    const res = await fetchAsync(`/Room_server/rooms/search?query=${encodeURIComponent(query)}`);
+                    const rooms = res?.Results || [];
+                    const container = document.getElementById("room-results");
+                    container.innerHTML = "";
+                    if (!rooms.length) {
+                        container.innerHTML = `<div class="banner">No rooms found for "${query}".</div>`;
+                        return;
+                    }
+
+                    rooms.forEach(room => {
+                        const col = document.createElement("div");
+                        col.className = "col-md-3 col-sm-6";
+
+                        const card = document.createElement("div");
+                        card.className = "card";
+                        card.style.background = "#4a308a";
+                        card.style.color = "#eee";
+
+                        const img = document.createElement("img");
+                        img.src = `/img/${room.ImageName}?width=400`;
+                        img.className = "card-img-top";
+                        img.alt = room.Name;
+                        img.loading = "lazy";
+
+                        const body = document.createElement("div");
+                        body.className = "card-body";
+                        body.innerHTML = `
+                        <h5 class="card-title">${room.Name}</h5>
+                        <p class="card-text">${room.Description}</p>
+                        <p class="card-text"><small>Visits: ${room.Stats?.VisitCount ?? 0}</small></p>
+                    `;
+
+                        card.appendChild(img);
+                        card.appendChild(body);
+                        col.appendChild(card);
+                        container.appendChild(col);
+                    });
+                } catch {
+                    document.getElementById("room-results").innerHTML = `<div class="banner">Search failed.</div>`;
+                }
+            }, 300);
+        }
+
+        // ------------------ INIT ------------------
+        AccountMe();
+        setup_html();
+    </script>
+
+</body>
+
+</html>

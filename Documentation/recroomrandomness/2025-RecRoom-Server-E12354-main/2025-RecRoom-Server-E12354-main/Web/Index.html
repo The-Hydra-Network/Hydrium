@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rec Rewild Live - Custom Rec Room 2023 Server with All Items</title>
+    <meta name="description"
+        content="Rec Rewild (aka Recrewild or Rec_rewild) is a custom Rec Room Live server for 2023 with all items unlocked. Play Rec Room your way!" />
+    <meta name="keywords" content="Rec Rewild, Rec Room private server, Recrewild, Rec Room 2023, custom rec room" />
+    <link rel="canonical" href="https://recrewild.oldrec.net" />
+    <meta property="og:title" content="Rec Rewild - Custom Rec Room 2023 Server" />
+    <meta property="og:description"
+        content="Rec Rewild is a custom Rec Room Live server for 2023 with all items unlocked. Join and explore today!" />
+    <meta property="og:url" content="https://recrewild.oldrec.net" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://recrewild.oldrec.net/img/RRWD.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rec Rewild - Custom Rec Room Server 2023" />
+    <meta name="twitter:description"
+        content="Rec Rewild (aka Recrewild) is a custom Rec Room Live server for 2023 with all items unlocked." />
+    <meta name="twitter:image" content="https://recrewild.oldrec.net/img/RRWD.jpg" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="theme-color" content="#00960c" />
+    <meta name="google-site-verification" content="tuopCIjC9M4kQvPc8ugZ5C3-9R8hQ7SMdlDZre7rr8U" />
+
+    <style>
+        :root {
+            --bg-color: #0f0f0f;
+            --text-color: #e0ffe0;
+            --accent-color: #00ff88;
+            --glow: 0 0 6px #00ff8855;
+            --glow-strong: 0 0 4px #00ff8855;
+        }
+
+        body.blue-mode {
+            --bg-color: #0a0e2a;
+            --text-color: #e0f0ff;
+            --accent-color: #3399ff;
+            --glow: 0 0 6px #3399ff55;
+            --glow-strong: 0 0 4px #3399ff88;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            opacity: 0;
+            animation: bodyFade 0.8s ease forwards;
+        }
+
+        @keyframes bodyFade {
+            to {
+                opacity: 1;
+            }
+        }
+
+        header {
+            background: rgba(16, 28, 16, 0.85);
+            backdrop-filter: blur(8px);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--glow);
+        }
+
+        body.blue-mode header {
+            background: rgba(18, 30, 58, 0.85);
+            backdrop-filter: blur(8px);
+        }
+
+        nav {
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            text-shadow: var(--glow);
+            transition: transform 0.2s, opacity 0.3s ease;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .page {
+            display: none;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .banner {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 0 5px var(--accent-color));
+            animation: pulseGlow 3s ease-in-out infinite;
+            transition: transform 0.3s;
+        }
+
+        .banner:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+            text-shadow: var(--glow);
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        strong {
+            color: var(--accent-color);
+            text-shadow: var(--glow-strong);
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                filter: drop-shadow(0 0 5px var(--accent-color));
+            }
+
+            50% {
+                filter: drop-shadow(0 0 12px var(--accent-color));
+            }
+        }
+
+        .toggle-theme {
+            background: none;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            text-shadow: var(--glow);
+            transition: all 0.3s ease;
+        }
+
+        .toggle-theme:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+            text-shadow: none;
+        }
+
+        .glitch {
+            position: relative;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            text-shadow: 0 0 2px var(--accent-color);
+        }
+
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .glitch::before {
+            animation: glitchTop 1s infinite linear alternate-reverse;
+        }
+
+        .glitch::after {
+            animation: glitchBottom 1s infinite linear alternate-reverse;
+        }
+
+        @keyframes glitchTop {
+            0% {
+                clip: rect(0, 9999px, 0, 0);
+            }
+
+            5% {
+                clip: rect(0, 9999px, 10px, 0);
+                left: 2px;
+            }
+
+            100% {
+                clip: rect(0, 9999px, 0, 0);
+                left: 0;
+            }
+        }
+
+        @keyframes glitchBottom {
+            0% {
+                clip: rect(0, 9999px, 0, 0);
+            }
+
+            5% {
+                clip: rect(12px, 9999px, 22px, 0);
+                left: -2px;
+            }
+
+            100% {
+                clip: rect(0, 9999px, 0, 0);
+                left: 0;
+            }
+        }
+
+        .floating-bg {
+            position: fixed;
+            top: -20%;
+            left: -20%;
+            width: 140%;
+            height: 140%;
+            background: radial-gradient(circle at center, var(--accent-color) 0%, transparent 60%);
+            opacity: 0.03;
+            animation: floatBg 12s infinite alternate ease-in-out;
+            filter: blur(80px);
+            z-index: -1;
+        }
+
+        @keyframes floatBg {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(10%, 10%);
+            }
+        }
+
+        .flex-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        ul li {
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
+        }
+
+        ul li:hover {
+            text-shadow: 0 0 6px var(--accent-color);
+            transform: scale(1.02);
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--accent-color);
+            color: var(--bg-color);
+            border: none;
+            border-radius: 10px;
+            padding: 10px 15px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: var(--glow);
+            display: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        #scrollTopBtn:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .glitch {
+                display: none;
+            }
+        }
+
+        .branding {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #header-logo {
+            width: 40px;
+            height: 40px;
+            filter: drop-shadow(0 0 5px var(--accent-color));
+            transition: transform 0.3s ease;
+        }
+
+        #header-logo:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            text-align: left;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--accent-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 12px var(--accent-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="floating-bg"></div>
+    <header>
+        <div class="branding">
+            <img src="/img/DefaultImgGreen.png" alt="Rec Rewild Logo" id="header-logo">
+            <div class="glitch" data-text="Rec_rewild">Rec Rewild</div>
+        </div>
+        <nav>
+            <a onclick="GoTo('rewild_net')">Rewild Net</a>
+            <a onclick="GoTo('admin/v4/login')">Admin Login</a>
+            <a
+                onclick="GoTo('https://discord.com/invite/sqUBwhcY')">Discord</a>
+            <button class="toggle-theme" onclick="ToggleTheme()">Blue Theme</button>
+        </nav>
+    </header>
+
+    <main class="container flex-wrapper">
+        <section id="home" class="page active">
+            <img id="logo-home" class="banner" src="/img/DefaultImgGreen.png" alt="Rec Rewild Logo">
+            <h1>Welcome to Rec Rewild</h1>
+            <p>
+                <strong>Rec Rewild</strong> is a custom <strong>Rec Room 2023</strong> server built by
+                <strong>e12354</strong>
+            </p>
+
+            <div class="feature-grid">
+                <div class="feature-card">✨ <strong>All Items Unlocked</strong><br>Access every outfit, food, and weapon
+                    skin.</div>
+                <div class="feature-card">👥 <strong>Active Community</strong><br>Join live events, hangouts, and
+                    Discord tournaments.</div>
+                <div class="feature-card">🔒 <strong>No Paywalls</strong><br>Everything is open, fair, and free for
+                    everyone.</div>
+                <div class="feature-card">💾 <strong>Frequent Updates</strong><br>New features and content added
+                    regularly.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>© <span id="year"></span> Rec Rewild. Not affiliated with Rec Room or Against Gravity.</footer>
+
+    <button id="scrollTopBtn" onclick="ScrollToTop()">▲ Top</button>
+
+    <script>
+        function ShowPage(id) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+                page.style.opacity = 0;
+            });
+            const target = document.getElementById(id);
+            target.classList.add('active');
+            target.style.animation = 'none';
+            void target.offsetWidth;
+            target.style.animation = 'fadeIn 0.6s ease forwards';
+        }
+
+        function GoTo(page) {
+            window.location.href = page;
+        }
+
+        function ToggleTheme() {
+            const isBlue = document.body.classList.toggle("blue-mode");
+            const newLogo = isBlue ? "/img/DefaultImg.png" : "/img/DefaultImgGreen.png";
+            document.getElementById("logo-home").src = newLogo;
+            document.getElementById("header-logo").src = newLogo;
+            document.querySelector(".toggle-theme").textContent = isBlue ? "Green Theme" : "Blue Theme";
+            localStorage.setItem("rewild-theme", isBlue ? "blue" : "green");
+        }
+
+        function ScrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        window.addEventListener("scroll", () => {
+            const btn = document.getElementById("scrollTopBtn");
+            btn.style.display = window.scrollY > 200 ? "block" : "none";
+        });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            document.getElementById("year").textContent = new Date().getFullYear();
+            const savedTheme = localStorage.getItem("rewild-theme");
+            if (savedTheme === "blue") {
+                document.body.classList.add("blue-mode");
+                document.getElementById("logo-home").src = "/img/DefaultImg.png";
+                document.getElementById("header-logo").src = "/img/DefaultImg.png";
+                document.querySelector(".toggle-theme").textContent = "Green Theme";
+            }
+        });     
+    </script>
+</body>
+</html>

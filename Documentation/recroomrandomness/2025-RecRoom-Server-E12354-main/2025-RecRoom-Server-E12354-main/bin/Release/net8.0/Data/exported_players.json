@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "playerid": 1,
+        "platform": 0,
+        "platformId": 0,
+        "deviceId": [
+            null
+        ],
+        "authtoken": "zGamA7GzN6aOMCcpXBApYam9XJpiSAX3OvvTXHe9DU6vnBhFKayZwaoqemnkDxUyfhIVxsbLkFDPqkwDqUCJ1ZiOFtQjGKTq9NQSXKs5ioTz9LznXFkDMVZW8CqYzZExRSlBcRwAAsO5VC6wlrEnms2DB7H7MG7GqsEla5UryDPAfQNwWt7W1D161R8kqaDRhRPTMmjt",
+        "password": "Zc07udRXOwPQF98zQFUVT7GmvbmEeEylNLgHe9n2ffQ/zNhsHW1DqPnmSEnVJack",
+        "player": {
+            "Id": 1,
+            "Username": "Coach",
+            "DisplayName": "Coach",
+            "DisplayEmoji": null,
+            "Email": null,
+            "XP": 0,
+            "Level": 99,
+            "RegistrationStatus": 2,
+            "CanReceiveInvites": true,
+            "ProfileImageName": "DefaultImg.png",
+            "influencer_support": 0,
+            "pronounFlags": 0,
+            "identityFlags": 0,
+            "JuniorProfile": false,
+            "ForceJuniorImages": false,
+            "PendingJunior": false,
+            "HasBirthday": true,
+            "AvoidJuniors": true,
+            "PlayerReputation": {
+                "Noteriety": 0,
+                "CheerGeneral": 0,
+                "CheerHelpful": 0,
+                "CheerGreatHost": 0,
+                "CheerSportsman": 0,
+                "CheerCreative": 0,
+                "CheerCredit": 20,
+                "SubscriberCount": 0,
+                "SubscribedCount": 0,
+                "SelectedCheer": 0
+            },
+            "PlatformIds": [
+                {
+                    "Platform": 0,
+                    "PlatformId": 0
+                },
+                {
+                    "Platform": 0,
+                    "PlatformId": 76561199535310323
+                },
+                {
+                    "Platform": 0,
+                    "PlatformId": 76561199244473837
+                }
+            ],
+            "created_at": "2024-12-02T05:56:19.694-08:00",
+            "last_login_time": "2024-12-02T05:56:19.694-08:00",
+            "recent_rooms": [],
+            "tokens": 0,
+            "bannerImage": "DefaultImg.png",
+            "profileImage": "DefaultImg.png"
+        },
+        "player_Extra": {
+            "DormRoomID": 1,
+            "IpAddresses": null,
+            "DiscordId": 0,
+            "Bio": null,
+            "avatar": "{\"OutfitSelections\":\"1fd69ef8-0b74-4962-af5a-67f0bf0358f2,,0;d0a9262f-5504-46a7-bb10-7507503db58e,,1\",\"OutfitSelectionsV2\":\"{\\\"selections\\\":[{\\\"PrefabGuid\\\":\\\"1fd69ef8-0b74-4962-af5a-67f0bf0358f2\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"d0a9262f-5504-46a7-bb10-7507503db58e\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":1,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}}]}\",\"FaceFeatures\":\"{\\\"ver\\\":-1,\\\"eyeId\\\":\\\"AjGMoJhEcEehacRZjUMuDg\\\",\\\"eyePos\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0},\\\"eyeScl\\\":0.0,\\\"mouthId\\\":\\\"FrZBRanXEEK29yKJ4jiMjg\\\",\\\"mouthPos\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0},\\\"mouthScl\\\":0.0,\\\"hairPrimaryColorId\\\":\\\"\\\",\\\"hairSecondaryColorId\\\":\\\"0e_jaaObREWTf1AorAZ95g\\\",\\\"hairPatternId\\\":\\\"\\\",\\\"beardColorId\\\":\\\"0e_jaaObREWTf1AorAZ95g\\\",\\\"beardSecondaryColorId\\\":\\\"0e_jaaObREWTf1AorAZ95g\\\",\\\"beardPatternId\\\":\\\"\\\",\\\"faceShapeId\\\":\\\"yR4oYZr_AUSynXCgwS2lGw\\\",\\\"bodyShapeId\\\":\\\"bY1RGIph0kiAxbd6Shn9tQ\\\",\\\"useHatAnchorParams\\\":true,\\\"useHelmetHair\\\":1,\\\"hideEars\\\":true,\\\"hatAnchorParams\\\":{\\\"NormalizedPosition\\\":{\\\"x\\\":0.5,\\\"y\\\":0.5},\\\"HemisphereOffsets\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0},\\\"HemisphereRotations\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}},\\\"baseAvatarType\\\":\\\"\\\"}\",\"SkinColor\":\"Xac-W_R330KfOz-pQla9qg\",\"HairColor\":\"0e_jaaObREWTf1AorAZ95g\",\"CustomAvatarItems\":[]}",
+            "SavedOutfits": [],
+            "ModerationBlockDetails": null,
+            "CheeredRooms": null,
+            "FavoritedRooms": null
+        },
+        "Bio": null,
+        "dev_Flag": 2
+    },
+    {
+        "id": 2,
+        "playerid": 2,
+        "platform": 0,
+        "platformId": 76561199535310323,
+        "deviceId": [
+            "2b3aba1aa5295a596a52ab68abc6b18b0f1853f2"
+        ],
+        "authtoken": "QmUYMk0mASa5PDDOWPN5qrVznwE0DNWFNmsKQwJ6jT1bO4WnSv2sqhkJgK9BamL7DchEvhkrtklC6mzEIjAIzGfIyQ7I8YrvF1ip6A9d5CCj9x6PRQwtc35w3KL81jiSaW2tea79mfmq10WTXjckft87XL7ClfA6vGU0ReUi8kRD4bHZ6ubPb4EPc3vxZuIIXLELO85wAqbzHRxWl4m42a7GdiwahULec63Gp8lTFA9f41Wmf3ZIXo8gevCRO7vWGnFuB6GN3jS4PWIGQQaPRp6lq4fGBGgM9mXzI5dlEGpL3abMIwst9B14UYEMb9XpFDt0wTebhmoFfv6ZbknjL2lqWqci9aPfcSh5MAW3zxWdcTWFuZhlifIVhY9lJdexYAK0GYLXRdj76W4b",
+        "password": "XlMljltygBk6bn1eZKptWs3uc2v110PgXzPR2shzBEXal7cYLv3ei82zLyUvXbrJ",
+        "player": {
+            "Id": 2,
+            "Username": "e12354",
+            "DisplayName": "e12354",
+            "DisplayEmoji": "🫠",
+            "Email": "e12354@oldrec.net",
+            "XP": 0,
+            "Level": 50,
+            "RegistrationStatus": 0,
+            "CanReceiveInvites": false,
+            "influencer_support": 3,
+            "pronounFlags": 0,
+            "identityFlags": 0,
+            "JuniorProfile": false,
+            "ForceJuniorImages": false,
+            "PendingJunior": false,
+            "HasBirthday": false,
+            "AvoidJuniors": false,
+            "PlayerReputation": {
+                "Noteriety": 0,
+                "CheerGeneral": 0,
+                "CheerHelpful": 0,
+                "CheerGreatHost": 0,
+                "CheerSportsman": 0,
+                "CheerCreative": 0,
+                "CheerCredit": 20,
+                "SubscriberCount": 0,
+                "SubscribedCount": 0,
+                "SelectedCheer": 9000
+            },
+            "PlatformIds": [
+                {
+                    "Platform": 0,
+                    "PlatformId": 76561199535310323
+                }
+            ],
+            "created_at": "2024-12-03T00:00:00",
+            "last_login_time": "2025-08-25T09:42:16.284-07:00",
+            "recent_rooms": [],
+            "tokens": 0,
+            "bannerImage": "RRWD.jpg",
+            "profileImage": "DefaultImgKitty.png"
+        },
+        "player_Extra": {
+            "DormRoomID": null,
+            "IpAddresses": [],
+            "DiscordId": 1228278497194147860,
+            "Bio": "2025 build in 2026 :3",
+            "avatar": "{\"OutfitSelections\":\"2cb4f372-3372-4583-8b57-c4e3988e3c28,,0;50c9c6f8-2963-4ef3-95d5-e999a898269f,D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,,2;50c9c6f8-2963-4ef3-95d5-e999a898269f,D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,,3;274cb9b2-2f59-47ea-9a8d-a5b656d148c6,D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,,0;2c679f89-c76e-4cfb-94e9-448c8fd44d55,D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,,1\",\"OutfitSelectionsV2\":\"{\\\"selections\\\":[{\\\"PrefabGuid\\\":\\\"2cb4f372-3372-4583-8b57-c4e3988e3c28\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"50c9c6f8-2963-4ef3-95d5-e999a898269f\\\",\\\"CombinationGuid\\\":\\\"D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,\\\",\\\"BodyPart\\\":2,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"50c9c6f8-2963-4ef3-95d5-e999a898269f\\\",\\\"CombinationGuid\\\":\\\"D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,\\\",\\\"BodyPart\\\":3,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"274cb9b2-2f59-47ea-9a8d-a5b656d148c6\\\",\\\"CombinationGuid\\\":\\\"D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"2c679f89-c76e-4cfb-94e9-448c8fd44d55\\\",\\\"CombinationGuid\\\":\\\"D_Xmo0rOzkS-kgq1CYXt3g,tnCJp2eDI0SwjVfJMhk3LQ,\\\",\\\"BodyPart\\\":1,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}}]}\",\"FaceFeatures\":\"{\\\"ver\\\":3,\\\"eyeId\\\":\\\"AjGMoJhEcEehacRZjUMuDg\\\",\\\"eyePos\\\":{\\\"x\\\":-0.009810392744839192,\\\"y\\\":-0.09999999403953552},\\\"eyeScl\\\":0.0,\\\"mouthId\\\":\\\"pc1z8k98X0ae0Nab-IKhfA\\\",\\\"mouthPos\\\":{\\\"x\\\":0.0,\\\"y\\\":0.09999999403953552},\\\"mouthScl\\\":0.0,\\\"hairPrimaryColorId\\\":\\\"\\\",\\\"hairSecondaryColorId\\\":\\\"f9a50d3d-a6e0-42a4-a4e3-42dc89f84a2e\\\",\\\"hairPatternId\\\":\\\"\\\",\\\"beardColorId\\\":\\\"befcc00a-a2e6-48e4-864c-593d57bbbb5b\\\",\\\"beardSecondaryColorId\\\":\\\"fe644f72-d134-4ec4-961f-f13d38957cb3\\\",\\\"beardPatternId\\\":\\\"\\\",\\\"faceShapeId\\\":\\\"\\\",\\\"bodyShapeId\\\":\\\"\\\",\\\"useHatAnchorParams\\\":true,\\\"useHelmetHair\\\":1,\\\"hideEars\\\":true,\\\"hatAnchorParams\\\":{\\\"NormalizedPosition\\\":{\\\"x\\\":0.5,\\\"y\\\":0.5},\\\"HemisphereOffsets\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0},\\\"HemisphereRotations\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}},\\\"baseAvatarType\\\":\\\"\\\"}\",\"SkinColor\":\"85343b16-d58a-4091-96d8-083a81fb03ae\",\"HairColor\":\"fT0t-J1A-0i_tdoogFEz-g\",\"CustomAvatarItems\":[]}",
+            "SavedOutfits": [],
+            "ModerationBlockDetails": null,
+            "CheeredRooms": [],
+            "FavoritedRooms": []
+        },
+        "Bio": null,
+        "dev_Flag": 2
+    },
+    {
+        "id": 3,
+        "playerid": 3,
+        "platform": 0,
+        "deviceId": [],
+        "authtoken": "XQnegKg952S8LEaXJjNX6DEOvC5nJm78tmkkqh9ES1BWDKGdoW7r6O9DtdVGAPnMlr5Xb2DptPMComS3quVr8auhjaLFMQ6bXTYYZRONmjIf2HVBcVTkgpy3WLnYZ0qesLX2KVeqcQHJS8FVw3DBMTYdnd0iaGyFfFxj258EDyitfxwUvDLuLhs1XZV7tK6YplXT5kIZ",
+        "password": "/uHf4dujPKU/dHhJ58aAhEQxAykAvy2k+Xkm1GoUOha93RMXO8ue6cOyrFzCA0KV",
+        "player": {
+            "Id": 3,
+            "Username": "P34",
+            "DisplayName": "P34",
+            "DisplayEmoji": "😎",
+            "Email": null,
+            "XP": 0,
+            "Level": 1,
+            "RegistrationStatus": 2,
+            "CanReceiveInvites": true,
+            "ProfileImageName": "P34.jpg",
+            "influencer_support": 0,
+            "pronounFlags": 0,
+            "identityFlags": 0,
+            "JuniorProfile": false,
+            "ForceJuniorImages": false,
+            "PendingJunior": false,
+            "HasBirthday": true,
+            "AvoidJuniors": true,
+            "PlayerReputation": {
+                "Noteriety": 0,
+                "CheerGeneral": 0,
+                "CheerHelpful": 0,
+                "CheerGreatHost": 0,
+                "CheerSportsman": 0,
+                "CheerCreative": 0,
+                "CheerCredit": 20,
+                "SubscriberCount": 0,
+                "SubscribedCount": 0,
+                "SelectedCheer": 0
+            },
+            "PlatformIds": [
+                {
+                    "Platform": 0,
+                    "PlatformId": 76561199249759637
+                }
+            ],
+            "created_at": "2024-12-04T08:33:06.514-08:00",
+            "last_login_time": "2025-08-26T14:40:17.798-07:00",
+            "recent_rooms": [],
+            "tokens": 55,
+            "bannerImage": "RRWD.jpg",
+            "profileImage": "P34.jpg"
+        },
+        "player_Extra": {
+            "DormRoomID": null,
+            "IpAddresses": [],
+            "DiscordId": 1224846834778898503,
+            "Bio": null,
+            "avatar": "{\"OutfitSelections\":\"s6mUIqiPCk6e57UYCx3SZA,PcUZrdKXhk2XHa5Gy0YnnA,dpBx3DxB7kKJphxCvfmKKw,,0;ae7c9d1f-d371-4dfe-a6df-d74662606aae,,1;abc25091-ed5f-4c72-9364-fffeef1bc239,,2;abc25091-ed5f-4c72-9364-fffeef1bc239,,3;e441a297-22ba-4a43-92ef-3549c6cc45c1,,0;74902dee-08a5-4a8b-a113-80f450a0de0a,,0;5f2992a0-08a2-4638-83a2-11658c51681c,7ziZgKKqXkuyo9v77chIlA,1\",\"OutfitSelectionsV2\":\"{\\\"selections\\\":[{\\\"PrefabGuid\\\":\\\"s6mUIqiPCk6e57UYCx3SZA\\\",\\\"CombinationGuid\\\":\\\"PcUZrdKXhk2XHa5Gy0YnnA,dpBx3DxB7kKJphxCvfmKKw,\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"ae7c9d1f-d371-4dfe-a6df-d74662606aae\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":1,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"abc25091-ed5f-4c72-9364-fffeef1bc239\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":2,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"abc25091-ed5f-4c72-9364-fffeef1bc239\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":3,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"e441a297-22ba-4a43-92ef-3549c6cc45c1\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"74902dee-08a5-4a8b-a113-80f450a0de0a\\\",\\\"CombinationGuid\\\":\\\"\\\",\\\"BodyPart\\\":0,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}},{\\\"PrefabGuid\\\":\\\"5f2992a0-08a2-4638-83a2-11658c51681c\\\",\\\"CombinationGuid\\\":\\\"7ziZgKKqXkuyo9v77chIlA\\\",\\\"BodyPart\\\":1,\\\"UgcOutfitData\\\":{\\\"BaseAvatarItemColor\\\":{\\\"r\\\":0.0,\\\"g\\\":0.0,\\\"b\\\":0.0,\\\"a\\\":0.0},\\\"CustomAvatarItemId\\\":\\\"\\\"}}]}\",\"FaceFeatures\":\"{\\\"ver\\\":-1,\\\"eyeId\\\":\\\"AjGMoJhEcEehacRZjUMuDg\\\",\\\"eyePos\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0},\\\"eyeScl\\\":0.0,\\\"mouthId\\\":\\\"FrZBRanXEEK29yKJ4jiMjg\\\",\\\"mouthPos\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0},\\\"mouthScl\\\":0.0,\\\"hairPrimaryColorId\\\":\\\"\\\",\\\"hairSecondaryColorId\\\":\\\"UAT0OaWEkUG-mWDIyiX1Kg\\\",\\\"hairPatternId\\\":\\\"\\\",\\\"beardColorId\\\":\\\"UAT0OaWEkUG-mWDIyiX1Kg\\\",\\\"beardSecondaryColorId\\\":\\\"UAT0OaWEkUG-mWDIyiX1Kg\\\",\\\"beardPatternId\\\":\\\"\\\",\\\"faceShapeId\\\":\\\"yR4oYZr_AUSynXCgwS2lGw\\\",\\\"bodyShapeId\\\":\\\"bY1RGIph0kiAxbd6Shn9tQ\\\",\\\"useHatAnchorParams\\\":true,\\\"useHelmetHair\\\":0,\\\"hideEars\\\":true,\\\"hatAnchorParams\\\":{\\\"NormalizedPosition\\\":{\\\"x\\\":0.5,\\\"y\\\":0.5270000100135803},\\\"HemisphereOffsets\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0},\\\"HemisphereRotations\\\":{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}},\\\"baseAvatarType\\\":\\\"\\\"}\",\"SkinColor\":\"3529b670-a66d-448e-9573-1905eae5b9bf\",\"HairColor\":\"3Q8U6E5pV0uzK141ut2WBg\",\"CustomAvatarItems\":[]}",
+            "SavedOutfits": [],
+            "ModerationBlockDetails": null,
+            "CheeredRooms": null,
+            "FavoritedRooms": null
+        },
+        "Bio": null,
+        "dev_Flag": 2
+    }
+]

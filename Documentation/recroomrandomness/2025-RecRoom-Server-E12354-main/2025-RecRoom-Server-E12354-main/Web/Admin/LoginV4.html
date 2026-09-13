@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rec Rewild Admin Login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('/img/RRWD_nologo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .login-container {
+            background: rgb(55, 99, 12);
+            padding: 40px;
+            border-radius: 6px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgb(12, 99, 76);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(35, 97, 16);
+            background: rgb(35, 97, 16);
+            color: white;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: rgb(49, 146, 19);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background: #0523107e;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background: rgb(35, 97, 16);
+        }
+
+        .divider {
+            text-align: center;
+            margin: 20px 0;
+            opacity: 0.7;
+        }
+
+        .discord-btn {
+            width: 100%;
+            padding: 12px;
+            background: #5865F2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .discord-btn:hover {
+            background: #4752c4;
+        }
+
+        .error-message {
+            text-align: center;
+            margin-top: 10px;
+            color: #ffcccc;
+        }
+    </style>
+</head>
+
+<body>
+<div class="login-container">
+    <h2>Rec Rewild Admin Login</h2>
+
+    <form action="/api/web/admin/login" method="post">
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" name="username" required>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" name="password" required>
+        </div>
+
+        <button class="login-btn" type="submit">Login</button>
+    </form>
+
+    <div class="divider">OR</div>
+
+    <form action="/api/auth/discord" method="get">
+        <button class="discord-btn" type="submit">
+            <i class="fab fa-discord"></i>
+            Login with Discord
+        </button>
+    </form>
+
+    <div class="error-message" id="error-message"></div>
+</div>
+</body>
+</html>

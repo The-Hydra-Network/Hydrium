@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rec Room — Admin Panel</title>
+<style>
+  :root{
+    --bg:#0f1724; --panel:#0b1220; --muted:#9aa4b2; --accent:#2dd4bf; --danger:#ff6b6b;
+    --glass: rgba(255,255,255,0.02);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,var(--bg),#071021);color:#e6eef6}
+  .wrap{max-width:1200px;margin:28px auto;padding:18px}
+  header{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 18px;background:var(--glass);border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+  .brand{display:flex;gap:12px;align-items:center}
+  .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#052b2a}
+  .title{font-size:18px;font-weight:700}
+  .controls{display:flex;gap:8px;align-items:center}
+  button{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 10px;border-radius:8px;color:inherit;cursor:pointer}
+  .grid{display:grid;grid-template-columns:280px 1fr;gap:16px;margin-top:18px}
+  aside{background:var(--panel);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+  main{background:var(--panel);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+  nav ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+  nav li{display:flex;align-items:center;gap:8px}
+  .menu-item{padding:10px;border-radius:8px;cursor:pointer}
+  .menu-item.active{background:linear-gradient(90deg,#042027 0%, rgba(255,255,255,0.02) 100%);border:1px solid rgba(255,255,255,0.02)}
+  .panel-block{background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;margin-bottom:10px}
+  .list{display:flex;flex-direction:column;gap:8px;max-height:300px;overflow:auto;padding-right:6px}
+  .row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px;border-radius:8px}
+  .badge{font-size:12px;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.03)}
+  .muted{color:var(--muted);font-size:13px}
+  .table{width:100%;border-collapse:collapse}
+  .table th,.table td{padding:8px;text-align:left;border-bottom:1px dashed rgba(255,255,255,0.02);font-size:13px}
+  input,select,textarea{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;width:100%}
+  .row-actions{display:flex;gap:6px}
+  .danger{background:linear-gradient(90deg,var(--danger), #ff8a8a);color:#fff;border:none}
+  .accent{background:linear-gradient(90deg,var(--accent), #60a5fa);color:#012; border:none}
+  footer{margin-top:14px;color:var(--muted);font-size:13px}
+  .logs{background:#031018;padding:10px;border-radius:8px;max-height:220px;overflow:auto;font-family:monospace;font-size:12px}
+  .stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .stat{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;text-align:center}
+  .player-online{color:#9ff0d9;font-weight:700}
+  .login-box{max-width:360px;margin:28px auto;background:var(--panel);padding:18px;border-radius:12px}
+  .hidden{display:none}
+  @media(max-width:900px){.grid{grid-template-columns:1fr;}.stat-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="logo">RR</div>
+      <div>
+        <div class="title">Rec Room — Admin</div>
+        <div class="muted">Moderation & server controls</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div id="server-status" class="muted">Disconnected</div>
+      <button id="btn-reconnect">Reconnect</button>
+      <button id="btn-logout" class="hidden">Logout</button>
+    </div>
+  </header>
+
+  <!-- Login -->
+  <div id="login" class="login-box">
+    <h3>Admin login</h3>
+    <p class="muted">Use an admin API token or username/password (demo only).</p>
+    <div style="display:grid;gap:8px">
+      <input id="login-username" placeholder="username (admin)" />
+      <input id="login-password" placeholder="password (demo)" type="password" />
+      <input id="login-token" placeholder="OR paste API token" />
+      <div style="display:flex;gap:8px">
+        <button id="btn-login" class="accent">Login</button>
+        <button id="btn-demo" title="Quick demo token">Demo token</button>
+      </div>
+      <div id="login-msg" class="muted"></div>
+    </div>
+  </div>
+
+  <!-- Main dashboard -->
+  <div id="dashboard" class="hidden">
+    <div class="grid">
+      <aside>
+        <nav>
+          <ul>
+            <li><div class="menu-item active" data-view="overview">Overview</div></li>
+            <li><div class="menu-item" data-view="players">Players</div></li>
+            <li><div class="menu-item" data-view="rooms">Rooms</div></li>
+            <li><div class="menu-item" data-view="games">Games</div></li>
+            <li><div class="menu-item" data-view="images">Images</div></li>
+            <li><div class="menu-item" data-view="logs">Logs</div></li>
+            <li><div class="menu-item" data-view="settings">Settings</div></li>
+          </ul>
+        </nav>
+
+        <div style="margin-top:12px">
+          <div class="panel-block">
+            <div class="muted">Live</div>
+            <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+              <div><strong id="live-players">0</strong><div class="muted">players</div></div>
+              <div style="margin-left:auto"><button id="btn-refresh">Refresh</button></div>
+            </div>
+          </div>
+
+          <div class="panel-block">
+            <div class="muted">Server control</div>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <button id="btn-restart">Restart</button>
+              <button id="btn-save">Save</button>
+            </div>
+          </div>
+
+          <div class="panel-block">
+            <div class="muted">Utilities</div>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <button id="btn-broadcast">Broadcast</button>
+              <button id="btn-mass-kick">Kick All</button>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main>
+        <!-- dynamic views -->
+        <div id="view-overview" class="view">
+          <h2>Overview</h2>
+          <div class="stat-grid" style="margin-top:12px">
+            <div class="stat"><div class="muted">Players online</div><div id="stat-players" class="player-online">0</div></div>
+            <div class="stat"><div class="muted">Active rooms</div><div id="stat-rooms">0</div></div>
+            <div class="stat"><div class="muted">Games</div><div id="stat-games">0</div></div>
+          </div>
+
+          <h3 style="margin-top:16px">Live Players</h3>
+          <div class="list" id="player-list" style="margin-top:8px"></div>
+
+          <h3 style="margin-top:16px">Recent events</h3>
+          <div class="logs" id="live-logs"></div>
+        </div>
+
+        <div id="view-players" class="view hidden">
+          <h2>Players</h2>
+          <table class="table" id="players-table" style="margin-top:12px">
+            <thead><tr><th>id</th><th>name</th><th>online</th><th>room</th><th>actions</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div id="view-rooms" class="view hidden">
+          <h2>Rooms</h2>
+          <div style="display:flex;gap:12px;margin-top:12px">
+            <div style="flex:1">
+              <table class="table" id="rooms-table"><thead><tr><th>id</th><th>title</th><th>players</th><th>actions</th></tr></thead><tbody></tbody></table>
+            </div>
+            <div style="width:320px">
+              <div class="muted">Room actions</div>
+              <div style="margin-top:8px">
+                <input id="room-title" placeholder="Room title" />
+                <input id="room-id" placeholder="Room ID (optional)" />
+                <div style="display:flex;gap:8px;margin-top:8px">
+                  <button id="btn-create-room" class="accent">Create</button>
+                  <button id="btn-update-room">Update</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="view-games" class="view hidden">
+          <h2>Games</h2>
+          <table class="table" id="games-table"><thead><tr><th>id</th><th>title</th><th>created</th><th>actions</th></tr></thead><tbody></tbody></table>
+        </div>
+
+        <div id="view-images" class="view hidden">
+          <h2>Images</h2>
+          <div class="muted">Simple image browser (placeholder)</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px" id="image-grid"></div>
+        </div>
+
+        <div id="view-logs" class="view hidden">
+          <h2>Server logs</h2>
+          <div class="logs" id="server-logs"></div>
+        </div>
+
+        <div id="view-settings" class="view hidden">
+          <h2>Settings</h2>
+          <label>API Base URL</label>
+          <input id="setting-api" placeholder="http://localhost:3000" />
+          <label style="margin-top:8px">WebSocket URL</label>
+          <input id="setting-ws" placeholder="ws://localhost:3000" />
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button id="btn-save-settings">Save</button>
+            <button id="btn-reset-settings">Reset</button>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <footer>Built for your custom Rec Room server • Minimal demo code • <span id="version">v1.0</span></footer>
+  </div>
+
+</div>
+
+<script>
+/* =========================
+   CONFIG - edit if needed
+   ========================= */
+let API_BASE = localStorage.getItem('api_base') || 'http://localhost:3000';
+let WS_URL   = localStorage.getItem('ws_url')   || 'ws://localhost:3000';
+const state = { token: null, ws: null };
+
+/* -------------------------
+   Helpers
+   ------------------------- */
+function el(q,ctx=document){return ctx.querySelector(q)}
+function els(q,ctx=document){return Array.from(ctx.querySelectorAll(q))}
+function setText(q,t){const e=el(q); if(e) e.textContent=t}
+function logEvent(s){const container=el('#live-logs'); if(!container) return; const row=document.createElement('div'); row.textContent = '['+new Date().toLocaleTimeString()+'] '+s; container.prepend(row)}
+
+/* -------------------------
+   UI wiring
+   ------------------------- */
+(function initUI(){
+  // menu switching
+  els('.menu-item').forEach(mi=>{
+    mi.addEventListener('click',()=>{
+      els('.menu-item').forEach(x=>x.classList.remove('active'));
+      mi.classList.add('active');
+      const view = 'view-' + mi.dataset.view;
+      els('.view').forEach(v=>v.classList.add('hidden'));
+      el('#'+view).classList.remove('hidden');
+    });
+  });
+
+  // login
+  el('#btn-login').addEventListener('click', async ()=>{
+    const tokenInput = el('#login-token').value.trim();
+    if(tokenInput){ // paste token
+      state.token = tokenInput;
+      afterLogin();
+      return;
+    }
+    const username = el('#login-username').value.trim() || 'admin';
+    const password = el('#login-password').value.trim() || 'demo';
+    try{
+      const res = await fetch(API_BASE + '/api/login', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({username,password})
+      });
+      if(!res.ok) throw new Error('login failed');
+      const data = await res.json();
+      state.token = data.token;
+      afterLogin();
+    }catch(err){
+      el('#login-msg').textContent = 'Login failed: ' + err.message;
+    }
+  });
+
+  el('#btn-demo').addEventListener('click', ()=>{ el('#login-token').value = 'DEMO-TOKEN' });
+
+  el('#btn-logout').addEventListener('click', ()=>{
+    state.token = null;
+    el('#dashboard').classList.add('hidden');
+    el('#login').classList.remove('hidden');
+    el('#btn-logout').classList.add('hidden');
+    if(state.ws) state.ws.close();
+  });
+
+  // refresh button
+  el('#btn-refresh').addEventListener('click', ()=>fetchOverview());
+  el('#btn-restart').addEventListener('click', ()=>apiPost('/api/admin/restart',{}, true));
+  el('#btn-save').addEventListener('click', ()=>apiPost('/api/admin/save',{}, true));
+  el('#btn-broadcast').addEventListener('click', ()=> {
+    const msg = prompt('Broadcast message to all players:');
+    if(msg) apiPost('/api/admin/broadcast',{message:msg}, true);
+  });
+  el('#btn-mass-kick').addEventListener('click', ()=> {
+    if(confirm('Kick all online players?')) apiPost('/api/admin/kick_all',{}, true);
+  });
+
+  // room create/update
+  el('#btn-create-room').addEventListener('click', async ()=>{
+    const title = el('#room-title').value.trim(); if(!title) return alert('title required');
+    await apiPost('/api/rooms',{title});
+    fetchRooms();
+  });
+  el('#btn-update-room').addEventListener('click', async ()=>{
+    const id = el('#room-id').value.trim(); if(!id) return alert('room id required');
+    const title = el('#room-title').value.trim(); if(!title) return alert('title required');
+    await apiPut('/api/rooms/'+id,{title});
+    fetchRooms();
+  });
+
+  // settings
+  el('#setting-api').value = API_BASE;
+  el('#setting-ws').value = WS_URL;
+  el('#btn-save-settings').addEventListener('click', ()=>{
+    API_BASE = el('#setting-api').value || API_BASE;
+    WS_URL = el('#setting-ws').value || WS_URL;
+    localStorage.setItem('api_base', API_BASE);
+    localStorage.setItem('ws_url', WS_URL);
+    alert('Saved');
+  });
+  el('#btn-reset-settings').addEventListener('click', ()=>{
+    localStorage.removeItem('api_base'); localStorage.removeItem('ws_url');
+    location.reload();
+  });
+
+})();
+
+/* -------------------------
+   After login
+   ------------------------- */
+function afterLogin(){
+  el('#login').classList.add('hidden');
+  el('#dashboard').classList.remove('hidden');
+  el('#btn-logout').classList.remove('hidden');
+  setText('#login-msg','');
+  setText('#server-status','Connecting...');
+  connectWS();
+  fetchOverview();
+  fetchPlayers();
+  fetchRooms();
+  fetchGames();
+  fetchServerLogs();
+}
+
+/* -------------------------
+   API helpers
+   ------------------------- */
+function authHeaders(){
+  const h = {'Content-Type':'application/json'};
+  if(state.token) h['Authorization'] = 'Bearer ' + state.token;
+  return h;
+}
+async function apiGet(path){ const res = await fetch(API_BASE + path, {headers:authHeaders()}); if(!res.ok) throw new Error(await res.text()); return res.json(); }
+async function apiPost(path, body={}, showOk=false){ const res = await fetch(API_BASE + path, {method:'POST',headers:authHeaders(),body:JSON.stringify(body)}); if(!res.ok) { alert('Error: '+await res.text()); return null } if(showOk) alert('OK'); return res.json(); }
+async function apiPut(path, body={}){ const res = await fetch(API_BASE + path, {method:'PUT',headers:authHeaders(),body:JSON.stringify(body)}); if(!res.ok) { alert('Error: '+await res.text()); return null } return res.json(); }
+async function apiDelete(path){ const res = await fetch(API_BASE + path, {method:'DELETE',headers:authHeaders()}); if(!res.ok) { alert('Error: '+await res.text()); return null } return res.json(); }
+
+/* -------------------------
+   Fetchers / renderers
+   ------------------------- */
+async function fetchOverview(){
+  try{
+    const data = await apiGet('/api/overview');
+    setText('#stat-players', data.players_online);
+    setText('#stat-rooms', data.rooms);
+    setText('#stat-games', data.games);
+    el('#player-list').innerHTML = '';
+    data.players.slice(0,50).forEach(p=>{
+      const div = document.createElement('div'); div.className='row';
+      div.innerHTML = `<div style="display:flex;gap:12px;align-items:center"><div style="width:36px;height:36px;border-radius:8px;background:rgba(255,255,255,0.02);display:flex;align-items:center;justify-content:center">${p.name[0]||'?'}</div>
+                       <div><div style="font-weight:600">${p.name}</div><div class="muted" style="font-size:12px">id ${p.id}</div></div></div>
+                       <div><div class="badge">${p.room||'—'}</div></div>`;
+      el('#player-list').appendChild(div);
+    });
+  }catch(err){
+    console.error(err); setText('#server-status','Error'); logEvent('Overview fetch failed: '+err.message);
+  }
+}
+
+async function fetchPlayers(){
+  try{
+    const data = await apiGet('/api/players');
+    const tbody = el('#players-table tbody'); tbody.innerHTML='';
+    data.forEach(p=>{
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${p.id}</td><td>${p.name}</td><td>${p.online? 'Yes':'No'}</td><td>${p.room||''}</td>
+        <td class="row-actions">
+          <button onclick="inspectPlayer('${p.id}')">Inspect</button>
+          <button onclick="kickPlayer('${p.id}')" class="danger">Kick</button>
+        </td>`;
+      tbody.appendChild(tr);
+    });
+    setText('#live-players', data.filter(x=>x.online).length);
+  }catch(err){ console.error(err) }
+}
+
+async function fetchRooms(){
+  try{
+    const data = await apiGet('/api/rooms');
+    const tbody = el('#rooms-table tbody'); tbody.innerHTML='';
+    data.forEach(r=>{
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${r.id}</td><td>${r.title}</td><td>${r.players?.length||0}</td>
+        <td class="row-actions">
+          <button onclick="openRoom('${r.id}')">Open</button>
+          <button onclick="deleteRoom('${r.id}')" class="danger">Delete</button>
+        </td>`;
+      tbody.appendChild(tr);
+    });
+    setText('#stat-rooms', data.length);
+  }catch(err){ console.error(err) }
+}
+
+async function fetchGames(){
+  try{
+    const data = await apiGet('/api/games');
+    const tbody = el('#games-table tbody'); tbody.innerHTML='';
+    data.forEach(g=>{
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${g.id}</td><td>${g.title}</td><td>${new Date(g.created).toLocaleString()}</td>
+        <td class="row-actions"><button onclick="deleteGame('${g.id}')" class="danger">Delete</button></td>`;
+      tbody.appendChild(tr);
+    });
+    setText('#stat-games', data.length);
+  }catch(err){ console.error(err) }
+}
+
+async function fetchServerLogs(){
+  try{
+    const data = await apiGet('/api/logs');
+    el('#server-logs').textContent = data.join('\n');
+  }catch(err){ console.error(err) }
+}
+
+/* -------------------------
+   Actions
+   ------------------------- */
+window.inspectPlayer = async function(id){
+  try{
+    const p = await apiGet('/api/players/'+id);
+    alert(JSON.stringify(p, null, 2));
+  }catch(err){}
+}
+window.kickPlayer = async function(id){
+  if(!confirm('Kick player '+id+'?')) return;
+  await apiPost('/api/players/'+id+'/kick',{}, true);
+  fetchPlayers();
+}
+window.openRoom = async function(id){
+  // open room in a control view (placeholder)
+  window.open(API_BASE + '/room/' + id, '_blank');
+}
+window.deleteRoom = async function(id){
+  if(!confirm('Delete room '+id+'?')) return;
+  await apiDelete('/api/rooms/'+id);
+  fetchRooms();
+}
+window.deleteGame = async function(id){
+  if(!confirm('Delete game '+id+'?')) return;
+  await apiDelete('/api/games/'+id);
+  fetchGames();
+}
+
+/* -------------------------
+   WebSocket realtime
+   ------------------------- */
+function connectWS(){
+  if(state.ws) { try{ state.ws.close(); }catch(e){} }
+  const wsUrl = WS_URL.replace(/^http/, 'ws');
+  state.ws = new WebSocket(wsUrl + '/ws?token=' + encodeURIComponent(state.token || ''));
+  state.ws.addEventListener('open', ()=> {
+    setText('#server-status','Connected');
+    logEvent('Connected to server');
+    fetchPlayers(); fetchRooms();
+  });
+  state.ws.addEventListener('message', (ev)=>{
+    try{
+      const msg = JSON.parse(ev.data);
+      handleWsMsg(msg);
+    }catch(e){ console.log('WS msg parse error',e) }
+  });
+  state.ws.addEventListener('close', ()=>{ setText('#server-status','Disconnected'); logEvent('WS closed'); });
+  state.ws.addEventListener('error', (e)=>{ setText('#server-status','Error'); console.error('ws error',e) });
+}
+
+function handleWsMsg(msg){
+  // expected messages: {type:'player_join', payload:{id,name,room}}, ... etc
+  switch(msg.type){
+    case 'player_join':
+      logEvent(`JOIN ${msg.payload.name} (${msg.payload.id}) -> ${msg.payload.room}`);
+      fetchPlayers();
+      break;
+    case 'player_leave':
+      logEvent(`LEFT ${msg.payload.name} (${msg.payload.id})`);
+      fetchPlayers();
+      break;
+    case 'room_created':
+      logEvent(`Room created: ${msg.payload.title}`);
+      fetchRooms();
+      break;
+    case 'broadcast':
+      logEvent(`BROADCAST: ${msg.payload.message}`);
+      break;
+    default:
+      console.log('ws unknown',msg);
+      break;
+  }
+}
+
+/* quick status ping */
+document.getElementById('btn-reconnect').addEventListener('click', ()=>{connectWS()});
+
+/* first-run helpers */
+setInterval(()=>{ if(state.token) fetchOverview(); }, 15000);
+
+</script>
+</body>
+</html>

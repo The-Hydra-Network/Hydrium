@@ -1,0 +1,25 @@
+﻿{
+    "FeaturedPlayer": {
+        "Id": 2,
+        "TitleOverride": null,
+        "UrlOverride": null
+    },
+    "FeaturedRoomGroup": {
+        "FeaturedRoomGroupId": 1,
+        "Name": null,
+        "StartAt": "2020-01-01T00:00:00Z",
+        "EndAt": "9999-12-31T00:00:00Z",
+        "Rooms": []
+    },
+    "CurrentAnnouncement": {
+        "Message": "a 2025 server",
+        "MoreInfoUrl": null
+    },
+    "InstagramImages": [
+        {
+            "ImageName": "67heheheaaa.jpg",
+            "ImageUrl": null
+        }
+    ],
+    "Videos": []
+}
