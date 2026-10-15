@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
+const fs = require("fs");
 
 const pb = require("./pb");
 
@@ -59,13 +60,6 @@ const EAC_CHALLENGE_PATH =
         "eac-challenge.json"
     );
 
-const CACHED_LOGIN_PATH =
-    path.join(
-        __dirname,
-        "blobs",
-        "cachedlogin.json"
-    );
-
 
 // ---------------------------------------------------------
 // Token configuration
@@ -76,9 +70,9 @@ const TOKEN_TTL_SECONDS = 3600;
 const TOKEN_SCOPE =
     "offline_access";
 
-// Pull the static key from .env, with the hardcoded fallback just in case
 const TOKEN_KEY =
-    process.env.HYDRIUM_TOKEN_KEY || "8oQ+e+WQaOBPbEcakhqs3dwZZdOmmyDUmJSD9u4AHMY=";
+    process.env.HYDRIUM_TOKEN_KEY ||
+    "8oQ+e+WQaOBPbEcakhqs3dwZZdOmmyDUmJSD9u4AHMY=";
 
 
 // ---------------------------------------------------------
@@ -200,6 +194,7 @@ async function getAccountById(accountId) {
             numericId
         )
     ) {
+
         throw new Error(
             "Invalid accountId"
         );
@@ -227,7 +222,7 @@ function createAccessToken(
     const gameVersion =
         ver ||
         process.env.GAME_VERSION ||
-        "20250718.01";
+        "20231207";
 
     const claims = {
 
@@ -292,11 +287,9 @@ async function storeRefreshToken(
 
     const data = {
 
-        // Relation to hydrium_accounts.
         account:
             account.id,
 
-        // The exact fields your DB has:
         access_token:
             tokens.access_token,
 
@@ -355,7 +348,6 @@ async function issueTokens(
     const refreshToken =
         generateRefreshToken();
 
-    // 1. Build the exact object the client expects
     const tokens = {
 
         access_token:
@@ -373,18 +365,15 @@ async function issueTokens(
         scope:
             TOKEN_SCOPE,
 
-        // @kludge Why is this necessary? Who knows.
         key:
             TOKEN_KEY
     };
 
-    // 2. Send it to PocketBase
     await storeRefreshToken(
         account,
         tokens
     );
 
-    // 3. Return it to the client
     return tokens;
 }
 
@@ -409,6 +398,239 @@ router.get(
 
 
 // =========================================================
+// Platform -> account cached login database
+// =========================================================
+
+const PLATFORM_LINKS_PATH =
+    path.join(
+        __dirname,
+        "blobs",
+        "platform-links.json"
+    );
+
+
+function loadPlatformLinks() {
+
+    try {
+
+        if (
+            !fs.existsSync(
+                PLATFORM_LINKS_PATH
+            )
+        ) {
+
+            return [];
+        }
+
+        const raw =
+            fs.readFileSync(
+                PLATFORM_LINKS_PATH,
+                "utf8"
+            );
+
+        if (!raw.trim()) {
+
+            return [];
+        }
+
+        const parsed =
+            JSON.parse(
+                raw
+            );
+
+        return Array.isArray(parsed)
+            ? parsed
+            : [];
+
+    } catch (err) {
+
+        console.error(
+            "[AUTH] Failed to load platform links:",
+            err.message
+        );
+
+        return [];
+    }
+}
+
+
+function savePlatformLinks(links) {
+
+    fs.mkdirSync(
+        path.dirname(
+            PLATFORM_LINKS_PATH
+        ),
+        {
+            recursive:
+                true
+        }
+    );
+
+    fs.writeFileSync(
+        PLATFORM_LINKS_PATH,
+        JSON.stringify(
+            links,
+            null,
+            4
+        ),
+        "utf8"
+    );
+}
+
+
+function findPlatformLink(
+    platform,
+    platformId
+) {
+
+    const links =
+        loadPlatformLinks();
+
+    return links.find(
+        (link) =>
+            String(
+                link.platform
+            ) ===
+                String(
+                    platform
+                ) &&
+
+            String(
+                link.platformId
+            ) ===
+                String(
+                    platformId
+                )
+    );
+}
+
+
+function savePlatformLink(
+    platform,
+    platformId,
+    accountId
+) {
+
+    if (
+        platform === undefined ||
+        platform === null ||
+        platformId === undefined ||
+        platformId === null ||
+        String(
+            platformId
+        ).trim() === ""
+    ) {
+
+        return;
+    }
+
+    const links =
+        loadPlatformLinks();
+
+    const existing =
+        links.find(
+            (link) =>
+                String(
+                    link.platform
+                ) ===
+                    String(
+                        platform
+                    ) &&
+
+                String(
+                    link.platformId
+                ) ===
+                    String(
+                        platformId
+                    )
+        );
+
+    const now =
+        new Date()
+            .toISOString();
+
+    if (existing) {
+
+        existing.accountId =
+            Number(
+                accountId
+            );
+
+        existing.lastLoginTime =
+            now;
+
+        existing.requirePassword =
+            false;
+
+    } else {
+
+        links.push({
+
+            platform:
+                Number(
+                    platform
+                ),
+
+            platformId:
+                String(
+                    platformId
+                ),
+
+            accountId:
+                Number(
+                    accountId
+                ),
+
+            lastLoginTime:
+                now,
+
+            requirePassword:
+                false
+        });
+    }
+
+    savePlatformLinks(
+        links
+    );
+
+    console.log(
+        `[AUTH] Platform linked - platform=${platform}, platformId=${platformId}, accountId=${accountId}`
+    );
+}
+
+
+function cachedLoginResponse(
+    link
+) {
+
+    return {
+
+        platform:
+            Number(
+                link.platform
+            ),
+
+        platformId:
+            String(
+                link.platformId
+            ),
+
+        accountId:
+            Number(
+                link.accountId
+            ),
+
+        lastLoginTime:
+            new Date()
+                .toISOString(),
+
+        requirePassword:
+            false
+    };
+}
+
+
+// =========================================================
 // Cached login - single platform ID
 // =========================================================
 
@@ -416,13 +638,42 @@ router.get(
     "/cachedlogin/forplatformid/:platform/:id",
     (req, res) => {
 
+        const platform =
+            req.params.platform;
+
+        const platformId =
+            req.params.id;
+
         console.log(
-            `[AUTH] GET cached login - platform=${req.params.platform}, id=${req.params.id}`
+            `[AUTH] GET cached login - platform=${platform}, id=${platformId}`
         );
 
-        return res.sendFile(
-            CACHED_LOGIN_PATH
+        const link =
+            findPlatformLink(
+                platform,
+                platformId
+            );
+
+        if (!link) {
+
+            console.log(
+                `[AUTH] No cached login mapping - platform=${platform}, platformId=${platformId}`
+            );
+
+            return res.json(
+                []
+            );
+        }
+
+        console.log(
+            `[AUTH] Cached login resolved - accountId=${link.accountId}`
         );
+
+        return res.json([
+            cachedLoginResponse(
+                link
+            )
+        ]);
     }
 );
 
@@ -431,13 +682,42 @@ router.post(
     "/cachedlogin/forplatformid/:platform/:id",
     (req, res) => {
 
+        const platform =
+            req.params.platform;
+
+        const platformId =
+            req.params.id;
+
         console.log(
-            `[AUTH] POST cached login - platform=${req.params.platform}, id=${req.params.id}`
+            `[AUTH] POST cached login - platform=${platform}, id=${platformId}`
         );
 
-        return res.sendFile(
-            CACHED_LOGIN_PATH
+        const link =
+            findPlatformLink(
+                platform,
+                platformId
+            );
+
+        if (!link) {
+
+            console.log(
+                `[AUTH] No cached login mapping - platform=${platform}, platformId=${platformId}`
+            );
+
+            return res.json(
+                []
+            );
+        }
+
+        console.log(
+            `[AUTH] Cached login resolved - accountId=${link.accountId}`
         );
+
+        return res.json([
+            cachedLoginResponse(
+                link
+            )
+        ]);
     }
 );
 
@@ -454,8 +734,44 @@ router.post(
             "[AUTH] POST cached login for platform IDs"
         );
 
-        return res.sendFile(
-            CACHED_LOGIN_PATH
+        const requested =
+            Array.isArray(
+                req.body
+            )
+                ? req.body
+                : [];
+
+        const results =
+            [];
+
+        for (
+            const item
+            of requested
+        ) {
+
+            if (!item) {
+
+                continue;
+            }
+
+            const link =
+                findPlatformLink(
+                    item.platform,
+                    item.platformId
+                );
+
+            if (link) {
+
+                results.push(
+                    cachedLoginResponse(
+                        link
+                    )
+                );
+            }
+        }
+
+        return res.json(
+            results
         );
     }
 );
@@ -482,6 +798,7 @@ router.post(
             device_class,
             ver
         } = req.body;
+
 
         console.log(
             "\n[AUTH] POST /connect/token"
@@ -567,16 +884,21 @@ router.post(
                 const generatedPassword =
                     password ||
                     crypto
-                        .randomBytes(32)
-                        .toString("hex");
+                        .randomBytes(
+                            32
+                        )
+                        .toString(
+                            "hex"
+                        );
 
 
                 // -----------------------------------------
-                // createdAt is a STRING.
+                // createdAt
                 // -----------------------------------------
 
                 const createdAt =
-                    new Date().toISOString();
+                    new Date()
+                        .toISOString();
 
 
                 // -----------------------------------------
@@ -648,6 +970,17 @@ router.post(
 
 
                 // -----------------------------------------
+                // Save Steam/platform -> account mapping
+                // -----------------------------------------
+
+                savePlatformLink(
+                    platform,
+                    platform_id,
+                    account.accountId
+                );
+
+
+                // -----------------------------------------
                 // Issue token pair
                 // -----------------------------------------
 
@@ -674,7 +1007,9 @@ router.post(
 
 
                 return res
-                    .status(200)
+                    .status(
+                        200
+                    )
                     .json(
                         tokens
                     );
@@ -688,7 +1023,9 @@ router.post(
                 );
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         error:
                             "invalid_request"
@@ -702,7 +1039,8 @@ router.post(
         // =================================================
 
         if (
-            grant_type === "password" ||
+            grant_type ===
+                "password" ||
             !grant_type
         ) {
 
@@ -712,17 +1050,22 @@ router.post(
             ) {
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         error:
                             "invalid_grant"
                     });
             }
 
+
             if (!password) {
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -783,6 +1126,22 @@ router.post(
                 );
 
 
+                // If platform info came with this login,
+                // refresh its association as well.
+
+                if (
+                    platform !== undefined &&
+                    platform_id
+                ) {
+
+                    savePlatformLink(
+                        platform,
+                        platform_id,
+                        account.accountId
+                    );
+                }
+
+
                 const tokens =
                     await issueTokens(
 
@@ -801,7 +1160,9 @@ router.post(
 
 
                 return res
-                    .status(200)
+                    .status(
+                        200
+                    )
                     .json(
                         tokens
                     );
@@ -815,7 +1176,9 @@ router.post(
                 );
 
                 return res
-                    .status(401)
+                    .status(
+                        401
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -841,7 +1204,9 @@ router.post(
             if (!account_id) {
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -862,6 +1227,19 @@ router.post(
                 );
 
 
+                if (
+                    platform !== undefined &&
+                    platform_id
+                ) {
+
+                    savePlatformLink(
+                        platform,
+                        platform_id,
+                        account.accountId
+                    );
+                }
+
+
                 const tokens =
                     await issueTokens(
 
@@ -880,7 +1258,9 @@ router.post(
 
 
                 return res
-                    .status(200)
+                    .status(
+                        200
+                    )
                     .json(
                         tokens
                     );
@@ -894,7 +1274,9 @@ router.post(
                 );
 
                 return res
-                    .status(401)
+                    .status(
+                        401
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -915,7 +1297,9 @@ router.post(
             if (!refresh_token) {
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -932,8 +1316,6 @@ router.post(
 
                 // -----------------------------------------
                 // Find refresh token
-                // Updated query to search by `refresh_token` 
-                // instead of `token` to match new schema
                 // -----------------------------------------
 
                 const tokenRecord =
@@ -962,7 +1344,7 @@ router.post(
 
 
                 // -----------------------------------------
-                // Get related account
+                // Resolve account
                 // -----------------------------------------
 
                 const account =
@@ -996,7 +1378,7 @@ router.post(
 
 
                 // -----------------------------------------
-                // Issue replacement token pair
+                // Issue replacement tokens
                 // -----------------------------------------
 
                 const tokens =
@@ -1006,11 +1388,12 @@ router.post(
 
                         ver,
 
-                        // We don't have platform info in the new DB schema
-                        // Passing undefined to maintain function signature
-                        undefined, 
                         undefined,
+
                         undefined,
+
+                        undefined,
+
                         undefined
                     );
 
@@ -1021,7 +1404,9 @@ router.post(
 
 
                 return res
-                    .status(200)
+                    .status(
+                        200
+                    )
                     .json(
                         tokens
                     );
@@ -1035,7 +1420,9 @@ router.post(
                 );
 
                 return res
-                    .status(401)
+                    .status(
+                        401
+                    )
                     .json({
                         error:
                             "invalid_grant"
@@ -1054,7 +1441,9 @@ router.post(
         );
 
         return res
-            .status(400)
+            .status(
+                400
+            )
             .json({
                 error:
                     "unsupported_grant_type"
@@ -1088,7 +1477,9 @@ router.post(
         ) {
 
             return res
-                .status(401)
+                .status(
+                    401
+                )
                 .json({
                     success:
                         false,
@@ -1100,7 +1491,9 @@ router.post(
 
 
         const token =
-            auth.substring(7);
+            auth.substring(
+                7
+            );
 
 
         try {
@@ -1115,7 +1508,9 @@ router.post(
             if (!decoded.sub) {
 
                 return res
-                    .status(401)
+                    .status(
+                        401
+                    )
                     .json({
                         success:
                             false,
@@ -1141,7 +1536,9 @@ router.post(
             if (!newPassword) {
 
                 return res
-                    .status(400)
+                    .status(
+                        400
+                    )
                     .json({
                         success:
                             false,
@@ -1176,7 +1573,9 @@ router.post(
                     );
 
                     return res
-                        .status(400)
+                        .status(
+                            400
+                        )
                         .json({
                             success:
                                 false,
@@ -1199,6 +1598,7 @@ router.post(
                 .update(
                     account.id,
                     {
+
                         password:
                             newPassword,
 
@@ -1214,8 +1614,11 @@ router.post(
 
 
             return res
-                .status(200)
+                .status(
+                    200
+                )
                 .json({
+
                     success:
                         true,
 
@@ -1232,8 +1635,11 @@ router.post(
             );
 
             return res
-                .status(401)
+                .status(
+                    401
+                )
                 .json({
+
                     success:
                         false,
 

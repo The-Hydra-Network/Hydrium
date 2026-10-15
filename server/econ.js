@@ -1,4 +1,8 @@
 const express = require("express");
+
+const {
+    outfitByAccountId
+} = require("./state");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
@@ -59,8 +63,8 @@ const DEFAULT_UNLOCKED_PATH =
 const AVATAR_ITEMS_PATH =
     path.join(
         __dirname,
-        "blobs",
-        "avatar-items.json"
+        "Avatar",
+        "AvatarItems.json"
     );
 
 const CUSTOM_AVATAR_ITEMS_PATH =
@@ -153,38 +157,11 @@ async function getAccountById(
 // ---------------------------------------------------------
 
 function getDefaultAvatar() {
-
     return {
-
-        LegacyData: {
-
-            AvatarOutfit:
-                0,
-
-            SkinColor:
-                0,
-
-            HairColor:
-                0,
-
-            EyeColor:
-                0,
-
-            HatIndex:
-                -1,
-
-            GlassesIndex:
-                -1,
-
-            BeardIndex:
-                -1,
-
-            OutfitIndex:
-                0,
-
-            ShoeIndex:
-                0
-        }
+        OutfitSelections: "",
+        FaceFeatures: "",
+        SkinColor: "",
+        HairColor: ""
     };
 }
 
@@ -192,59 +169,85 @@ function getDefaultAvatar() {
 // Normalize avatar record
 // ---------------------------------------------------------
 
-function normalizeAvatarRecord(
-    record
-) {
-
+function normalizeAvatarRecord(record) {
     if (!record) {
-
         return getDefaultAvatar();
     }
 
-    const avatarData =
+    let avatar =
         record.data ??
         record.avatar ??
         record;
 
+    if (typeof avatar === "string") {
+        try {
+            avatar = JSON.parse(avatar);
+        } catch {
+            return getDefaultAvatar();
+        }
+    }
+
     if (
-        !avatarData ||
-        typeof avatarData !==
-            "object" ||
-        Array.isArray(
-            avatarData
-        ) ||
-        avatarData.LegacyData ==
-            null
+        !avatar ||
+        typeof avatar !== "object" ||
+        Array.isArray(avatar)
     ) {
-
-        console.warn(
-            "[ECON] Avatar record has no LegacyData; using default avatar"
-        );
-
         return getDefaultAvatar();
     }
 
-    return avatarData;
-}
+    const legacy =
+        avatar.LegacyData &&
+        typeof avatar.LegacyData === "object"
+            ? avatar.LegacyData
+            : avatar;
 
+    return {
+        OutfitSelections:
+            typeof legacy.OutfitSelections === "string"
+                ? legacy.OutfitSelections
+                : typeof legacy.SelectionsV1 === "string"
+                    ? legacy.SelectionsV1
+                    : "",
+
+        FaceFeatures:
+            typeof legacy.FaceFeatures === "string"
+                ? legacy.FaceFeatures
+                : "",
+
+        SkinColor:
+            typeof legacy.SkinColor === "string"
+                ? legacy.SkinColor
+                : "",
+
+        HairColor:
+            typeof legacy.HairColor === "string"
+                ? legacy.HairColor
+                : ""
+    };
+}
 // ---------------------------------------------------------
 // GET /api/avatar/v4/items
 // ---------------------------------------------------------
 
-router.get(
-    "/api/avatar/v4/items",
-    (req, res) => {
+router.get("/api/avatar/v4/items", (req, res) => {
+    console.log("[ECON] Avatar items requested");
 
-        console.log(
-            "[ECON] Avatar items requested"
-        );
+    return res.sendFile(
+        AVATAR_ITEMS_PATH,
+        (err) => {
+            if (err && !res.headersSent) {
+                console.error(
+                    "[ECON] Failed to send AvatarItems.json:",
+                    err.message
+                );
 
-        return res.sendFile(
-            AVATAR_ITEMS_PATH
-        );
-    }
-);
-
+                return res
+                    .status(500)
+                    .json([]);
+            }
+        }
+    );
+});
 // ---------------------------------------------------------
 // GET /api/avatar/v1/defaultunlocked
 // ---------------------------------------------------------
@@ -374,179 +377,145 @@ router.get(
 // GET /api/avatar/v2
 // ---------------------------------------------------------
 
+router.get("/api/avatar/v2/gifts", (req, res) => {
+    console.log("[ECON] Avatar gifts requested");
+    return res.status(200).json([]);
+});
+
 router.get("/api/avatar/v2", async (req, res) => {
+    const accountId = getAccountId(req);
+
+    if (!accountId) {
+        return res.status(401).json({
+            error: "Unauthorized"
+        });
+    }
+
+    const numericAccountId =
+        Number(accountId);
+
+    const memoryOutfit =
+        outfitByAccountId.get(
+            numericAccountId
+        );
+
+    if (memoryOutfit) {
+        const avatar =
+            normalizeAvatarRecord(
+                memoryOutfit
+            );
+
+        console.log(
+            `[ECON] Avatar loaded from current outfit for accountId=${numericAccountId}:`,
+            JSON.stringify(avatar)
+        );
+
+        return res
+            .status(200)
+            .json(avatar);
+    }
     try {
-        const accountId = getAccountId(req);
+        const numericAccountId =
+            Number(accountId);
 
-        if (!accountId) {
-            return res.status(401).json({
-                success: false,
-                error: "Unauthorized"
-            });
-        }
+        const result =
+            await pb
+                .collection(AVATAR_COLLECTION)
+                .getList(1, 1, {
+                    filter:
+                        `accountId = ${numericAccountId}`
+                });
 
-        const numericAccountId = Number(accountId);
+        const record =
+            result.items.length > 0
+                ? result.items[0]
+                : null;
 
-        let record = null;
-
-        try {
-            record = await pb
-                .collection("hydrium_avatar")
-                .getFirstListItem(`accountId = ${numericAccountId}`);
-        } catch (err) {
-            if (err?.status !== 404) {
-                throw err;
-            }
-        }
-
-        // FIX: previously returned res.status(200).json({}) here.
-        // The client's deserializer requires a populated LegacyData
-        // field and throws "Malformed Response: '{}'" / "Deserialization
-        // returned null" when it gets a bare empty object. Fall back to
-        // a real default avatar instead.
-        if (!record) {
-            return res.status(200).json(getDefaultAvatar());
-        }
-
-        let avatar = record.data ?? record.avatar ?? {};
-
-        if (typeof avatar === "string") {
-            try {
-                avatar = JSON.parse(avatar);
-            } catch {
-                avatar = {};
-            }
-        }
-
-        // FIX: same reasoning — if what's stored is missing/malformed/
-        // not an object, or has no LegacyData, fall back to a real
-        // default avatar rather than an empty object, so the client
-        // can always deserialize the response.
-        if (
-            !avatar ||
-            typeof avatar !== "object" ||
-            Array.isArray(avatar) ||
-            avatar.LegacyData == null
-        ) {
-            avatar = getDefaultAvatar();
-        }
-
-        return res.status(200).json(avatar);
+        return res
+            .status(200)
+            .json(
+                normalizeAvatarRecord(record)
+            );
 
     } catch (err) {
-        console.error("[ECON] GET /api/avatar/v2 failed:", err);
+        console.error(
+            "[ECON] Avatar lookup failed:",
+            err.message
+        );
 
-        return res.status(500).json({
-            success: false,
-            error: "Failed to load avatar"
-        });
+        return res
+            .status(200)
+            .json(getDefaultAvatar());
     }
 });
 // ---------------------------------------------------------
 // POST /api/avatar/v2/set
 // ---------------------------------------------------------
 
-router.post(
-    "/api/avatar/v2/set",
-    async (req, res) => {
+router.post("/api/avatar/v2/set", async (req, res) => {
+    console.log("[ECON] Avatar v2 set requested");
+
+    const accountId = getAccountId(req);
+
+    if (!accountId) {
+        return res
+            .status(401)
+            .json(false);
+    }
+
+    try {
+
+        const avatar =
+            normalizeAvatarRecord(req.body);
+
+        const existing =
+            await pb
+                .collection(AVATAR_COLLECTION)
+                .getList(1, 1, {
+                    filter:
+                        `accountId = ${numericAccountId}`
+                });
+
+        const data = {
+            accountId:
+                numericAccountId,
+            data:
+                avatar
+        };
+
+        if (existing.items.length > 0) {
+            await pb
+                .collection(AVATAR_COLLECTION)
+                .update(
+                    existing.items[0].id,
+                    data
+                );
+        } else {
+            await pb
+                .collection(AVATAR_COLLECTION)
+                .create(data);
+        }
 
         console.log(
-            "[ECON] Avatar v2 set requested"
+            "[ECON] Avatar saved:",
+            JSON.stringify(avatar)
         );
 
-        const accountId =
-            getAccountId(req);
+        return res
+            .status(200)
+            .json(true);
 
-        if (!accountId) {
+    } catch (err) {
+        console.error(
+            "[ECON] Avatar save failed:",
+            err.message
+        );
 
-            return res
-                .status(401)
-                .json({
-
-                    error:
-                        "Unauthorized"
-                });
-        }
-
-        try {
-
-            const numericAccountId =
-                Number(accountId);
-
-            const existing =
-                await pb
-                    .collection(
-                        AVATAR_COLLECTION
-                    )
-                    .getList(
-                        1,
-                        1,
-                        {
-                            filter:
-                                `accountId = ${numericAccountId}`
-                        }
-                    );
-
-            const data = {
-
-                accountId:
-                    numericAccountId,
-
-                data:
-                    req.body
-            };
-
-            if (
-                existing.items.length >
-                0
-            ) {
-
-                await pb
-                    .collection(
-                        AVATAR_COLLECTION
-                    )
-                    .update(
-                        existing.items[0].id,
-                        data
-                    );
-
-            } else {
-
-                await pb
-                    .collection(
-                        AVATAR_COLLECTION
-                    )
-                    .create(
-                        data
-                    );
-            }
-
-            return res
-                .status(200)
-                .json({
-
-                    success:
-                        true
-                });
-
-        } catch (err) {
-
-            console.error(
-                "[ECON] Avatar v2 save failed:",
-                err.message
-            );
-
-            return res
-                .status(500)
-                .json({
-
-                    error:
-                        "Internal server error"
-                });
-        }
+        return res
+            .status(500)
+            .json(false);
     }
-);
-
+});
 // ---------------------------------------------------------
 // GET /api/avatar/v3/saved
 // ---------------------------------------------------------
@@ -1037,11 +1006,15 @@ router.get(
         //
 
         if (
-            storefrontId === 3
+            storefrontId === 3 ||
+            (
+                storefrontId >= 2000 &&
+                storefrontId <= 2004
+            )
         ) {
 
             console.warn(
-                "[ECON] No storefront blob for ID 3; returning temporary empty storefront"
+                `[ECON] No storefront blob for ID ${storefrontId}; returning temporary empty storefront`
             );
 
             return res
@@ -1049,10 +1022,10 @@ router.get(
                 .json({
 
                     id:
-                        3,
+                        storefrontId,
 
                     storefrontId:
-                        3,
+                        storefrontId,
 
                     items:
                         []
@@ -1076,4 +1049,167 @@ router.get(
     }
 );
 
+
+// ---------------------------------------------------------
+// GET /api/storefronts/v4/balance/:currencyType
+// Compatibility probe for the 20231207 client.
+// ---------------------------------------------------------
+
+router.get(
+    "/api/storefronts/v4/balance/:currencyType",
+    (req, res) => {
+
+        const currencyType =
+            Number(req.params.currencyType);
+
+        console.log(
+            `[ECON] Balance requested - currencyType=${currencyType}`
+        );
+
+        return res
+            .status(200)
+            .json([]);
+    }
+);
+
+// ---------------------------------------------------------
+// GET /api/challenge/v2/getCurrent
+// ---------------------------------------------------------
+
+router.get("/api/challenge/v2/getCurrent", (req, res) => {
+    console.log("[ECON] Current challenges requested");
+
+    return res.status(200).json([]);
+});
+
+// =========================================================
+// ROOM ECONOMY
+// =========================================================
+
+// ---------------------------------------------------------
+// GET /econ/roomGiftDropShops/room/:roomId
+// ---------------------------------------------------------
+
+router.get(
+    "/econ/roomGiftDropShops/room/:roomId",
+    (req, res) => {
+        const roomId =
+            Number(req.params.roomId);
+
+        console.log(
+            `[ECON] Room gift-drop shops requested - roomId=${roomId}`
+        );
+
+        return res
+            .status(200)
+            .json([]);
+    }
+);
+
+// ---------------------------------------------------------
+// GET /econ/roomInventory/room/:roomId
+// ---------------------------------------------------------
+
+router.get(
+    "/econ/roomInventory/room/:roomId",
+    (req, res) => {
+        const roomId =
+            Number(req.params.roomId);
+
+        console.log(
+            `[ECON] Room inventory requested - roomId=${roomId}`
+        );
+
+        return res
+            .status(200)
+            .json([]);
+    }
+);
+
+// ---------------------------------------------------------
+// GET /econ/roomOffer/room/:roomId
+// ---------------------------------------------------------
+
+router.get(
+    "/econ/roomOffer/room/:roomId",
+    (req, res) => {
+        const roomId =
+            Number(req.params.roomId);
+
+        console.log(
+            `[ECON] Room offers requested - roomId=${roomId}`
+        );
+
+        return res
+            .status(200)
+            .json([]);
+    }
+);
+
+// ---------------------------------------------------------
+// GET /econ/roomInventory/room/:roomId/player
+// ---------------------------------------------------------
+
+router.get(
+    "/econ/roomInventory/room/:roomId/player",
+    (req, res) => {
+        const roomId =
+            Number(req.params.roomId);
+
+        console.log(
+            `[ECON] Player room inventory requested - roomId=${roomId}`
+        );
+
+        return res
+            .status(200)
+            .json([]);
+    }
+);
+
+
+// ---------------------------------------------------------
+// Temporary in-memory outfit storage
+// ---------------------------------------------------------
+
+
+
+// ---------------------------------------------------------
+// PUT /outfits/me
+// ---------------------------------------------------------
+
+router.put("/outfits/me", (req, res) => {
+    console.log("[ECON] Current outfit update requested");
+
+    const accountId =
+        Number(getAccountId(req));
+
+    if (!Number.isSafeInteger(accountId)) {
+        return res
+            .status(401)
+            .json({
+                error: "Unauthorized"
+            });
+    }
+
+    const outfit =
+        req.body &&
+        typeof req.body === "object"
+            ? req.body
+            : {};
+
+    outfitByAccountId.set(
+        accountId,
+        outfit
+    );
+
+    console.log(
+        `[ECON] Outfit saved in memory for accountId=${accountId}`
+    );
+
+    return res
+        .status(200)
+        .json(outfit);
+});
 module.exports = router;
+
+

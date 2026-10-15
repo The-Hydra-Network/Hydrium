@@ -1,0 +1,48 @@
+ctrl + C x2
+clear
+npm start to restart server
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?D0F659F4CF49A1BA56E1D451E8AE18B9A494
+what is next
+https://prod.liveshare.vsengsaas.visualstudio.com/join?C756E35EAC193EB3ABEDAB76DF03D8E7DE49
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?F836E95FE9CCC5065408B77B23D7F220A527
+https://prod.liveshare.vsengsaas.visualstudio.com/join?EC4331EC35CB79B15F6A8147F423CCBFCD4E
+
+https://litter.catbox.moe/ea7m2i1npj6hza9g.zip
+https://prod.liveshare.vsengsaas.visualstudio.com/join?95C0EFAC7283C468F7E98986F83751646731
+
+DAMN
+the server got an lot bigger
+https://prod.liveshare.vsengsaas.visualstudio.com/join?3CF67F213F1D1306F3A74602FE7ED25A4080
+yello
+testin in  vr
+https://prod.liveshare.vsengsaas.visualstudio.com/join?6295673A854A887000DB8B8B6433A6B917AD
+
+[LISTS] Method: POST
+[LISTS] URL: /data/event
+[LISTS] Query: [Object: null prototype] {}
+[LISTS] Body: {
+  eventType: 'subroom_stats',
+  eventParams: '{"_EventType":"subroom_stats","_Id":"d5dd1511-c0e2-49ae-b5b6-393d98dd4d7c","_GameSessionId":639262894109039802,"_AccountId":910357210,"_Time":639262894948630198,"_TimeUtc":"2026-09-29T14:38:14.8630198Z","subroom_name":"dormroom2","subroom_id":1,"room_id":1,"subroom_instance_id":693456425,"is_private":true,"player_created":false,"total_time":25.57782,"time_spent_in_party":0,"time_spent_with_friends":0}'
+}
+[LISTS] Query: [Object: null prototype] {}
+[LISTS] Body: {
+  eventData: '{"EventType":"heartbeat","EventParams":"{\\"_Id\\":\\"525fade6-02b3-440f-aa74-52cb67cbf3ee\\",\\"_AccountId\\":910357210,\\"_TimeUtc\\":\\"2026-09-29T14:37:08.6977299Z\\",\\"sessions\\":\\"{\\\\\\"app\\\\\\":{\\\\\\"_id\\\\\\":\\\\\\"d516bdc0-d738-42b5-a7c6-cbee76632980\\\\\\"},\\\\\\"titlescreen\\\\\\":{\\\\\\"_id\\\\\\":\\\\\\"149883f1-f321-4c99-b599-84209e909bff\\\\\\"}}\\"}"}'
+}
+
+[HTTP-RESPONSE] POST /player/exclusivelogin -> 200
+[HTTP-RESPONSE] Body: {"success":true,"error":null,"value":null}
+
+[HTTP-RESPONSE] POST /player/exclusivelogin -> 200
+[HTTP-RESPONSE] Body: {"success":true,"error":null,"value":null}
+
+[HTTP] GET /api/quickPlay/v1/getandclear
+[API] QuickPlay get-and-clear requested
+[API] Query: [Object: null prototype] {}
+[HTTP-RESPONSE] GET /api/quickPlay/v1/getandclear -> 200
+[HTTP-RESPONSE] Body: {"HasDestination":false,"RoomId":null,"RoomName":null,"RoomInstanceId":null,"Query":null}
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7DA0B373214C29A54649D3215A8AFF437397
+https://prod.liveshare.vsengsaas.visualstudio.com/join?D0C7B9250DDBD19A084E37FD89F63236C77B
+

@@ -1,0 +1,30 @@
+[
+    {
+        "platform": 0,
+        "platformId": "76561198748984144",
+        "accountId": 870916802,
+        "lastLoginTime": "2026-09-29T14:32:43.130Z",
+        "requirePassword": false
+    },
+    {
+        "platform": 0,
+        "platformId": "76561199152929265",
+        "accountId": 910357210,
+        "lastLoginTime": "2026-09-29T14:37:04.152Z",
+        "requirePassword": false
+    },
+    {
+        "platform": 0,
+        "platformId": "76561199848823450",
+        "accountId": 991313442,
+        "lastLoginTime": "2026-09-29T17:12:15.439Z",
+        "requirePassword": false
+    },
+    {
+        "platform": 0,
+        "platformId": "76561199833414805",
+        "accountId": 619546926,
+        "lastLoginTime": "2026-09-22T14:42:44.783Z",
+        "requirePassword": false
+    }
+]
