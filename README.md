@@ -29,6 +29,7 @@ NOT STARTED:\
 
 
 # Note: Servers Here are out of date and i need to fix the new ones and upload here
+Also Some of this shit is in Italian so idk why the devs did not translate it
 
 # Credits 
 So far we have had:\
