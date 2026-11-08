@@ -33,19 +33,25 @@ const GAME_VERSION =
 // =========================================================
 
 const PHOTON_REALTIME_APP_ID =
-    "390700d6-7387-4fa5-b6d7-7ee39e46ad4a";
+    process.env.PHOTON_REALTIME_APP_ID;
 
 const PHOTON_VOICE_APP_ID =
-    "91c066ff-4be0-4c77-9733-d9e5831051a5";
+    process.env.PHOTON_VOICE_APP_ID;
 
 const PHOTON_CHAT_APP_ID =
-    "5daaf075-d152-4c42-a4f7-47391cbff9be";
+    process.env.PHOTON_CHAT_APP_ID;
 
 const PHOTON_REGION =
-    "us";
+    process.env.PHOTON_REGION || "eu";
 
 const PHOTON_AUTH_TOKEN =
-    "HYDRIUM_TEST_TOKEN_001";
+    process.env.PHOTON_AUTH_TOKEN || "HYDRIUM_TEST_TOKEN_001";
+
+for (const [k, v] of Object.entries({ PHOTON_REALTIME_APP_ID, PHOTON_VOICE_APP_ID, PHOTON_CHAT_APP_ID })) {
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(String(v || ""))) {
+        throw new Error(`[MATCH] ${k} mancante o non valido nel file .env`);
+    }
+}
 
 
 // =========================================================
@@ -820,10 +826,17 @@ router.post(
                 }
             }
 
-            const playerName =
-                decoded?.name ??
-                decoded?.username ??
-                "HydriumPlayer";
+            let playerName = decoded?.name ?? decoded?.username ?? null;
+if (!playerName && playerId) {
+    try {
+        const pb = require("./pb");
+        const rec = await pb.collection(pb.hydriumCollections.accounts).getFirstListItem(`accountId = ${playerId}`);
+        playerName = rec.username || rec.displayName || null;
+    } catch (err) {
+        console.log("[MATCH] Dorm name lookup failed:", err.message);
+    }
+}
+playerName = playerName || "HydriumPlayer";
 
             const roomInstance = {
                 roomInstanceId:
@@ -1221,5 +1234,7 @@ router.post("/matchmake/room/:roomId", (req, res) => {
 // =========================================================
 // EXPORT
 // =========================================================
+
+router.activeRoomByLoginLock = activeRoomByLoginLock;
 
 module.exports = router;

@@ -231,9 +231,7 @@ function createAccessToken(
                 account.accountId
             ),
 
-        role:
-            account.role ||
-            "user",
+        role: require("./hydrium-roles").roleClaim(account.role),
 
         junior:
             Boolean(
@@ -246,6 +244,9 @@ function createAccessToken(
         "rn.ver":
             gameVersion
     };
+
+    if (require("./hydrium-plus").isPlus(account)) claims["rn.plus"] = true;
+
 
     if (account.isJunior) {
 
@@ -478,6 +479,13 @@ function savePlatformLinks(links) {
 }
 
 
+function allPlatformLinks(platform, platformId) {
+    return loadPlatformLinks()
+        .filter((l) => String(l.platform) === String(platform) && String(l.platformId) === String(platformId))
+        .sort((a, b) => String(b.lastLoginTime || "").localeCompare(String(a.lastLoginTime || "")));
+}
+
+
 function findPlatformLink(
     platform,
     platformId
@@ -543,7 +551,8 @@ function savePlatformLink(
                     String(
                         platformId
                     )
-        );
+         && Number(link.accountId) === Number(accountId)
+    );
 
     const now =
         new Date()
@@ -669,11 +678,7 @@ router.get(
             `[AUTH] Cached login resolved - accountId=${link.accountId}`
         );
 
-        return res.json([
-            cachedLoginResponse(
-                link
-            )
-        ]);
+        return res.json(allPlatformLinks(platform, platformId).map(cachedLoginResponse));
     }
 );
 
@@ -713,11 +718,7 @@ router.post(
             `[AUTH] Cached login resolved - accountId=${link.accountId}`
         );
 
-        return res.json([
-            cachedLoginResponse(
-                link
-            )
-        ]);
+        return res.json(allPlatformLinks(platform, platformId).map(cachedLoginResponse));
     }
 );
 
@@ -761,12 +762,8 @@ router.post(
                 );
 
             if (link) {
-
-                results.push(
-                    cachedLoginResponse(
-                        link
-                    )
-                );
+                for (const l of allPlatformLinks(item.platform, item.platformId))
+                    results.push(cachedLoginResponse(l));
             }
         }
 
@@ -1090,7 +1087,7 @@ router.post(
                                 ACCOUNT_COLLECTION
                             )
                             .authWithPassword(
-                                username.trim(),
+                                await require("./hydrium-email").resolveLoginName(username.trim()),
                                 password
                             );
 

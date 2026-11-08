@@ -1,3 +1,4 @@
+require("./logger");
 require("dotenv").config();
 
 const express = require("express");
@@ -144,6 +145,81 @@ app.use((req, res, next) => {
 
     next();
 });
+
+
+app.use(require("./hydrium-devedit").router);
+app.use(require("./hydrium-unlock").router);
+app.use(require("./hydrium-loading").router);
+
+app.use(require("./images"));
+
+app.use(require("./hydrium-fixes"));
+
+app.use(require("./hydrium-screenshare").router);
+
+app.use(require("./hydrium-roles").router);
+
+app.use(require("./hydrium-userrooms").router);
+
+app.use(require("./hydrium-rep").router);
+
+app.use(require("./hydrium-rooms").router);
+
+app.use(require("./hydrium-roomsave").router);
+
+app.use(require("./hydrium-photos").router);
+
+app.use(require("./hydrium-board").router);
+
+app.use(require("./hydrium-friends").router);
+
+app.use(require("./hydrium-profile").router);
+
+app.use(require("./hydrium-link").router);
+
+app.use(require("./hydrium-events").router);
+
+app.use(require("./hydrium-accounts").router);
+
+app.use(require("./hydrium-econ-extras").router);
+
+app.use(require("./hydrium-lists").router);
+
+app.use(require("./hydrium-presence").router);
+
+app.use(require("./hydrium-more").router);
+
+app.use(require("./hydrium-chat").router);
+
+app.use(require("./hydrium-econ-buy").router);
+
+app.use(require("./hydrium-fixes2").router);
+
+app.use(require("./hydrium-plus").router);
+
+app.use(require("./hydrium-clubs").router);
+
+app.use(require("./hydrium-misc3").router);
+
+app.use(require("./hydrium-cdn-videos").router);
+
+app.use(require("./hydrium-videos").router);
+
+app.use(require("./hydrium-inventions").router);
+
+app.use(require("./hydrium-fixes4").router);
+
+app.use(require("./hydrium-dorm").router);
+
+app.use(require("./hydrium-admin").router);
+
+app.use(require("./hydrium-email").router);
+
+app.use(require("./password-fix"));
+
+app.use(require("./hydrium-fixes5").router);
+
+app.use(require("./hydrium-live").router);
 
 app.use(auth);
 
@@ -1408,11 +1484,11 @@ server.on(
         ) {
 
             console.error(
-                `[HYDRIUM] Port ${port} is already in use.`
+                `[Hydrium] Port ${port} is already in use.`
             );
 
             console.error(
-                "[HYDRIUM] Stop the old Node process and try again."
+                "[Hydrium] Stop the old Node process and try again."
             );
 
             return;
@@ -1420,7 +1496,7 @@ server.on(
 
 
         console.error(
-            "[HYDRIUM] Server error:",
+            "[Hydrium] Server error:",
             err &&
             err.stack
                 ? err.stack
@@ -1444,7 +1520,7 @@ server.listen(
         );
 
         console.log(
-            "           HYDRIUM SERVER"
+            "           hydrium SERVER"
         );
 
         console.log(
@@ -1452,15 +1528,15 @@ server.listen(
         );
 
         console.log(
-            `[HYDRIUM] Server listening on http://127.0.0.1:${port}`
+            `[Hydrium] Server listening on http://127.0.0.1:${port}`
         );
 
         console.log(
-            `[HYDRIUM] Game version: ${gameVersion}`
+            `[Hydrium] Game version: ${gameVersion}`
         );
 
         console.log(
-            "[HYDRIUM] SignalR WebSocket transport enabled"
+            "[Hydrium] SignalR WebSocket transport enabled"
         );
 
         console.log(
@@ -1497,7 +1573,7 @@ function shutdown(
 
 
     console.log(
-        `[HYDRIUM] ${signal} received - shutting down`
+        `[Hydrium] ${signal} received - shutting down`
     );
 
 
@@ -1533,7 +1609,7 @@ function shutdown(
         () => {
 
             console.log(
-                "[HYDRIUM] Server stopped"
+                "[Hydrium] Server stopped"
             );
 
             process.exit(
@@ -1547,7 +1623,7 @@ function shutdown(
         () => {
 
             console.error(
-                "[HYDRIUM] Forced shutdown"
+                "[Hydrium] Forced shutdown"
             );
 
             process.exit(
@@ -1590,7 +1666,7 @@ process.on(
     (reason) => {
 
         console.error(
-            "[HYDRIUM] Unhandled promise rejection:",
+            "[Hydrium] Unhandled promise rejection:",
             reason
         );
     }
@@ -1602,7 +1678,7 @@ process.on(
     (err) => {
 
         console.error(
-            "[HYDRIUM] Uncaught exception:",
+            "[Hydrium] Uncaught exception:",
             err &&
             err.stack
                 ? err.stack

@@ -1,0 +1,18 @@
+{
+  "FeaturedPlayer": {
+    "Id": 1,
+    "TitleOverride": "",
+    "UrlOverride": null
+  },
+  "FeaturedRoomGroup": {
+    "FeaturedRoomGroupId": 2,
+    "Name": "Featured Rooms",
+    "Rooms": []
+  },
+  "CurrentAnnouncement": {
+    "Message": "Welcome to Hydrium!",
+    "MoreInfoUrl": ""
+  },
+  "InstagramImages": [],
+  "Videos": []
+}

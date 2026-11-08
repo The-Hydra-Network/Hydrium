@@ -1,0 +1,47 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# dependencies
+node_modules/
+
+# logs
+logs/
+*.log
+
+# player and server data (accounts, wallets, rooms, clubs, chat, saves)
+data/
+roomdata/
+blobs/
+backups/
+*.json.tmp
+*.tmp
+*.part
+
+# uploaded and generated content
+static/files/
+static/videos/
+static/*.exe
+imports/
+room-folders/
+img-store/
+pb_data/
+pb_data/**
+
+# PocketBase binary and database
+pocketbase
+pocketbase.exe
+*.db
+*.sqlite
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+server/package-lock.json
+server/logs.zip
+server/hydrium.zip

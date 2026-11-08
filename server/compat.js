@@ -299,4 +299,9 @@ router.post("/pageview/consume", (req, res) => {
     });
 });
 
+router.get("/api/keepsakes/categories", (req, res) => {
+    console.log("[COMPAT] Keepsake categories requested");
+    return res.status(200).json([]);
+});
+
 module.exports = router;

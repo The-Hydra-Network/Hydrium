@@ -2253,7 +2253,7 @@
         "EndTime": null,
         "Key": "UGC.LimitsV2.DisableLimitsV2Toggle",
         "StartTime": null,
-        "Value": "true"
+        "Value": "false"
     },
     {
         "EndTime": null,
@@ -2313,7 +2313,7 @@
         "EndTime": null,
         "Key": "UGC.MaxInkResourcesDefault",
         "StartTime": null,
-        "Value": "40000"
+        "Value": "900000"
     },
     {
         "EndTime": null,

@@ -9,6 +9,8 @@ const fs = require("fs");
 
 const pb = require("./pb");
 
+const images = require("./images");
+
 const router = express.Router();
 
 router.use(express.json());
@@ -1867,7 +1869,7 @@ router.get("/api/config/v2", (req, res) => {
         ],
 
         PhotonConfig: {
-            CloudRegion: "us",
+            CloudRegion: process.env.PHOTON_REGION || "eu",
             CrcCheckEnabled: false,
             EnableServerTracingAfterDisconnect: false
         }
@@ -2011,30 +2013,13 @@ router.get(
 // IMAGES - UPLOAD SAVED
 // POST /api/images/v4/uploadsaved
 // =========================================================
+//
+// Stores the uploaded image through ./images and returns the
+// stored key as ImageName. The client then loads it from the
+// image host as GET /<ImageName> (served by images.js).
+// =========================================================
 
 router.post(
-    "/api/images/v4/uploadsaved",
-    (req, res) => {
-
-        console.log("");
-        console.log("========================================");
-        console.log("[API] IMAGE UPLOAD SAVED");
-        console.log("========================================");
-
-        console.log(
-            "[API] Content-Type:",
-            req.headers["content-type"]
-        );
-
-        console.log(
-            "[API] Body:",
-            JSON.stringify(req.body, null, 2)
-        );
-
-        console.log("========================================");
-        console.log("");
-
-        router.post(
     "/api/images/v4/uploadsaved",
 
     express.raw({
@@ -2043,30 +2028,181 @@ router.post(
     }),
 
     (req, res) => {
+
         const accountId =
             Number(getAccountId(req));
 
-        const bytes =
-            Buffer.isBuffer(req.body)
-                ? req.body.length
-                : 0;
+        const contentType =
+            req.headers["content-type"] || "";
 
-        const imageName =
-            `avatar-${accountId}-${Date.now()}.png`;
-
+        console.log("");
+        console.log("========================================");
+        console.log("[API] IMAGE UPLOAD SAVED");
+        console.log("========================================");
+        console.log("[API] Content-Type:", contentType);
         console.log(
-            `[API] Saved avatar image received - accountId=${accountId}, bytes=${bytes}, imageName=${imageName}`
+            `[API] accountId=${accountId}, bodyBytes=${Buffer.isBuffer(req.body) ? req.body.length : 0}`
         );
 
+        const bytes =
+            images.imageFromBody(
+                req.body,
+                contentType
+            );
+
+        if (!bytes) {
+
+            console.log(
+                "[API] Image upload rejected - no image data in body"
+            );
+
+            console.log("========================================");
+
+            return res
+                .status(400)
+                .json({
+                    Success: false,
+                    Error: "No image data"
+                });
+        }
+
+        let imageName;
+
+        try {
+
+            imageName =
+                images.saveImage(bytes);
+
+        } catch (err) {
+
+            console.log(
+                `[API] Image upload rejected - ${err.message}; first bytes=${bytes.subarray(0, 16).toString("hex")}`
+            );
+
+            console.log("========================================");
+
+            return res
+                .status(400)
+                .json({
+                    Success: false,
+                    Error: "Unsupported image"
+                });
+        }
+
+        // Any extra form fields / query values (RoomId, Description, ...)
+        const fields = {
+            ...req.query,
+            ...images.fieldsFromBody(req.body, contentType)
+        };
+
+        console.log(
+            "[API] Upload fields:",
+            JSON.stringify(fields)
+        );
+
+        const record =
+            images.addRecord({
+                imageName,
+                playerId: accountId,
+                fields
+            });
+
+        console.log(
+            `[API] Saved image stored - accountId=${accountId}, bytes=${bytes.length}, imageName=${imageName}, recordId=${record.Id}, roomId=${record.RoomId}`
+        );
+
+        console.log("========================================");
+        console.log("");
+
         return res.status(200).json({
-            ImageName: imageName,
+            ...record,
             ThumbnailFileName: imageName,
             Success: true
         });
     }
 );
+
+// =========================================================
+// PHOTO FEEDS
+// GET /api/images/v4/room/:roomId?sort=&filter=&take=&skip=
+// GET /api/images/v4/player/:playerId?sort=&filter=&take=&skip=
+// =========================================================
+//
+// Returns SavedImage records (newest first) from ./images.
+// sort / filter are logged but not applied yet.
+// =========================================================
+
+router.get(
+    "/api/images/v4/room/:roomId",
+    (req, res) => {
+
+        const roomId =
+            Number(req.params.roomId);
+
+        console.log(
+            `[API] Room images requested - roomId=${req.params.roomId}, query=${JSON.stringify(req.query)}`
+        );
+
+        if (!Number.isSafeInteger(roomId)) {
+
+            return res
+                .status(400)
+                .json([]);
+        }
+
+        const list =
+            images.listRecords({
+                roomId,
+                take: req.query.take,
+                skip: req.query.skip
+            });
+
+        console.log(
+            `[API] Room images returned - roomId=${roomId}, count=${list.length}`
+        );
+
+        return res
+            .status(200)
+            .json(list);
     }
 );
+
+
+router.get(
+    "/api/images/v4/player/:playerId",
+    (req, res) => {
+
+        const playerId =
+            Number(req.params.playerId);
+
+        console.log(
+            `[API] Player images requested - playerId=${req.params.playerId}, query=${JSON.stringify(req.query)}`
+        );
+
+        if (!Number.isSafeInteger(playerId)) {
+
+            return res
+                .status(400)
+                .json([]);
+        }
+
+        const list =
+            images.listRecords({
+                playerId,
+                take: req.query.take,
+                skip: req.query.skip
+            });
+
+        console.log(
+            `[API] Player images returned - playerId=${playerId}, count=${list.length}`
+        );
+
+        return res
+            .status(200)
+            .json(list);
+    }
+);
+
 
 // =========================================================
 // HYDRIUM / REC26 - 20231207 STARTUP COMPATIBILITY ENDPOINTS
@@ -3156,5 +3292,10 @@ router.get(
         });
     }
 );
+
+router.post("/api/customAvatarItems/v1/bulk", (req, res) => {
+    console.log("[API] Custom avatar items bulk requested");
+    return res.status(200).json([]);
+});
 
 module.exports = router;
