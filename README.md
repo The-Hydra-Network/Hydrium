@@ -14,25 +14,37 @@ for things like:\
 DONE:\
 [x] DNS redirect\
 [x] HTTPS SNI proxy\
-[x] Unity config stub\
-[x] Unity analytics stub\
+[x] Unity config and analytics stubs\
 [x] ns.rec.net TLS validation\
-\
-STARTED:\
-[ ] Auth service\
-[ ] Account service\
-\
-NOT STARTED:\
-[ ] Matchmaking\
-[ ] Room server\
+[x] Auth service and accounts (login, account picker, email)\
+[x] Presence, friends, messages and chat\
+[x] Matchmaking and room instances\
+[x] Room data saving and publishing\
+[x] Player-made rooms (create, clone, edit, publish, shows in the main feed)\
+[x] Room invites and joining a friend's room\
+[x] Inventions (UGC): save, list, publish, delete\
+[x] Economy: wallets, store, gifts, Friend-O-Tron\
+[x] Clubs\
+[x] Image server, loading screens and CDN file hosting\
+[x] Admin panel: accounts, console, live log, file uploads (up to 3 GB), room file import from a zip\
+
+IN PROGRESS:\
 [ ] Photon token service\
+[ ] Live "friend moved rooms" updates (friends list refreshes on a timer for now)\
+[ ] Moderation tools\
+[ ] Multi-account switching on one client (needs more testing)\
+[ ] Full set of Rec Room rooms (some official rooms, like the Open World, still need scene data)\
+
+NOT STARTED:\
+[ ] Events\
+[ ] Leaderboards\
 
 
-# Note: Servers Here are out of date and i need to fix the new ones and upload here
+# Note: Servers Here are Up To Date
 Also Some of this shit is in Italian so idk why the devs did not translate it
 
 # Credits 
 So far we have had:\
-[Forsak3n0n3 (aka Nex)](https://github.com/Forsak3n0n3)\
+[Forsak3n0n3 (aka Nexus)](https://github.com/Forsak3n0n3)\
 [djdevin](https://github.com/djdevin)\
 [ricec4kes](https://github.com/chickenandmacaroni)
