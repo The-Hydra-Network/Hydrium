@@ -27,6 +27,9 @@ NOT STARTED:\
 [ ] Room server\
 [ ] Photon token service\
 
+
+# Note: Servers Here are out of date and i need to fix the new ones and upload here
+
 # Credits 
 So far we have had:\
 [Forsak3n0n3 (aka Nex)](https://github.com/Forsak3n0n3)\
