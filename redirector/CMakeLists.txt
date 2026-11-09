@@ -46,6 +46,7 @@ add_library(redirector SHARED
     src/unity/http_rewrite.c
     src/unity/memcheck_patch.c
     src/unity/eac_patch.c
+    src/unity/image_sign_patch.c
 
 
     # Utils

@@ -22,7 +22,8 @@ void InitConsole()
 
     printf("\n");
     printf("==============================\n");
-    printf(" RR Redirector Loaded\n");
+    printf(" Hydrium Redirector\n");
+    printf(" Made by Nexus Industries\n");
     printf("==============================\n\n");
 }
 
@@ -85,14 +86,18 @@ void InitLogger()
 
         fprintf(
             logFile,
-            " RR Redirector Loaded\n"
+            " Hydrium Redirector\n"
+        );
+
+        fprintf(
+            logFile,
+            " Made by Nexus Industries\n"
         );
 
         fprintf(
             logFile,
             "==============================\n\n"
         );
-
 
         fflush(logFile);
     }

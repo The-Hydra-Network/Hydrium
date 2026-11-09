@@ -16,6 +16,7 @@
 #include "http_rewrite.h"
 #include "memcheck_patch.h"
 #include "eac_patch.h"
+#include "image_sign_patch.h"
 
 
 
@@ -400,6 +401,25 @@ DWORD WINAPI HookThread(
         "[THREAD] Redirector initialized"
     );
 
+    //
+    // Image-signing bypass (force mscorlib RSA verify true so Hydrium-served images load).
+    // Own thread; waits for the il2cpp runtime like the other il2cpp patches.
+    //
+
+    HANDLE sigThread =
+        CreateThread(
+            NULL,
+            0,
+            (LPTHREAD_START_ROUTINE)
+                PatchImageSigning,
+            NULL,
+            0,
+            NULL
+        );
+
+
+    if(sigThread)
+        CloseHandle(sigThread);
 
     return 0;
 }
