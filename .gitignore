@@ -15,7 +15,6 @@ logs/
 # player and server data (accounts, wallets, rooms, clubs, chat, saves)
 data/
 roomdata/
-blobs/
 backups/
 *.json.tmp
 *.tmp
@@ -45,3 +44,6 @@ Thumbs.db
 server/package-lock.json
 server/logs.zip
 server/hydrium.zip
+server/blobs/all.json.orig-ink
+server/blobs/account-bulk.json
+server/blobs/ns.json.orig
