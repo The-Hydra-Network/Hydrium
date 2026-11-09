@@ -1,0 +1,112 @@
+<Window x:Class="Hydrlauncher.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hydrium account"
+        Width="400"
+        Height="390"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ShowInTaskbar="False">
+    <Border Background="#142238"
+            BorderBrush="#6D9FD0"
+            BorderThickness="1"
+            CornerRadius="18"
+            Padding="26"
+            MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,22">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Sign in to Hydrium"
+                           Foreground="#F5F8FC"
+                           FontSize="22"
+                           FontWeight="SemiBold"
+                           VerticalAlignment="Center"/>
+                <Button Grid.Column="1"
+                        Content="×"
+                        Width="28"
+                        Height="28"
+                        Background="Transparent"
+                        Foreground="#F5F8FC"
+                        BorderThickness="0"
+                        FontSize="22"
+                        Cursor="Hand"
+                        Click="CancelButton_Click"/>
+            </Grid>
+
+            <TextBlock Grid.Row="1"
+                       Text="Username"
+                       Foreground="#C3D4E8"
+                       FontSize="13"
+                       Margin="0,0,0,6"/>
+            <TextBox x:Name="UsernameTextBox"
+                     Grid.Row="2"
+                     Height="38"
+                     Padding="10,6"
+                     Background="#102038"
+                     Foreground="White"
+                     BorderBrush="#567BA5"
+                     FontSize="14"/>
+
+            <TextBlock Grid.Row="3"
+                       Text="Password"
+                       Foreground="#C3D4E8"
+                       FontSize="13"
+                       Margin="0,16,0,6"/>
+            <PasswordBox x:Name="PasswordBox"
+                         Grid.Row="4"
+                         Height="38"
+                         Padding="10,6"
+                         VerticalAlignment="Top"
+                         Background="#102038"
+                         Foreground="White"
+                         BorderBrush="#567BA5"
+                         FontSize="14"/>
+
+            <StackPanel Grid.Row="5" Margin="0,12,0,0">
+                <TextBlock x:Name="SignInStatusTextBlock"
+                           Text="Loading Hydrium API configuration..."
+                           Foreground="#F7C8C8"
+                           FontSize="12"
+                           TextWrapping="Wrap"
+                           Margin="0,0,0,12"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Cancel"
+                            MinWidth="84"
+                            Height="36"
+                            Margin="0,0,10,0"
+                            Padding="12,4"
+                            Background="#283B55"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Click="CancelButton_Click"/>
+                    <Button x:Name="SignInButton"
+                            Content="Sign in"
+                            MinWidth="84"
+                            Height="36"
+                            Padding="12,4"
+                            Background="#4E91E8"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Click="SignInButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
