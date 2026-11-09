@@ -1,7 +1,9 @@
 # Hydrium
-This is another revival of RecRoom which intends to unify developers into one big revival.
+This is another revival of RecRoom which intends to unify developers into one big revival.\
+[Discord](https://discord.gg/HxdNyBSjW6)
 # Contributing
 See the [Documentation](https://github.com/The-Hydra-Network/Hydrium/tree/main/Documentation).\
+
 \
 for things like:\
 [File Structure](https://github.com/The-Hydra-Network/Hydrium/blob/main/Documentation/File-Structure.md).\
