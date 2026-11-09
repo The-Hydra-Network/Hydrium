@@ -246,7 +246,7 @@ int main()
     strcat_s(
         gamePath,
         sizeof(gamePath),
-        "\\RecRoom.exe"
+        "\\Hydrium.exe"
     );
 
 
@@ -275,7 +275,7 @@ int main()
     if (!FileExists(gamePath))
     {
         Log(
-            "[FATAL] RecRoom.exe not found at: %s",
+            "[FATAL] Hydrium.exe not found at: %s",
             gamePath
         );
         system("pause");
@@ -289,7 +289,7 @@ int main()
             dllPath
         );
         Log(
-            "[FATAL] Place redirector.dll next to RecRoom.exe and launcher.exe"
+            "[FATAL] Place redirector.dll next to Hydrium.exe and launcher.exe"
         );
         system("pause");
         return 1;

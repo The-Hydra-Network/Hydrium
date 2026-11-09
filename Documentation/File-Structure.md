@@ -3,7 +3,7 @@ RecRoom-2023-Build\
 │   GameAssembly.dll\
 │   installscript.vdf\
 │   NOTICE.txt (It seems to be just for all the licenses for software which RecRoom is bundled with)\
-│   RecRoom.exe\
+│   Hydrium.exe\
 |   version.dll (This is our custom dll to inject and patchout eac and tls pinning, it also redirects traffic)\
 |   redirector.json (This is where we store the redirect of ns.rec.net and change it to ns-hydrium.hydranet.dpdns.org)\
 │   RecRoomLog.bat (This takes you to the directory where recrooms logs are)\

@@ -217,7 +217,7 @@ DWORD WINAPI HookThread(
 )
 {
     //
-    // Bail before AllocConsole/InitLogger in non-game processes. RecRoom.exe spawns
+    // Bail before AllocConsole/InitLogger in non-game processes. Hydrium.exe spawns
     // UnityCrashHandler64.exe out of the same folder, so our version.dll loads there too; without
     // this check every launch opened two debug consoles and left the crash handler spinning in
     // WaitForUnity for a minute. Nothing here belongs in that process anyway.

@@ -3,7 +3,7 @@
 //
 // version.dll proxy (runtime-forwarding, self-contained).
 //
-// RecRoom.exe/UnityPlayer.dll import VERSION.dll by name, and the loader searches the app dir before
+// Hydrium.exe/UnityPlayer.dll import VERSION.dll by name, and the loader searches the app dir before
 // System32, so our version.dll in the game root is loaded in their place -- our injection vector
 // (DllMain in dllmain.c starts the hook thread). To keep being a working version.dll we must still
 // satisfy every export the game asks for.

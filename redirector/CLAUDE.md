@@ -40,7 +40,7 @@ cmake --build build
 fans each il2cpp patch out onto **its own thread**, since they each wait independently on the runtime
 coming up. Order matters only for the memcheck patch (started first, see 5). The pipeline:
 
-1. **Loader vector — `version.dll` proxy** (`src/proxy/version_proxy.c`). `RecRoom.exe` imports
+1. **Loader vector — `version.dll` proxy** (`src/proxy/version_proxy.c`). `Hydrium.exe` imports
    `VERSION.dll` by name, and the loader searches the app dir before System32, so our `version.dll`
    loads very early (before `UnityPlayer.dll`). All 17 real exports are satisfied by local `my_*`
    wrappers, aliased to the real names via `#pragma comment(linker, "/export:NAME=my_NAME")` (aliases,
@@ -96,7 +96,7 @@ coming up. Order matters only for the memcheck patch (started first, see 5). The
 
 `src/core/` = logger + JSON-ish config + process info (incl. `IsGameProcess`). `src/utils/strings.c` = host match/rewrite.
 `src/debug/` and `connect_hook.c` are logging stubs / the disabled connect hook. Config is
-`redirector.json` next to `RecRoom.exe` (sample `.example`), parsed by a **flat key-scan, not real
+`redirector.json` next to `Hydrium.exe` (sample `.example`), parsed by a **flat key-scan, not real
 JSON** — keep it flat, one object per rewrite.
 
 ## Hard-won gotchas (read before touching hooks)
@@ -148,9 +148,9 @@ JSON** — keep it flat, one object per rewrite.
    with `"w"` and truncated each other (the EAC process, stuck forever in `WaitForUnity` because
    `UnityPlayer.dll` never loads there, buried the game's diagnostics under module dumps). The logger now
    writes **`redirector_<pid>.log`**, and `WaitForUnity` is time-bounded. `HookThread` now returns
-   immediately unless `IsGameProcess()` (`src/core/process.c`, basename == `RecRoom.exe`) — that check
+   immediately unless `IsGameProcess()` (`src/core/process.c`, basename == `Hydrium.exe`) — that check
    sits **before** `InitConsole`/`InitLogger`, because `AllocConsole` in the crash-handler process was
-   opening a second debug window on every launch. So only `RecRoom.exe` writes a log at all now; if you
+   opening a second debug window on every launch. So only `Hydrium.exe` writes a log at all now; if you
    need diagnostics from a sibling process, move the gate to wrap `InitConsole` alone.
 
 6. **The connect hook is intentionally disabled.** `src/hooks/connect_hook.c` blindly redirects *all*

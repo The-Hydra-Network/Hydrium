@@ -6,7 +6,7 @@
 
 
 //
-// version.dll gets loaded by every process launched from the game folder -- RecRoom.exe itself and
+// version.dll gets loaded by every process launched from the game folder -- Hydrium.exe itself and
 // UnityCrashHandler64.exe, which RecRoom spawns from the same directory. Only the game is worth
 // hooking (and worth a console window: two AllocConsole calls = two debug windows on every launch).
 //
@@ -38,7 +38,7 @@ BOOL IsGameProcess()
 
     return _stricmp(
         exe,
-        "RecRoom.exe"
+        "Hydrium.exe"
     ) == 0;
 }
 

@@ -8,14 +8,14 @@ pinning, the memory-integrity scan and EAC — directly in native code.
 
 ## How it works
 
-1. **Loading vector.** `RecRoom.exe`/`UnityPlayer.dll` import `VERSION.dll` by name, and the loader
+1. **Loading vector.** `Hydrium.exe`/`UnityPlayer.dll` import `VERSION.dll` by name, and the loader
    searches the game folder before `System32`. We ship our own `version.dll` there; each of its 17
    exports is a thin wrapper that lazily loads the real system `version.dll` (by full path, so no
    recursion) and calls through, so the game keeps working. Its `DllMain` starts the hook thread.
    Loads very early, before `UnityPlayer.dll`. Self-contained — nothing else to ship.
 
-   `RecRoom.exe` spawns `UnityCrashHandler64.exe` from the same folder, so our DLL loads there too.
-   The hook thread checks the host executable and exits immediately in anything but `RecRoom.exe` —
+   `Hydrium.exe` spawns `UnityCrashHandler64.exe` from the same folder, so our DLL loads there too.
+   The hook thread checks the host executable and exits immediately in anything but `Hydrium.exe` —
    otherwise every launch opened a second debug console and left a stray process waiting on Unity.
 
 2. **DNS host rewrite** (`src/hooks/dns_hook.c`). Detours `ws2_32!getaddrinfo`. A lookup for an exact
@@ -97,13 +97,13 @@ cmake --build build
 
 ## Install (manual)
 
-1. Copy `build\version.dll` into the Rec Room install root (next to `RecRoom.exe`). If BepInEx's
+1. Copy `build\version.dll` into the Rec Room install root (next to `Hydrium.exe`). If BepInEx's
    `version.dll` is there, replace it (this build does not use BepInEx).
 2. Copy `redirector.json.example` to `redirector.json` there and set the `rewrite` pairs
    (`{ "from": "ns.rec.net", "to": "ns-hydrium.hydranet.dpdns.org" }`). The same pairs drive both the DNS and the
    HTTP rewrite. Matching is exact — add one entry per host. Parsed by a flat key scan, not a real
    JSON parser, so keep it flat: one object per rewrite.
-3. Launch. A console window opens; logs also go to `redirector_<pid>.log` beside `RecRoom.exe`.
+3. Launch. A console window opens; logs also go to `redirector_<pid>.log` beside `Hydrium.exe`.
 
 A healthy run logs all of these (each patch runs on its own thread, so they interleave; `[MEMCHECK]`
 lands last — its reflection sweep takes a moment):

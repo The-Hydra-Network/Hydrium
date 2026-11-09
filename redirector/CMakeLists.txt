@@ -77,7 +77,7 @@ target_link_libraries(
 
 
 
-# Output must be named version.dll so RecRoom.exe's VERSION.dll import resolves to us.
+# Output must be named version.dll so Hydrium.exe's VERSION.dll import resolves to us.
 set_target_properties(
     redirector PROPERTIES
 
