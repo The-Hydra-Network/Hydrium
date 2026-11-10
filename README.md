@@ -40,7 +40,7 @@ IN PROGRESS:\
 
 NOT STARTED:\
 [ ] Events\
-[ ] Leaderboards\
+[ ] Leaderboards
 
 
 # Note: Servers Here are Up To Date
