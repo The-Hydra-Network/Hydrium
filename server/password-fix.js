@@ -19,26 +19,26 @@
 //     receive (key names only, never values) so a wrong guess can be corrected from the console.
 //
 // Passwords are never logged.
-
+ 
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const jwt = require("jsonwebtoken");
-
+ 
 const pb = require("./pb");
-
+ 
 const ACCOUNT_COLLECTION = pb.hydriumCollections.accounts;
 const JWT_SECRET = process.env.HYDRIUM_JWT_SECRET;          // the same secret auth.js signs the tokens with
 const MIN_PASSWORD = 8;                                       // PocketBase's own minimum for auth collections
-
+ 
 const router = express.Router();
 router.use(express.urlencoded({ extended: true }));
 router.use(express.json());
-
+ 
 // ---------------------------------------------------------
 // helpers
 // ---------------------------------------------------------
-
+ 
 // The server shares ONE PocketBase client; a successful authWithPassword signs it in as that user. Put the client back the
 // way it was so that nothing else is affected.
 function saveAuth() {
@@ -51,7 +51,7 @@ function restoreAuth(saved) {
         pb.authStore.clear();
     }
 }
-
+ 
 function first(obj, names) {
     for (const n of names) {
         if (obj && typeof obj[n] === "string" && obj[n] !== "") {
@@ -60,11 +60,11 @@ function first(obj, names) {
     }
     return "";
 }
-
+ 
 async function findByUsername(name) {
     return pb.collection(ACCOUNT_COLLECTION).getFirstListItem(pb.filter("username = {:u}", { u: name }));
 }
-
+ 
 async function findByAccountId(accountId) {
     const id = Number(accountId);
     if (!Number.isSafeInteger(id)) {
@@ -72,10 +72,10 @@ async function findByAccountId(accountId) {
     }
     return pb.collection(ACCOUNT_COLLECTION).getFirstListItem(pb.filter("accountId = {:id}", { id }));
 }
-
+ 
 // Which accounts have a password that a person set (not the random one the server made). A small file next to this module.
 const MARKER_FILE = path.join(__dirname, "data", "password-set.json");
-
+ 
 function readMarkers() {
     try {
         return JSON.parse(fs.readFileSync(MARKER_FILE, "utf8"));
@@ -93,7 +93,7 @@ function markPasswordSet(accountId) {
         console.log("[PWFIX] could not write", MARKER_FILE, err.message);
     }
 }
-
+ 
 function accountFromBearer(req) {
     const auth = req.headers.authorization;
     if (!auth || !auth.startsWith("Bearer ") || !JWT_SECRET) {
@@ -107,11 +107,11 @@ function accountFromBearer(req) {
         return null;
     }
 }
-
+ 
 // ---------------------------------------------------------
 // 1. password login: make the username work whatever PocketBase's login-name settings are
 // ---------------------------------------------------------
-
+ 
 router.post("/connect/token", async (req, res, next) => {
     const body = req.body || {};
     const grant = body.grant_type;
@@ -126,18 +126,28 @@ router.post("/connect/token", async (req, res, next) => {
                 await col.authWithPassword(name, password);
                 accepted = true;                                   // PocketBase takes the username as a login name: nothing to change
             } catch (_) { /* try the e-mail below */ }
-
+ 
             if (!accepted) {
                 let record = null;
                 try {
                     record = await findByUsername(name);
                 } catch (_) { /* no such username */ }
-
+ 
                 if (!record) {
                     console.log(`[PWFIX] login '${name}': no account with this username`);
                 } else if (!record.email) {
-                    console.log(`[PWFIX] login '${name}': account ${record.accountId} has no e-mail to log in with`);
-                } else {
+                    // PocketBase logs in by e-mail, not username; a Steam/platform-created account never got one.
+                    // Make up a local-only one (never actually mailed anywhere) so password login has something to use.
+                    const madeUp = `acct${record.accountId}@hydrium.local`;
+                    try {
+                        await col.update(record.id, { email: madeUp });
+                        record.email = madeUp;
+                        console.log(`[PWFIX] login '${name}': account ${record.accountId} had no e-mail, gave it ${madeUp}`);
+                    } catch (err) {
+                        console.log(`[PWFIX] login '${name}': account ${record.accountId} has no e-mail, and could not add one (${err.message})`);
+                    }
+                }
+                if (record && record.email) {
                     try {
                         await col.authWithPassword(record.email, password);
                         body.username = record.email;              // auth.js signs in with this and succeeds
@@ -156,11 +166,11 @@ router.post("/connect/token", async (req, res, next) => {
     }
     next();
 });
-
+ 
 // ---------------------------------------------------------
 // 2. GET /account/me/haspassword
 // ---------------------------------------------------------
-
+ 
 router.get("/account/me/haspassword", (req, res) => {
     const decoded = accountFromBearer(req);
     if (!decoded) {
@@ -170,11 +180,11 @@ router.get("/account/me/haspassword", (req, res) => {
     console.log(`[PWFIX] haspassword accountId=${decoded.sub} -> ${has}`);
     return res.status(200).json(has);
 });
-
+ 
 // ---------------------------------------------------------
 // 3. POST /account/me/changepassword
 // ---------------------------------------------------------
-
+ 
 router.post("/account/me/changepassword", async (req, res) => {
     const decoded = accountFromBearer(req);
     if (!decoded) {
@@ -182,19 +192,19 @@ router.post("/account/me/changepassword", async (req, res) => {
     }
     const body = req.body || {};
     console.log(`[PWFIX] changepassword accountId=${decoded.sub} content-type=${req.headers["content-type"] || "-"} keys=${Object.keys(body).join(",") || "(none)"}`);
-
+ 
     const newPassword = first(body, ["newPassword", "NewPassword", "new_password", "password", "Password"]);
     const oldPassword = first(body, ["oldPassword", "OldPassword", "old_password", "currentPassword", "CurrentPassword"]);
-
+ 
     if (newPassword.length < MIN_PASSWORD) {
         return res.status(400).json({ success: false, error: `The password must be at least ${MIN_PASSWORD} characters` });
     }
-
+ 
     const saved = saveAuth();
     try {
         pb.authStore.clear();
         const record = await findByAccountId(decoded.sub);
-
+ 
         // The old password is only checked once a person has set one; before that it is the random one nobody knows.
         if (readMarkers()[String(record.accountId)]) {
             let ok = false;
@@ -210,7 +220,7 @@ router.post("/account/me/changepassword", async (req, res) => {
                 return res.status(400).json({ success: false, error: "Invalid old password" });
             }
         }
-
+ 
         await pb.collection(ACCOUNT_COLLECTION).update(record.id, { password: newPassword, passwordConfirm: newPassword });
         markPasswordSet(record.accountId);
         console.log(`[PWFIX] password set - accountId=${record.accountId} username=${record.username}`);
@@ -222,5 +232,5 @@ router.post("/account/me/changepassword", async (req, res) => {
         restoreAuth(saved);
     }
 });
-
+ 
 module.exports = router;

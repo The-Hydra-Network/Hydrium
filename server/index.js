@@ -223,6 +223,8 @@ app.use(require("./hydrium-live").router);
 
 app.use(auth);
 
+app.use(require("./hydrium-devrole").router);
+
 app.use(accounts);
 
 app.use(api);
