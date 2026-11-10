@@ -1,5 +1,6 @@
 # Hydrium
 This is another revival of RecRoom which intends to unify developers into one big revival.\
+Currently 2 revivals have merged and we have 4 partners as 0f (10/11/2026 01:50)\
 [Discord](https://discord.gg/HxdNyBSjW6)
 # Contributing
 See the [Documentation](https://github.com/The-Hydra-Network/Hydrium/tree/main/Documentation).
