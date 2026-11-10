@@ -3,15 +3,15 @@ This is another revival of RecRoom which intends to unify developers into one bi
 Currently 2 revivals have merged and we have 4 partners as 0f (10/11/2026 01:50)\
 [Discord](https://discord.gg/HxdNyBSjW6)
 # Contributing
-See the [Documentation](https://github.com/The-Hydra-Network/Hydrium/tree/main/Documentation).
+See the [Documentation](https://github.com/Nexus-Industries-Official/Hydrium/tree/main/Documentation).
 
 \
 for things like:\
-[File Structure](https://github.com/The-Hydra-Network/Hydrium/blob/main/Documentation/File-Structure.md).\
-[RRR](https://github.com/The-Hydra-Network/Hydrium/tree/main/Documentation/recroomrandomness)
+[File Structure](https://github.com/Nexus-Industries-Official/Hydrium/blob/main/Documentation/File-Structure.md).\
+[RRR](https://github.com/Nexus-Industries-Official/Hydrium/tree/main/Documentation/recroomrandomness)
 
 ## Also be sure to checkout the RecRoom Archive:
-[RecRoom Archive](https://github.com/The-Hydra-Network/RecRoom-Archive)
+[RecRoom Archive](https://github.com/Nexus-Industries-Official/RecRoom-Archive)
 # Hydrium Status
 
 DONE:\
