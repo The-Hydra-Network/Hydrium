@@ -50,5 +50,5 @@ Also Some of this shit is in Italian so idk why the devs did not translate it
 So far we have had:\
 [Forsak3n0n3 (aka Nexus)](https://github.com/Forsak3n0n3)\
 [djdevin](https://github.com/djdevin)\
-[ricec4kes](https://github.com/chickenandmacaroni)
+[ricec4kes](https://github.com/chickenandmacaroni)\
 [Lynnwoodrotaction (aka Acheron)](https://github.com/Lynnwoodrotaction)
