@@ -30,7 +30,7 @@ const rooms = require("./rooms");
 const strings = require("./strings");
 const lists = require("./lists");
 const compat = require("./compat");
-const hydrium = require("./hydrium");
+const hydriumStudio = require("./hydrium-studio");
 
 // =========================================================
 // CONFIG
