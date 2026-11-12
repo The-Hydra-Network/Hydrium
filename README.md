@@ -52,3 +52,5 @@ So far we have had:\
 [djdevin](https://github.com/djdevin)\
 [ricec4kes](https://github.com/chickenandmacaroni)\
 [Lynnwoodrotaction (aka Acheron)](https://github.com/Lynnwoodrotaction)
+[silvsxx (aka Zacknynn)](https://github.com/silvsxx)
+
