@@ -30,6 +30,7 @@ const rooms = require("./rooms");
 const strings = require("./strings");
 const lists = require("./lists");
 const compat = require("./compat");
+const hydrium = require("./hydrium");
 
 // =========================================================
 // CONFIG
@@ -220,6 +221,8 @@ app.use(require("./password-fix"));
 app.use(require("./hydrium-fixes5").router);
 
 app.use(require("./hydrium-live").router);
+
+app.use(require("./hydrium-studio").router);
 
 app.use(auth);
 
