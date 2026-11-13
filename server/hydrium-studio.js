@@ -115,11 +115,15 @@ const VERSIONS = [
   }
 ];
 
-// GET /versions
-router.get("/versions", (_req, res) => {
-  console.log(`[HYDRIUM+] GET /versions from ${_req.ip}`);
+// GET /version and /versions
+// Both endpoints return the same version manifest.
+router.get(["/version", "/versions"], (_req, res) => {
+  console.log(`[HYDRIUM+] GET ${_req.path} from ${_req.ip}`);
+
   res.setHeader("Content-Type", "application/json");
-  res.status(200).json(VERSIONS);
+  res.setHeader("Cache-Control", "no-store");
+
+  return res.status(200).json(VERSIONS);
 });
 
 module.exports = { router };
