@@ -8,6 +8,7 @@
 
 const express = require("express");
 const fs = require("node:fs");
+const path = require("node:path");
 const crypto = require("node:crypto");
 
 const store = require("./hydrium-studio-storage");
@@ -324,6 +325,28 @@ router.get(
         }]);
     }
 );
+
+// ============================================================
+// HYDRIUM STUDIO UPDATE MANIFEST
+// ============================================================
+
+router.get("/versions/latest.yml", (req, res) => {
+    const manifestPath = path.join(
+        __dirname,
+        "versions",
+        "latest.yml"
+    );
+
+    res.set("Cache-Control", "no-store");
+    res.type("application/yaml");
+
+    return res.sendFile(manifestPath, err => {
+        if (err && !res.headersSent) {
+            console.error("[HYDRIUM STUDIO] Manifest error:", err);
+            res.status(500).send("Manifest unavailable");
+        }
+    });
+});
 
 // ============================================================
 // HEALTH
