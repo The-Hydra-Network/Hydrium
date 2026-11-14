@@ -1,0 +1,85 @@
+
+- id: version_800_stable_hydrium_20261111
+  version: "8.0.0"
+  channel: stable
+  releaseNotes: "Hydrium Studio - Our Revival. Rec Room Studio Launcher version 8.0.0 stable"
+  publishedAt: "2026-11-11T10:00:00Z"
+  mandatory: false
+
+  files:
+    - path: "Rec Room Studio Launcher.exe"
+      size: 146586624
+      sha256: "6e182165689f0ed70777e5f6c7a2837f12eda10164c6c5762dbfaa99bf2b80ab"
+      isExecutable: true
+
+    - path: "icudtl.dat"
+      size: 10269664
+      sha256: "c5f82843420fa9d144e006b48d59ba7ef95f7e6cb1ea95b27fcdd2c97f850859"
+      isExecutable: false
+
+    - path: "libGLESv2.dll"
+      size: 6985216
+      sha256: "16fe74db3068898ce71bc9a798c8c6cf71899630632ab06eedcbfaea476ef71b"
+      isExecutable: false
+
+    - path: "LICENSES.chromium.html"
+      size: 5490737
+      sha256: "dbd18fe7c6e72eeb81680fabef9b6c0262d1d2d1aa679b3b221d9d9ced509463"
+      isExecutable: false
+
+    - path: "resources.pak"
+      size: 5066579
+      sha256: "91efacf94428e702772779e5ebc122b25a1d12c64a3ed20bc0b5b396503ba308"
+      isExecutable: false
+
+    - path: "vk_swiftshader.dll"
+      size: 4583936
+      sha256: "43e63b8e9fb18e6d21ab04b8be293d467c039b267fe92b8b43e061486b9530be"
+      isExecutable: false
+
+    - path: "d3dcompiler_47.dll"
+      size: 4524696
+      sha256: "44422e6936dc72b7ac5ed16bb8bcae164b7554513e52efb66a3e942cec328a47"
+      isExecutable: false
+
+    - path: "ffmpeg.dll"
+      size: 2725376
+      sha256: "4cd1b26fe1f0a788feac4b6130cd5dbc7db3a7290db8b8b0a0286f2ed0026b77"
+      isExecutable: false
+
+    - path: "vulkan-1.dll"
+      size: 839168
+      sha256: "89ad755092852350ed9f5d9c9544f07b9605b874ff4726f4f35cbaa941938e5f"
+      isExecutable: false
+
+    - path: "v8_context_snapshot.bin"
+      size: 671784
+      sha256: "d761262b5d774e62cab86eef34f9d2f58c23f36e4d7a9fd49c50dcb573f4a274"
+      isExecutable: false
+
+    - path: "resources/app.asar"
+      size: 6531956
+      sha256: "6a24c2f96e01dac2abd4355101df463ffa9063238f88979f4aeccd55e95ee9a5"
+      isExecutable: false
+
+    - path: "resources/config.json"
+      size: 1250
+      sha256: "1927818b3987335bbcc9ecd8f25c68d621cea4da6b9b8a8811668ef9b9aef42e"
+      isExecutable: false
+
+    - path: "resources/app-update.yml"
+      size: 158
+      sha256: "cfc641c950c7f9fe5326c017ea927386a30b41beedadb2348fa0f27a13c8afca"
+      isExecutable: false
+
+  packages:
+    - id: package_hydrium_studio_800_main
+      url: "https://studio-hydrium.hydranet.dpdns.org/downloads/Hydrium_Studio_8.0.0.7z"
+      size: 89068784
+      sha256: "7b405d69e80ba2628ae38cbc59454270135ad1eef89be928a86ea2683057f8a6"
+      compression: LZMA2
+      isRequired: true
+
+  checksums:
+    algorithm: SHA256
+    blockSize: 4194304
